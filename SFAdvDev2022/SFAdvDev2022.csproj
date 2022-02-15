@@ -1026,7 +1026,10 @@
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-6+6.html" />
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-8+4.html" />
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-9+3.html" />
+    <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\LinoGrid-7-5.html" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Scripts\Navigation\pills.js" />
+    <Content Include="ResourcePackages\Pure\assets\dist\css\main.css" />
+    <Content Include="ResourcePackages\Pure\GridSystem\Templates\Ralph.html" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Public\Services\LoadBalancing\AzureSystemWebService.svc" />
     <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
@@ -1287,6 +1290,8 @@
     <Content Include="ResourcePackages\Bootstrap4\assets\src\sitefinity\sass\base\_list.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\main.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\adminapp\editor.scss" />
+    <Content Include="ResourcePackages\Pure\MVC\Views\Layouts\default.cshtml" />
+    <Content Include="ResourcePackages\Pure\razorgenerator.directives" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1299,7 +1304,9 @@
     <Analyzer Include="packages\AWSSDK.S3.3.7.0.12\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
     <Analyzer Include="packages\AWSSDK.SQS.3.7.0.11\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ResourcePackages\Pure\assets\dist\js\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

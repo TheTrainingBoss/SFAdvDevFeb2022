@@ -1,0 +1,7 @@
+﻿.sfPageEditor .pure-g {
+    position: relative;
+}
+
+    .sfPageEditor .pure-g .sidebar {
+        position: absolute;
+    }

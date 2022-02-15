@@ -19,7 +19,7 @@
     "formatting",
     "bold", "italic", "underline",
     "justifyLeft", "justifyCenter", "justifyRight", "justifyFull",
-    "insertUnorderedList", "insertOrderedList", "indent", "outdent",
+    "insertUnorderedList", "insertOrderedList", "indent", "outdent", "Print", "ExportAs",
     {
         name: "createLink",
         template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openLinkSelector()\" title=\"@(Res.Get<ClientComponentsResources>().InsertHyperlink)\"><span class=\"k-tool-icon k-icon k-i-link-horizontal\"></span></a>"

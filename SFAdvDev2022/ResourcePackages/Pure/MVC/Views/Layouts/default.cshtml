@@ -1,0 +1,57 @@
+﻿@* SitefinityWebApp\ResourcePackages\Pure\Mvc\Views\Layouts\PureBlog.cshtml *@
+
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+
+<!DOCTYPE html>
+<html @Html.RenderLangAttribute()>
+<head>
+    <title></title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts." />
+
+    @Html.Section("head")
+
+    @Html.StyleSheet(Url.Content("https://unpkg.com/purecss@1.0.0/build/pure-min.css"), "head")
+    
+    @if (SystemManager.IsDesignMode && !SystemManager.IsPreviewMode)
+    {
+        @Html.StyleSheet(Url.Content("~/ResourcePackages/Pure/assets/dist/css/main.css"), "head")
+    }
+</head>
+
+<body>
+    @Html.Section("top")
+
+    <div id="layout" class="pure-g">
+        <div class="sidebar pure-u-1 pure-u-md-1-4">
+            <div class="header">
+                @Html.SfPlaceHolder("SidebarPlaceholder")
+            </div>
+        </div>
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <div>
+                @Html.SfPlaceHolder("MainPlaceholder")
+                <div style="height:3000px;"></div>
+
+                <div class="footer">
+                    <div class="pure-menu pure-menu-horizontal">
+                        <ul>
+                            <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>
+                            <li class="pure-menu-item"><a href="http://twitter.com/yuilibrary/" class="pure-menu-link">Twitter</a></li>
+                            <li class="pure-menu-item"><a href="http://github.com/yahoo/pure/" class="pure-menu-link">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    @Html.Section("bottom")
+</body>
+</html>
