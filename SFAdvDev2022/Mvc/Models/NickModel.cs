@@ -23,5 +23,6 @@ namespace SFAdvDev2022.Mvc.Models
 		public Enumeration Enum { get; set; }
 		public int Number { get; set; }
 		public DateTime MyDate { get; set; }
+		public string Images { get; set; }
 	}
 }

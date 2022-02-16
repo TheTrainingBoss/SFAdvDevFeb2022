@@ -9,6 +9,7 @@ using Progress.Sitefinity.Renderer.Entities.Content;
 using SFAdvDev2022.Mvc.Models;
 using System;
 using System.Web.Mvc;
+using Telerik.Sitefinity.Modules.Libraries;
 using Telerik.Sitefinity.Mvc;
 using Telerik.Sitefinity.Personalization;
 
@@ -26,7 +27,11 @@ namespace SFAdvDev2022.Mvc.Controllers
 			model.Flag = this.Flag;
 			model.MyDate = this.MyDate;
 			model.Number = this.Number;
-			return View(model);
+
+			LibrariesManager lbmanager = LibrariesManager.GetManager();
+			var image = lbmanager.GetImage(Guid.Parse(this.Images.ItemIdsOrdered[0]));
+			model.Images = image.MediaUrl;
+			return View("Index", model);
 		}
 		
         protected override void HandleUnknownAction(string actionName)
