@@ -1124,6 +1124,8 @@
     <Compile Include="MVC\Models\PageCrudModel.cs" />
     <Compile Include="MVC\Controllers\NewsCrudController.cs" />
     <Compile Include="MVC\Models\NewsCrudModel.cs" />
+    <Compile Include="Providers\CustomMembershipProvider.cs" />
+    <Compile Include="Providers\CustomNewsProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminApp\elements.9d880eeb86f16bf5f136.bundle.js.map" />
