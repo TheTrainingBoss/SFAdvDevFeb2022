@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SourceURLExample">
+    <value>L'URL de la source que vous avez entrée &lt;br /&gt;Exemple : &lt;em&gt;http://www.nytimes.com/&lt;/em&gt;</value>
+    <comment>phrase: The URL of the source you have entered &lt;br /&gt;Example: &lt;em&gt;http://www.nytimes.com/&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CategoriesMetafieldDescription">
+    <value>Définit la catégorie de cet élément de contenu.</value>
+    <comment>Description of the metafield containing the categories taxonomy for news items.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Définir les Autorisations</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Language">
+    <value>Langue</value>
+    <comment>word: Language</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Author">
+    <value>Auteur</value>
+    <comment>word: Author</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="lContent">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Éditer...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Plus d'actions</value>
+    <comment>phrase: More actions</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>L'URL ne peut être vide</value>
+    <comment>phrase: URL cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Catégories et tags</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SourceName">
+    <value>Nom de la source</value>
+    <comment>phrase: Source name</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PermissionsForNews">
+    <value>Autorisations</value>
+    <comment>phrase: Permissions for news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CreateAndContinue">
+    <value>Créer et ajouter un autre</value>
+    <comment>Label of the dialog that creates a news item without closing the form.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Comments">
+    <value>commentaires</value>
+    <comment>word: Comments</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>La date de publication doit être renseignée.</value>
+    <comment>Publication Date cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>Par Titre (A - Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsDataFields">
+    <value>Champs de données de News</value>
+    <comment>Phrase: News data fields</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CommentsUrlName">
+    <value>commentaires</value>
+    <comment>Comments page url</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Search">
+    <value>Recherche des news...</value>
+    <comment>phrase: Search news items...</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="lTitle">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="BackToAllNewsItems">
+    <value>Retour à tous les articles de news.</value>
+    <comment>Go back to all news.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisNewsItem">
+    <value>Êtes-vous sûr de vouloir supprimer ces news ?</value>
+    <comment>Confirmation message when a news is deleted.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>phrase: Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CreateItem">
+    <value>Créer un élément news</value>
+    <comment>Label of the dialog that creates a news item.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsPluralItemName">
+    <value>News</value>
+    <comment>Phrase: news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gérer aussi</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>En savoir plus avec des tutoriels vidéo</value>
+    <comment>Label for the external links used in Pages</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NoNewsSelectedYet">
+    <value>Pas encore de news sélectionnées</value>
+    <comment>Phrase: No news selected yet</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="lSummary">
+    <value>Résumé</value>
+    <comment>word: Summary</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="AuthorSourceThumbnail">
+    <value>Informations complémentaires &lt;em class='sfNote'&gt;(Auteur, Source)&lt;/em&gt;</value>
+    <comment>phrase: Additional info &lt;em class='sfNote'&gt;(Author, Source)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>word: View</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Tri personnalisé ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="DraftNews">
+    <value>Brouillons</value>
+    <comment>The text of draft news sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En attente d'approbation</value>
+    <comment>The text of the 'Awaiting approval' button in the news sidebar.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CommentsDescription">
+    <value>C'est une page pour la modération des commentaires pour le module de news</value>
+    <comment>Comments page description.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CommentsForNews">
+    <value>Commentaires des news</value>
+    <comment>phrase: Comments for news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>L'URL contient des symboles non valides.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SortNews">
+    <value>Trier les news</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Créer un élément news</value>
+    <comment>The title of the create new item dialog</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>C'est le groupe de pages qui contient toutes les pages pour le module de news</value>
+    <comment>News Page Group Description</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Trier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Dernières créations en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Dernières modifications en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="DefaultPage">
+    <value>Page par défaut</value>
+    <comment>Phrase: Default page</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur de sécurité.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>Annuler la publication</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsSingularItemName">
+    <value>Élément de news</value>
+    <comment>Phrase: news item</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsDetailViewFriendlyName">
+    <value>News -unique</value>
+    <comment>Phrase: News - single</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historique des révisions</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItem_EditItem">
+    <value>Éditer une news</value>
+    <comment>phrase: Edit a news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsMasterViewFriendlyName">
+    <value>News - liste</value>
+    <comment>Phrase: News - list</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propriétés</value>
+    <comment>word: Properties</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NoNewsItems">
+    <value>Aucun élément de news n'a encore été créé</value>
+    <comment>phrase: No news items have been created yet</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="lCategory">
+    <value>Catégorie</value>
+    <comment>word: Category</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+    <comment>word: Delete</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ClickToAddSummary">
+    <value>Cliquez ici pour ajouter le résumé</value>
+    <comment>phrase: Click to add summary</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="FullStory">
+    <value>Lire la suite</value>
+    <comment>Phrase: Full story</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsToolboxSectionDescription">
+    <value>Contient les widgets de module de news.</value>
+    <comment>The description of the toolbox section containing the News module widgets.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItem_AuthorSourceThumbnail">
+    <value>Auteur, Source, Vignette</value>
+    <comment>"Author, Source, Thumbnail" section name for News</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedNews">
+    <value>Afficher les dernières news actualisées en...</value>
+    <comment>The text of last updated news sidebar button</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItemsByTag">
+    <value>Éléments news par tag</value>
+    <comment>Phrase: News items by tag</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expire le :</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItemsPluralTypeName">
+    <value>Éléments de news</value>
+    <comment>News items type name</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItem_Data">
+    <value>Données</value>
+    <comment>"Data" section name for News</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ScheduledNews">
+    <value>Planifié</value>
+    <comment>The text of scheduled news sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Date de Publication</value>
+    <comment>phrase: Publication Date</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="MyNews">
+    <value>Mes news</value>
+    <comment>The text of my news sidebar button</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SourceSite">
+    <value>Site source</value>
+    <comment>phrase: Source site</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SourceURL">
+    <value>URL Source</value>
+    <comment>phrase: Source URL</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CommentsHtmlTitle">
+    <value>commentaires</value>
+    <comment>Html Title of the comments page.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Autorisations</value>
+    <comment>word: Permissions</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="AllNews">
+    <value>Toutes les news</value>
+    <comment>Phrase: All news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>annuler</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ContentCannotBeEmpty">
+    <value>Le contenu ne peut être vide</value>
+    <comment>phrase: Content cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Plus d'options &lt;em class='sfNote'&gt;(URL, Commentaires)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItemsByCategory">
+    <value>Éléments news par catégorie</value>
+    <comment>Phrase: News items by category</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="IncludeInSitemap">
+    <value>Inclure dans le plan du site</value>
+    <comment>phrase: Include in sitemap</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CommentsTitle">
+    <value>commentaires</value>
+    <comment>Title of the comments page.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItem_Advanced">
+    <value>Avancé</value>
+    <comment>"Advanced" section name for News</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Supprimer</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Autoriser les commentaires</value>
+    <comment>Phrase: Allow comments</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Dupliquer</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="FilterNews">
+    <value>Filtrer les news</value>
+    <comment>phrase: Filter news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CategoriesMetafieldTitle">
+    <value>Catégorie</value>
+    <comment>Name of the metafield containing the categories taxonomy for news item.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="VersionComparison">
+    <value>Comparaison des versions</value>
+    <comment>word: News</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Date d'expiration</value>
+    <comment>phrase: Expiration Date</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PublishedNews">
+    <value>Publié</value>
+    <comment>The text of published news sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ManageNews">
+    <value>Gérer les News</value>
+    <comment>word: Manage News</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsViewDescription">
+    <value>Liste des nouveaux éléments</value>
+    <comment>The description of the NewsView control, that appears on the controls toolbox.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+    <comment>Label for the buttons that create a news item.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="WaitingForPublishing">
+    <value>En attente de publication</value>
+    <comment>The text of the 'Awaiting publishing' button in the news sidebar.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres des news</value>
+    <comment>phrase: News Settings</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="AuthorExample">
+    <value>Ce nom apparaîtra comme étant celui de l'auteur de l'article sur le site.</value>
+    <comment>phrase: This name will appear as the author of this article on the site.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publié le :</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsDescription">
+    <value>Description des news</value>
+    <comment>News</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="PagesWhereNewsArePublished">
+    <value>Pages où les News sont publiées</value>
+    <comment>Pages where News are published</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Retour aux News</value>
+    <comment>The text of the back to news link</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsResourcesTitle">
+    <value>Sécurité</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>par Date de modification ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>Que voulez-vous faire maintenant ?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="BackToAllItems">
+    <value>Retour à toutes les news</value>
+    <comment>phrase: Back to all news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SettingsForNews">
+    <value>Paramètres</value>
+    <comment>phrase: Settings for news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SourceNameExample">
+    <value>D'où les news proviennent (journal, site web, magazine).&lt;br /&gt; Exemple : &lt;em&gt;New York Times&lt;/em&gt;</value>
+    <comment>phrase: Where the news comes from (newspaper, website, magazine).&lt;br /&gt; Example: &lt;em&gt;New York Times&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Catégories</value>
+    <comment>word: Categories</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propriétaire</value>
+    <comment>word: Owner</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CreateThisItem">
+    <value>Créer cet élément news</value>
+    <comment>phrase: Create this news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>Par Titre (Z - A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="TagsMetafieldDescription">
+    <value>Définit les mots-clés pour cet élément de contenu.</value>
+    <comment>Description of the metafield containing the tags taxonomy for news items.</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="EditNewsSettings">
+    <value>Définir quelles news afficher</value>
+    <comment>Phrase: Edit News settings</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Éditer une news</value>
+    <comment>The title of the edit item dialog</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>Saves the edited news item changes</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="History">
+    <value>Historique</value>
+    <comment>word: History</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="NewsItemsSingleTypeName">
+    <value>Élément de news</value>
+    <comment>News items type name</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Champs personnalisés pour les news</value>
+    <comment>phrase: Custom Fields for news</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+  <data name="Status">
+    <value>Statut</value>
+    <comment>Word: Status</comment>
+    <lastModified>2022-02-16T20:40:39</lastModified>
+  </data>
+</root>

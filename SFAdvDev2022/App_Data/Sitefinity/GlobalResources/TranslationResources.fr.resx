@@ -1,0 +1,1420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EnabledConnectorTitle">
+    <value>Activé</value>
+    <comment>Gets EnabledConnectorTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemsMarkedForTranslation">
+    <value>{0} élément(s) a/ont été marqué(s) pour être traduit(s) {1}</value>
+    <comment>22 item(s) have been marked for translation Go to Translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendPermissionActionDescription">
+    <value>Autorise ou refuse l'envoi d'un élément comme À traduire.</value>
+    <comment>phrase: Allows or denies sending an item for translation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsMarkedEmpty">
+    <value>Aucun élément n'a encore été marqué pour une traduction</value>
+    <comment>phrase: No items have been marked for translation yet</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemTypeTitle">
+    <value>Type d'élément</value>
+    <comment>Gets ItemTypeTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Importing">
+    <value>Importation en cours</value>
+    <comment>Label: Importing</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SourceVersionTypeDescription">
+    <value>Quelle version de l'élément doit être utilisée lors de l'envoi d'un élément à traduire : Brouillons - prend l'élément en mode brouillon En direct - prend l'élément en direct s'il est accessible. S'il n'y a pas d'élément en direct, le brouillon est utilisé.</value>
+    <comment>Gets SourceVersionTypeDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllTranslations">
+    <value>Toutes les traductions</value>
+    <comment>phrase: All translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendingErrorSuccessfulActionMessage">
+    <value>{0} élément(s) a/ont été envoyé(s) pour être traduit(s)</value>
+    <comment>Label: {0} item(s) have been sent for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllErrors">
+    <value>Toutes les erreurs</value>
+    <comment>phrase: All errors</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Translating">
+    <value>Traduction en cours</value>
+    <comment>Translating</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoSourcesError">
+    <value>Aucun des éléments sélectionnés n'a pas de version en {0}.</value>
+    <comment>Error to be shown when none of the selected items has language version in the source language</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslatedTabTitle">
+    <value>Traduits</value>
+    <comment>phrase: Translated</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewFiles">
+    <value>Voir les fichiers.</value>
+    <comment>Message: View files.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveTranslatedConfirmationButtonMultiple">
+    <value>Oui, supprimer les traductions</value>
+    <comment>Confirmation button label for remove translated translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportSettingsTitle">
+    <value>Importer des paramètres</value>
+    <comment>Gets ImportSettingsTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewItems">
+    <value>Voir les éléments</value>
+    <comment>View items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Imported">
+    <value>Importés</value>
+    <comment>Label: Imported</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteProjectConfirmation">
+    <value>&lt;span&gt;Vous êtes sur le point de supprimer un projet en cours.&lt;/span&gt;    &lt;br /&gt;    &lt;br /&gt;    &lt;span&gt;Certains des éléments du contenu à traduire n'ont pas encore été traduits et ne seront importés qu'une fois que l'agence de traduction aura terminée avec sa traduction.&lt;/span&gt;    &lt;br /&gt;    &lt;br /&gt;    &lt;span&gt;Êtes-vous sûr(e) de vouloir supprimer ce projet ?&lt;/span&gt;</value>
+    <comment>Confirmation message on delete project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SourceItemSentForTranslationWarningDescription">
+    <value>Aucune modification ne sera appliquée à la version qui a été envoyée pour être traduite.</value>
+    <comment>phrase: Any changes will not be applied to the version which has been sent for translation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SchedulingTitle">
+    <value>Planification</value>
+    <comment>Gets SchedulingTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewPermissionActionDescription">
+    <value>Autorise ou refuse la visualisation d'une traduction spécifique</value>
+    <comment>phrase: Allows or denies viewing a particular translation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CompleteProjectConfirmationXliff">
+    <value>&lt;span&gt;Êtes-vous sûr(e) de vouloir marquer ce projet comme terminé ?&lt;/span&gt;</value>
+    <comment>Confirmation message on complete Xliff project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsSettings">
+    <value>Paramètres des traductions</value>
+    <comment>phrase: Translations settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReceivingError">
+    <value>Erreur de réception</value>
+    <comment>Label: Receiving error</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DiscardSentConfirmationButton">
+    <value>Oui, abandonner la traduction</value>
+    <comment> Yes, Discard translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TimeoutTitle">
+    <value>Délai d'expiration</value>
+    <comment>phrase: Timeout</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteErrorsConfirmationButtonMultiple">
+    <value>Oui, supprimer ces traductions</value>
+    <comment>Confirmation button label for delete error translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ErrorOn">
+    <value>Date de l'erreur</value>
+    <comment>phrase: Error date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Generating">
+    <value>Génération en cours...</value>
+    <comment>Generating...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsSentEmpty">
+    <value>Aucun élément n'a encore été envoyé comme À traduire</value>
+    <comment>phrase: No items have been sent for translation yet</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendingError">
+    <value>Erreur lors de l'envoi</value>
+    <comment>Label: Sending error</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AcceptTranslation">
+    <value>Accepter et Enregistrer en tant que Brouillon</value>
+    <comment>phrase: Accept &amp; Save as Draft</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UploadedXliffFiles">
+    <value>{0} fichier(s) importé(s) avec succès.</value>
+    <comment>Message: Xliff files imported message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Sync">
+    <value>Synch</value>
+    <comment>label: Sync</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteMarkedConfirmation">
+    <value>&lt;span&gt;{0} a été marqué comme pour une traduction à partir du/de l' {1} &lt;br /&gt; Êtes-vous sûr(e) de vouloir décocher cet élément ?&lt;/span&gt;</value>
+    <comment>Confirmation message on delete marked translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BySource">
+    <value>Du/de l'…</value>
+    <comment>phrase: From...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorTitle">
+    <value>Titre du connecteur</value>
+    <comment>Gets ConnectorTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByProjectsTabTitle">
+    <value>par projets</value>
+    <comment>phrase: by Projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterProjects">
+    <value>Filtrer des projets</value>
+    <comment>phrase: Filter projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StrategyTypeDescription">
+    <value>Le nom complet de la classe .NET qui peut être utilisé pour la traduction.</value>
+    <comment>Gets StrategyType</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsErrorsEmpty">
+    <value>Aucun élément contenant des erreurs</value>
+    <comment>phrase: No items with errors</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkForTranslationAction">
+    <value>Marquer comme À traduire</value>
+    <comment>phrase: Mark for translation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorsDescription">
+    <value>Groupe de cas concrets de connecteurs, représentés par des cas concrets de types de connecteurs pris en charge</value>
+    <comment>Gets ConnectorsDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefinitionsNamesDescription">
+    <value>Groupe de noms concrets pour les définitions pour autoriser l'ajout du plug-in de la boîte de dialogue Envoyer pour une traduction</value>
+    <comment>Collection of definitions names</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectPoReferenceTooLong">
+    <value>La référence pour le bon de commande du projet est trop longue</value>
+    <comment>Project PO reference is too long</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PermissionSetTitle">
+    <value>Permissions relatives aux traductions</value>
+    <comment>Label: Translation permissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectSourceLanguageInfoLabel">
+    <value>&lt;p class="sfMBottom5"&gt;Vous êtes sur le point de traduire cette page du/de l'{0}  vers le/l' {0}...&lt;/p&gt;&lt;strong&gt;En quelle langue est le contenu de cette page {0} ?&lt;/strong&gt;</value>
+    <comment>phrase: You are about to translate this {0} page to {0}...
+&lt;strong&gt;What language is the content of this {0} item?&lt;/strong&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteMarkedConfirmationSingle">
+    <value>Êtes-vous sûr(e) de vouloir décocher cet élément ?</value>
+    <comment>Confirmation message on delete single marked translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PoReference">
+    <value>Référence du bon de commande</value>
+    <comment>PO reference</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefinitionsNamesTitle">
+    <value>Noms des définitions</value>
+    <comment>Definitions Names Title</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EnabledConnectorDescription">
+    <value>Indique si le connecteur est activé pour les éléments traduisibles.</value>
+    <comment>Gets EnabledConnectorDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Started">
+    <value>Commencée(s)</value>
+    <comment>Label: Started</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SentTo">
+    <value>Envoyé à</value>
+    <comment>label: Sent to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendForTranslationActionLink">
+    <value>Envoyer pour une traduction...</value>
+    <comment>Send for translation...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToProjectDetails">
+    <value>Retour aux détails du projet</value>
+    <comment>Back to Project details</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendForTranslationHeader">
+    <value>Envoyer pour une traduction</value>
+    <comment>Send for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FileRequired">
+    <value>Au moins un fichier est requis</value>
+    <comment>At least one file is required</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ManageTranslations">
+    <value>Gérer les traductions</value>
+    <comment>phrase: Manage translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RelatedItemsForTranslationConfirmation">
+    <value>Êtes-vous sûr(e) de vouloir renvoyer tous les éléments dans un nouveau projet ?</value>
+    <comment>Are you sure you want to resend all items in new project?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemTypeDescription">
+    <value>Le nom complet de la classe .NET qui peut être traduit.</value>
+    <comment>Gets ItemTypeDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Translations">
+    <value>Traductions</value>
+    <comment>Label: Translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Complete">
+    <value>Complet</value>
+    <comment>label: Complete project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TargetOfItemSentForTranslationWarningDescription">
+    <value>Dans tous les cas, vous pouvez créer cette traduction et l'utiliser jusqu'à ce l'agence ait terminé son travail.</value>
+    <comment>phrase: Anyway, you can create this translation and use it until the agency is done with their work.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RelatedItemsForTranslation">
+    <value>L'/Les élément(s) sélectionné(s) est/sont associé(e) à d'autres éléments d'un projet.</value>
+    <comment>Selected item(s) are together with other items in a project.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Sent">
+    <value>Envoyé</value>
+    <comment>Label: Sent</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateProject">
+    <value>Créer un projet</value>
+    <comment>label: Create project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkedTabTitle">
+    <value>Marqué</value>
+    <comment>phrase: Marked</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetrySendForTranslation">
+    <value>Réessayer d'envoyer pour une traduction</value>
+    <comment>Label: Retry send for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Retry">
+    <value>Réessayer</value>
+    <comment>Label: Retry</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteMarkedConfirmationButtonMultiple">
+    <value>Oui, décocher ces éléments</value>
+    <comment>Confirmation button label for delete marked translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WillNotSendBecauseAlreadySentWarning">
+    <value>Certains des éléments sélectionnés ne seront pas envoyés pour être traduits car ils sont en attente de traduction</value>
+    <comment>Warning shown in the 'send for translation' dialog, when some of the selected items/targets if already waiting for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorSupportedLanguagesDescription">
+    <value>Source prise en charge &gt; paires de langues cibles par ce connecteur.
+Si le champ est vide, alors toutes les langues pourraient être envoyées au connecteur.
+Exemples : "en-us -&gt; de-de", "en-us -&gt; fr-fr; en-us -&gt; es-es"</value>
+    <comment>Supported source -&gt; target language pairs by this connector.
+If empty, then all languages might be sent to the connector.
+Examples: "en-us -&gt; de-de", "en-us -&gt; fr-fr; en-us -&gt; es-es"</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslatedOn">
+    <value>Traduit le</value>
+    <comment>phrase: Translated on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendAllItemsForTranslation">
+    <value>Tout envoyer pour une traduction</value>
+    <comment>Label: Send all for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ErrorFiles">
+    <value>L'importation de {0} fichier(s) a échoué</value>
+    <comment>Message: Files failed to be imported</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsAdvancedSettings">
+    <value>Paramètres avancés pour les traductions</value>
+    <comment>phrase: Translations Advanced Settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActionDialogPluginDescription">
+    <value>Indique l'action à effectuer lors de l'ajout d'un lien vers une boîte de dialogue de traduction. Les options possibles sont : All - ajoute le plug-in Boîte de dialogue de traduction dans tous les menus d'action, PerItem - ajoute le plug-in Boîte de dialogue de traduction dans un menu d'action unique, Batch - ajoute le plug-in Boîte de dialogue de traduction uniquement dans le menu 'Plus d'actions'.</value>
+    <comment>Gets ActionDialogPluginDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangePermissionsActionTitle">
+    <value>Modifier les autorisations</value>
+    <comment>phrase: Change permissions.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RelatedItemsForTranslationMultipleProjects">
+    <value>L'/Les élément(s) sélectionné(s) est/sont associé(e) à d'autres éléments dans {0} projets.</value>
+    <comment>Selected item(s) are together with other items in {0} projects.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorSupportedLanguagesTitle">
+    <value>Langues prises en charge</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectDescriptionTooLong">
+    <value>La description du projet est trop longue</value>
+    <comment>Project description is too long</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilesToImport">
+    <value>Fichiers à importer</value>
+    <comment>Files to import</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseDates">
+    <value>Fermer dates</value>
+    <comment>Label: Close dates</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToTranslations">
+    <value>Retour aux traductions</value>
+    <comment>Back to Translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendSelectedItemsForTranslation">
+    <value>Envoyer les éléments sélectionnés pour une traduction</value>
+    <comment>Label: Send selected items for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllowTitle">
+    <value>Autoriser</value>
+    <comment>phrase: Allow</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NotStarted">
+    <value>Pas commencée</value>
+    <comment>Label: Not started</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorsTitle">
+    <value>Connecteurs</value>
+    <comment>Gets Connectors</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LanguagesNotSupportedByConnectors">
+    <value>Certains connecteurs n'apparaissent pas parce qu'ils ne prennent pas en charge aucune des traductions demandées</value>
+    <comment>Warrning for not supported languages by connectors</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateLastOnTop">
+    <value>Dernier ajouté en premier</value>
+    <comment>phrase: Last added on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentTypesDescription">
+    <value>Groupe de types de contenu pour lesquels autoriser l'insertion du plug-in de dialogue 'Envoyer en vue d'une traduction'.</value>
+    <comment>Collection of content types.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsGroupPageTitle">
+    <value>Traductions</value>
+    <comment>The title of translations dashboard page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportingErrorSuccessfulActionMessage">
+    <value>{0} élément(s) a/ont été importé(s)</value>
+    <comment>Label: {0} item(s) have been imported</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ErrorsTabTitle">
+    <value>Erreurs</value>
+    <comment>phrase: Errors</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ClearFilter">
+    <value>Effacer le filtre</value>
+    <comment>Label: Clear filter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectDetails">
+    <value>Détails de projet</value>
+    <comment>Project details</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToProjects">
+    <value>Retour aux projets</value>
+    <comment>Back to Projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefaultProjectTitleFormat">
+    <value>Envoyer à {0} le {1}</value>
+    <comment>Send to {0} on {1}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CulturesMappingDescription">
+    <value>Certains connecteurs de traduction exigent des cultures spécifiques (c'est-à-dire "en-us", au lieu de juste "en",
+donc ici vous pouvez définir des cartographies de type : neutral_culture -&gt; specific_culture.
+Exemples : 
+"en -&gt; en-us", ou
+"en -&gt; en-us; de -&gt; de-de".</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DueDate">
+    <value>Date d'échéance</value>
+    <comment>label: Due date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkPermissionActionDescription">
+    <value>Autorise ou refuse le marquage d'un élément comme À traduire.</value>
+    <comment>phrase: Allows or denies marking an item for translation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteErrorsConfirmationMultiple">
+    <value>Êtes-vous sûr(e) de vouloir supprimer ces traductions ?</value>
+    <comment>Confirmation message on delete multiple error translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportingError">
+    <value>Erreur lors de l'importation</value>
+    <comment>Label: Importing error</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReadyForTranslation">
+    <value>Prêt(s) à être traduit</value>
+    <comment>Label: Ready for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AutoSyncDescription">
+    <value>Indique s'il faut activer la synchronisation automatique pour les connecteurs existants en cours d'utilisation.</value>
+    <comment>phrase: Indicating whether to enable auto-sync of translated items.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ListOf4PlusLanguages">
+    <value>{0}, {1}, {2} et {3} langue(s) supplémentaire(s)</value>
+    <comment>List, composed of 4+ languages</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByProject">
+    <value>Par projet</value>
+    <comment>phrase: By project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentTypeTitle">
+    <value>Types de contenu</value>
+    <comment> Gets a collection of concrete instances of content types to 'prevent adding send for translation' dialog plug-in</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Marked">
+    <value>Marqué</value>
+    <comment>Label: Marked</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsMasterPageUrl">
+    <value>Traductions</value>
+    <comment>The url name of translations dashboard page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>par titre (Z-A)</value>
+    <comment>phrase: by Title (Z-A)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendForTranslation">
+    <value>Envoyer pour une traduction</value>
+    <comment>Label: Send for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorDoesntSupportAllLanguages">
+    <value>Certains éléments ne seront pas envoyés parce que {0} n'est pas configuré de manière à prendre les traductions du/de l' l'{1} vers le/l' {2}</value>
+    <comment>Warning to be shown when the selected connector doesn't support all selected languages</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveTranslatedConfirmationMultiple">
+    <value>Êtes-vous sûr(e) de vouloir retirer ces traductions de la liste ?</value>
+    <comment>Confirmation message on remove multiple translated translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CulturesMappingTitle">
+    <value>Cartographie des cultures</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterByProject">
+    <value>Filtrer par projet</value>
+    <comment>phrase: Filter by project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WillNotSendBecauseDontHaveSourceWarning">
+    <value>Certains des éléments sélectionnés ne seront pas envoyés pour être traduits car il n'y a pas de version en {0}</value>
+    <comment>Warning shown in the 'send for translation' dialog, when some of the items don't have a version in the source language</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Download">
+    <value>Télécharger</value>
+    <comment>Download</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefinitionNameDescription">
+    <value>Spécifie le nom de désignation unique auquel une boîte de dialogue de traduction appartient.</value>
+    <comment>phrase: Specifies the unique definition name to which a translation dialog belongs.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationStatus">
+    <value>Statut de la traduction</value>
+    <comment>Label: Translation status</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StrategyTypeTitle">
+    <value>Type de stratégie</value>
+    <comment>Gets StrategyType</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationResourcesDescription">
+    <value>Contient des ressources traduisibles pour le module de traduction.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Unmark">
+    <value>Décocher</value>
+    <comment>Unmark</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AutoSyncCronSpecTitle">
+    <value>Spécification cron AutoSync</value>
+    <comment>phrase: AutoSyncCronSpec</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsProjectsEmpty">
+    <value>Aucun projet n'a encore été créé</value>
+    <comment>phrase: No projects have been created yet</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NextCheckForTranslation">
+    <value>Prochaine vérification pour les traductions le {0} à {1}</value>
+    <comment>Label: Next check for translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseProjects">
+    <value>Fermer les projets</value>
+    <comment>Label: Close projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsGroupPageDescription">
+    <value>Traductions</value>
+    <comment>The description of translations dashboard page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Received">
+    <value>Traduits</value>
+    <comment>Label: Translated</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WillNotSendForMultipleReasonsWarning">
+    <value>Certains des éléments sélectionnés ne seront pas envoyés pour être traduits car ils sont en attente de traduction ou qu'il n'y a pas de version en {0}</value>
+    <comment>Warning shown in the 'send for translation' dialog, when some items will not be sent for translation, because of multiple reasons</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByDate">
+    <value>Par date</value>
+    <comment>phrase: By date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="GoToTranslationsLink">
+    <value>&lt;a href='{0}'&gt;Aller aux traductions&lt;/a&gt;</value>
+    <comment>&lt;a href='link_goes_here'&gt;Go to Translations&lt;/a&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateFirstOnTop">
+    <value>Premier ajouté en premier</value>
+    <comment>phrase: First added on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoSelectedItem">
+    <value>Aucun élément n'a été sélectionné. Pour traduire un élément, veuillez commencer par en choisir un.</value>
+    <comment>Gets NoSelectedItems</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StartDate">
+    <value>Date de début</value>
+    <comment>label: Start date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CompleteProjectConfirmation">
+    <value>&lt;span&gt;Vous êtes sur le point de marquer ce projet comme terminé. &lt;br /&gt;&lt;br /&gt;&lt;/span&gt;Vous enverrez la confirmation à l'agence de traduction indiquant que vous approuvez toutes les traductions et que le projet est terminé.&lt;br /&gt;&lt;br /&gt;Êtes-vous sûr(e) de vouloir marquer ce projet comme terminé ?</value>
+    <comment>Confirmation message on complete project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PropertyMappingsDescription">
+    <value>Cartographie des éléments de la propriété</value>
+    <comment>Gets PropertyMappingsDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StrategiesDescription">
+    <value>Stratégies utilisées pour importer du contenu provenant d'un service de traduction. Les stratégies sont héritées selon le type de contenu.
+Par exemple, les stratégies PropertyMappings pour l'élément Telerik.Sitefinity.GenericContent.Model.Content item sont  héritées de Telerik.Sitefinity.News.Model.NewsItem.</value>
+    <comment>Gets StrategiesDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SyncSettingsTitle">
+    <value>Paramètres de synchronisation</value>
+    <comment>Gets SyncSettingsTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportingErrorAction">
+    <value>Réessayer d'importer</value>
+    <comment>Label: Retry import</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteErrorConfirmationButton">
+    <value>Oui, supprimer cette traduction</value>
+    <comment>Confirmation button label for delete error translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendingErrorAction">
+    <value>Réessayer d'envoyer pour une traduction</value>
+    <comment>Label: Retry send for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportXLIFF">
+    <value>Importer un fichier XLIFF</value>
+    <comment>phrase: Import XLIFF file</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ListOf3Languages">
+    <value>{0}, {1} et {2}</value>
+    <comment>List, composed of 3 languages</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetryErrorsConfirmationButton">
+    <value>Oui, réessayer {0} éléments</value>
+    <comment>Retry confirmation button label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ResendForTranslation">
+    <value>Renvoyer pour une traduction</value>
+    <comment>phrase: Resend for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationDialogPluginSettingsDescription">
+    <value>Paramètres pour configurer l'ajout du plugin de la boîte de dialogue traduction.</value>
+    <comment>Gets TranslationDialogPluginSettingsDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectName">
+    <value>Nom du projet</value>
+    <comment>Project name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteProject">
+    <value>Supprimer le projet</value>
+    <comment>label: Delete project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SentForTranslationLabel">
+    <value>Envoyés pour une traduction {0} {1}</value>
+    <comment>Sent for translation {0} {1}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationService">
+    <value>Service de traduction</value>
+    <comment>Translation service</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Id">
+    <value>ID</value>
+    <comment>ID</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportXliffFileMessage">
+    <value>Toutes les traductions seront ajoutées aux éléments déjà importés.</value>
+    <comment>All translations will be added to already exported items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectEndDateGreaterThanStartDate">
+    <value>La date de fin du projet doit être supérieure à la date de début</value>
+    <comment>Project due date should be greater than start date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterByDate">
+    <value>Filtrer par date</value>
+    <comment>phrase: Filter by date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectTitleTooLong">
+    <value>Le titre du projet est trop long</value>
+    <comment>Project title is too long</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveTranslatedConfirmationSingle">
+    <value>Êtes-vous sûr(e) de vouloir retirer cette traduction de la liste ?</value>
+    <comment>Confirmation message on remove single translated translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Project">
+    <value>Projet</value>
+    <comment>phrase: Project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NotMarked">
+    <value>Non marqué</value>
+    <comment>Label: Not marked</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TargetOfItemSentForTranslationWarningTitle">
+    <value>Cet élément a été marqué comme À traduire à partir du/de l'{0}</value>
+    <comment>phrase: This item has been marked/sent for translation from {0}.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangePermissionsActionDescription">
+    <value>Autorise ou refuse le changement des permissions pour une traduction.</value>
+    <comment>phrase: Allows or denies changing the permissions of a translation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PermissionSetDescription">
+    <value>Représente les actions de permission pour le module de traduction.</value>
+    <comment>phrase: Represents the permission actions for the translations module.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendForTranslationAction">
+    <value>Envoyer maintenant pour une traduction...</value>
+    <comment>Label: Send for translation now...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActionDescription">
+    <value>Indique l'action à effectuer sur la propriété au moment de l'importation d'une traduction. Les options possibles sont : Translate - traduire la propriété spécifiée, DoNotTranslate - ne pas traduire la propriété spécifiée, CopyFromOriginal - copier la valeur source d'origine à partir de la propriété spécifiée.</value>
+    <comment>phrase: To make a field translatable, enter 'Translate' or non-translatable, enter 'DoNotTranslate' and to copy the value, enter 'CopyFromOriginal'.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllowDescription">
+    <value>Indique si le plug-in de boîte de dialogue de traduction sera disponible dans l'UI pour le nom de définition ou pour le type de contenu spécifié.</value>
+    <comment>phrase: Defines if the translation dialog will be allowed.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByStatus">
+    <value>par statut</value>
+    <comment>phrase: by Status</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectTitleRequired">
+    <value>Le titre est requis</value>
+    <comment>Project title is required</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsGroupPageUrlName">
+    <value>Traductions</value>
+    <comment>The URL name of translations dashboard page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PropertyMappingsTitle">
+    <value>Cartographies des propriétés</value>
+    <comment>Gets PropertyMappingsTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteProjectsConfirmationMultiple">
+    <value>&lt;span&gt;Vous êtes sur le point de supprimer des projets en cours.&lt;/span&gt;    &lt;br /&gt;    &lt;br /&gt;    &lt;span&gt;Certains des éléments du contenu à traduire n'ont pas encore été traduits et ne seront importés une fois que l'agence de traduction aura terminé avec sa traduction.&lt;/span&gt;    &lt;br /&gt;    &lt;br /&gt;    &lt;span&gt;Êtes-vous sûr(e) de vouloir supprimer ces projets?&lt;/span&gt;</value>
+    <comment>Confirmation message on delete projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendChangedFieldsOnly">
+    <value>Envoyer uniquement les champs modifiés</value>
+    <comment>Send changed fields only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllProjects">
+    <value>Tous les projets</value>
+    <comment>phrase: All projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReceivingErrorAction">
+    <value>Réessayer de recevoir la traduction</value>
+    <comment>Label: Retry receive translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SourceItemSentForTranslationWarningTitle">
+    <value>Cet élément a été envoyé pour être traduit {0}</value>
+    <comment>phrase: This item has been sent for translation to {0}.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="XliffFiles">
+    <value>Fichiers XLIFF</value>
+    <comment>XLIFF Files</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkedForTranslationLabel">
+    <value>Marqué comme à traduire {0} {1}</value>
+    <comment>Marked for translation {0} {1}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkedForTranslation">
+    <value>Marqués comme À traduire</value>
+    <comment>Label: Marked for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Aperçu</value>
+    <comment>label: Preview</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationDialogPluginSettingsTitle">
+    <value>Plug-in Boîte de dialogue de traduction</value>
+    <comment>Gets TranslationDialogPluginSettingsTitle</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterErrors">
+    <value>Filtrer les erreurs</value>
+    <comment>phrase: Filter errors</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReceivingErrorSuccessfulActionMessage">
+    <value>{0} élément(s) a/ont été demandé(s)</value>
+    <comment>Label: {0} item(s) have been requested</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportXliffFilesHeader">
+    <value>Importer des fichiers XLIFF</value>
+    <comment>phrase: Import XLIFF files</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TimeoutDescription">
+    <value>Le délai d'inactivité (en minutes) de la tâche planifiée</value>
+    <comment>Gets TimeoutDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ListOf2Languages">
+    <value>{0} et {1}</value>
+    <comment>List, composed of 2 languages</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RelatedItemsForTranslationConfirmationMultipleProjects">
+    <value>Êtes-vous sûr(e) de vouloir renvoyer tous les éléments dans les nouveaux projets ?</value>
+    <comment>Are you sure you want to resend all items in new projects?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsConfigCaption">
+    <value>Paramètres de la traduction</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorTypeDescription">
+    <value>Le nom complet de la classe .NET qui exécute ce genre de connecteur de traduction.</value>
+    <comment>Gets ConnectorTypeDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NameDescription">
+    <value>Le nom de la propriété.</value>
+    <comment>Gets phrase: PropertyNameDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SentOn">
+    <value>Envoyé le</value>
+    <comment>label: Sent on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsTranslatedEmpty">
+    <value>Aucun élément n'a encore été traduit</value>
+    <comment>phrase: No items have been translated yet</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendForTranslationConfirmNotAllButton">
+    <value>Oui, envoyer pour une traduction</value>
+    <comment>Yes, send for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendPermissionActionTitle">
+    <value>Envoyer pour une traduction</value>
+    <comment>phrase: Send for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationResourcesTitle">
+    <value>Traductions</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Rejected">
+    <value>Rejeté</value>
+    <comment>Label: Rejected</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectEndDateRequired">
+    <value>La date de fin du projet est obligatoire</value>
+    <comment>Project end date is required</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByContentType">
+    <value>par type de contenu</value>
+    <comment>phrase: by Content type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CantEditCronExpression">
+    <value>Pour modifier le planning, allez dans Paramètres avancés &gt; Planification &gt; Synch les paramètres</value>
+    <comment>phrase: To change the schedule go to Advanced Settings&gt; Scheduling&gt;Sync settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorTitleDescription">
+    <value>Le titre du connecteur qui sera représenté dans l'interface utilisateur.</value>
+    <comment>Gets ConnectorTitleDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewPermissionActionTitle">
+    <value>Voir une traduction</value>
+    <comment>phrase: View a translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Discard">
+    <value>Abandonner</value>
+    <comment>phrase: Discard</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemIsLocked">
+    <value>Non importées. Cet élément est verrouillé. Veuillez le déverrouillé et réessayez d'importer la traduction</value>
+    <comment>Not imported. This item is locked. Please unlock it and try again to import translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllSubmissions">
+    <value>Tous les envois</value>
+    <comment>phrase: All submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveFromList">
+    <value>Supprimer de la liste</value>
+    <comment>phrase: Remove from list</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DiscardSentConfirmation">
+    <value>&lt;strong&gt;Important&lt;/strong&gt; &lt;p class="sfMTop10"&gt;Veuillez contacter l'agence de traduction afin d'annuler la traduction de cet élément et d'éviter tout frais de traduction supplémentaire.&lt;/p&gt; &lt;p&gt;Sinon, il sera traduit, mais il ne sera pas importé.&lt;/p&gt;  &lt;p&gt;Êtes-vous sûr(e) de vouloir abandonner la traduction de cet élément ?&lt;/p&gt;</value>
+    <comment>Confirmation message on discard sent translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SyncSettingsDescription">
+    <value>Paramètres pour configurer la tâche de synchronisation planifiée.</value>
+    <comment>SyncSettingsDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterTranslations">
+    <value>Filtrer les traductions</value>
+    <comment>phrase: Filter translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteProjectsConfirmationButtonMultiple">
+    <value>Oui, supprimer ces projets</value>
+    <comment>Confirmation button label for delete projects</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendForTranslationConfirmNotAll">
+    <value>&lt;p&gt;Certains éléments ne seront pas envoyés car ils ont déjà été envoyés pour être traduits.&lt;/p&gt;&lt;p class="sfMTop10"&gt; Est-ce que vous voulez envoyer tous les autres éléments ?&lt;/p&gt;</value>
+    <comment>Not all opperations possible confirm message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProjectStartDateRequired">
+    <value>La date de début du projet est obligatoire</value>
+    <comment>Project start date is required</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByTarget">
+    <value>En...</value>
+    <comment>phrase: To...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteMarkedConfirmationMultiple">
+    <value>Êtes-vous sûr(e) de vouloir décocher ces éléments ?</value>
+    <comment>Confirmation message on delete multiple marked translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorNameTitle">
+    <value>Nom du connecteur</value>
+    <comment>Gets ConnectorName</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NothingToTranslate">
+    <value>Toutes les langues ont été marquées pour la traduction ou ont été envoyées pour la traduction</value>
+    <comment>phrase: All languages have been marked for translation or sent for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteErrorConfirmationSingle">
+    <value>Êtes-vous sûr(e) de vouloir supprimer cette traduction de la liste ?</value>
+    <comment>Confirmation message on delete single error translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DownloadAllFiles">
+    <value>Télécharger tous les fichiers</value>
+    <comment>Download all files</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PreviewTranslation">
+    <value>Prévisualiser la traduction</value>
+    <comment>Label: Preview translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Translate">
+    <value>Traduire</value>
+    <comment>Translate</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Completed">
+    <value>Terminées</value>
+    <comment>Label: Completed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentType">
+    <value>Type de contenu</value>
+    <comment>phrase: Content type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteProjectConfirmationButton">
+    <value>Oui, supprimer ce projet</value>
+    <comment>Confirmation button label for delete project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CheckForTranslations">
+    <value>Vérifier si des traductions sont prêtes</value>
+    <comment>phrase: Check for ready translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslationsConfigDescription">
+    <value>Chaînes de ressources pour les paramètres de traduction.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="File">
+    <value>Fichier</value>
+    <comment>File</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentTypeDescription">
+    <value>Le nom complet de la classe .NET à laquelle une boîte de dialogue de traduction appartient.</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorNameDescription">
+    <value>Le nom du connecteur</value>
+    <comment>Gets ConnectorNameDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SentForTranslation">
+    <value>Envoyé</value>
+    <comment>Label: Sent for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Deleted">
+    <value>Supprimé</value>
+    <comment>Label: Deleted</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConditionDescription">
+    <value>Décrit le statut côté client de la propriété qui active le lien de la boîte de dialogue. Par exemple, afin de prévenir l'ajour de la boîte de dialogue dans le menu Plus d'actions pour une utilisation de la bibliothèque : !IsFolder.</value>
+    <comment>phrase: Describes the condition of the element like '!IsFolder'.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Archived">
+    <value>Archivés</value>
+    <comment>Label: Archived</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StrategiesTitle">
+    <value>Stratégies</value>
+    <comment>Gets Strategies</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Sending">
+    <value>Envoi en cours</value>
+    <comment>Label: Sending</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Import">
+    <value>Importer</value>
+    <comment>label: Import</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TranslateThis">
+    <value>Traduire {0} en...</value>
+    <comment>phrase: Translate this/233 selected page/pages to...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pending">
+    <value>En attente</value>
+    <comment>When Item is in Received status but not imported yet</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AutoSyncCronSpecDescription">
+    <value>Une configuration qui indique les commandes à exécuter à intervalles réguliers selon un calendrier donné. Par exemple : 5 * * * * (s'exécute à la cinquième minute de chaque heure)</value>
+    <comment>phrase: cron spec</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasswordCanNotBeDecrypted">
+    <value>Le mot de passe ne peut pas être déchiffré.</value>
+    <comment>Message: Password can not be decrypted.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExportToXliff">
+    <value>Exporter au format XLIFF</value>
+    <comment>phrase: Export to XLIFF</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateFirstModifiedOnTop">
+    <value>Premières modifiées en premier</value>
+    <comment>phrase: First modified on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SchedulingDescription">
+    <value>Paramètres pour la planification des tâches dans le module Traductions</value>
+    <comment>Gets SchedulingDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveTranslatedConfirmationButton">
+    <value>Oui, supprimer la traduction</value>
+    <comment>Confirmation button label for remove translated translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Review">
+    <value>Comparaison</value>
+    <comment>label: Review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImportSettingsDescription">
+    <value>Paramètres pour configurer la tâche d'importation planifiée.</value>
+    <comment>Gets ImportSettingsDescription</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Selected">
+    <value>sélectionné(e)s</value>
+    <comment>selected</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetryImport">
+    <value>Réessayer d'importer</value>
+    <comment>label: Retry import</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>par titre (A-Z)</value>
+    <comment>phrase: by Title (A-Z)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateLastModifiedOnTop">
+    <value>Dernières modifications en haut</value>
+    <comment>phrase: Last modified on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NameTitle">
+    <value>Nom de la propriété</value>
+    <comment>Gets phrase: field name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemsSentForTranslation">
+    <value>{0} élément(s) a/ont été envoyé(s) pour être traduit(s) {1}</value>
+    <comment>22 item(s) have been sent for translation Go to Translations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Translation">
+    <value>Traduction</value>
+    <comment>phrase: Translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByService">
+    <value>par Service</value>
+    <comment>phrase: by Service</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SentTabTitle">
+    <value>Envoyé</value>
+    <comment>phrase: Sent</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CompleteProjectConfirmationButton">
+    <value>Oui, marquer ce projet comme terminé</value>
+    <comment>Confirmation button label for complete project</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefinitionNameTitle">
+    <value>Nom de la définition</value>
+    <comment>phrase: Definition Name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToProjectItems">
+    <value>Retour aux éléments du projet</value>
+    <comment>Back to Project items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteMarkedConfirmationButton">
+    <value>Oui, décocher cet élément</value>
+    <comment>Confirmation button label for delete marked translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="XliffAllowedExtensions">
+    <value>Type de fichier invalide. Seuls les fichiers avec l'extension .xlf peuvent être importés</value>
+    <comment>Invalid file type. Only files with the .xlf extension are allowed to import</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnmarkForTranslation">
+    <value>Décocher pour la traduction</value>
+    <comment>phrase: Unmark for translation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

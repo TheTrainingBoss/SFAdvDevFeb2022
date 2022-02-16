@@ -6,15 +6,18 @@
 
 using Progress.Sitefinity.Renderer.Designers.Attributes;
 using Progress.Sitefinity.Renderer.Entities.Content;
+using SFAdvDev2022.Localization;
 using SFAdvDev2022.Mvc.Models;
 using System;
 using System.Web.Mvc;
+using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes;
 using Telerik.Sitefinity.Modules.Libraries;
 using Telerik.Sitefinity.Mvc;
 using Telerik.Sitefinity.Personalization;
 
 namespace SFAdvDev2022.Mvc.Controllers
 {
+	[Localization(typeof(MyWidgetResources))]
 	[ControllerToolboxItem(Name = "Nick", Title = "Nick", SectionName = "SFAdvDev2022")]
 	public class NickController : Controller, IPersonalizable
 	{

@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlayedHTML5VideoTrackingLabel">
+    <value>Vidéo HTML5 lue</value>
+    <comment>phrase: Played HTML5 video</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetryMaxAttemptsPropNameCaption">
+    <value>Maximum de nouvelles tentatives</value>
+    <comment>phrase: Maximum retry attempts</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidPersonaMessage">
+    <value>Il n'y a aucune personnalité à choisir. Veuillez d'abord créer une personnalité.</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserRegisteredTrackingLabel">
+    <value>Utilisateur enregistré</value>
+    <comment>phrase: Registered user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewLeadScoreInDec">
+    <value>Voir les scores Lead dans</value>
+    <comment>Label: ViewPersonaInDec</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SaveWord">
+    <value>Enregistrer</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangeLabel">
+    <value>Changer</value>
+    <comment>Word: Change</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="GoToDECButton">
+    <value>Aller dans le Cloud Sitefinity Digital Experience</value>
+    <comment>Label of button that leads to DEC</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeviceNameTrackingLabel">
+    <value>Nom du dispositif</value>
+    <comment>phrase: Device name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewslettersGroup">
+    <value>Campagnes e-mail</value>
+    <comment>word: Email campaigns</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DashboardResourcesUrlPropNameDescription">
+    <value>Url des ressources du tableau de bord utilisées pour afficher les perspectives du DEC</value>
+    <comment>phrase: Url of the dashboard resources used for showing DEC insights</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IsNegated">
+    <value>NON</value>
+    <comment>Label: IsNegatedLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PassedStage">
+    <value>Environnement OK ?</value>
+    <comment>phrase: Passed stage</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Feature">
+    <value>Fonctionnalité</value>
+    <comment>word: Feature</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CampaignCriterion">
+    <value>Campagnes</value>
+    <comment>word: Campgaigns</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DECInfo">
+    <value>Le &lt;b&gt;Cloud Digital Experience&lt;/b&gt; est une solution d'analyse de mégadonnées (Big data) pour connaître et optimiser l'expérience des utilisateurs dans différents canaux</value>
+    <comment>Brief information about DEC</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TheConnectorIsDisabled">
+    <value>Le connecteur est désactivé.</value>
+    <comment>phrase: The connector is disabled.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnableToConnect">
+    <value>La connexion au Cloud Digital Experience a échoué</value>
+    <comment>Label: Connection to Digital Experience Cloud failеd</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisableAllFeaturesMessage">
+    <value>Si vous désactivez les Personnes, scores de Lead et campagnes, vous ne pourrez plus  les utiliser comme critères de personnalisation. Les segments existants qui utilisent les Personnes ou Campagnes en tant que critère seront désactivées &lt;br /&gt;&lt;br /&gt;Etes-vous sûre de vouloir désactiver les Personnes, scores de Lead et Campagnes ?</value>
+    <comment>Paragraph explaining what happens if you disable Campaigns, Lead scores and Persona features</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackCommentSubmissionsPropNameCaption">
+    <value>Suivre les envois de commentaires</value>
+    <comment>phrase: Track comment submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplicationNamePropNameCaption">
+    <value>Nom de connexion</value>
+    <comment>phrase: Connection name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsightsPageUrlName">
+    <value>Perspectives</value>
+    <comment>URL name of the insights page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonasTitle">
+    <value>Les personnalités sont mises en œuvre par le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>Title of personas page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubjectsMappingTrackingLabel">
+    <value>Cartographie utilisateur (lie l'utilisateur à ses activités lors de sa connexion)</value>
+    <comment>phrase: User mapping (map user with activities upon login)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonaCriterionDescription">
+    <value>Les personas créées dans le Cloud Digital Experience sont ajoutées comme critères dans la personnalisation de pages</value>
+    <comment>phrase: Personas created in Digital Experience Cloud are added as a criteria in page personalization</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForumThreadTrackingLabel">
+    <value>Fil de discussion créé</value>
+    <comment>Word: Created forum thread</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DigitalExperienceCloudDataCenterPhrase">
+    <value>Centre de données Digital Experience Cloud</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText3_2">
+    <value>Le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt; commence immédiatement à recevoir des données sur les activités surveillées</value>
+    <comment>Phrase: Digital Experience Cloud starts receiving data about the tracked activities straight away</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForumSubscriptionDeletedTrackingLabel">
+    <value>Désinscrit d'un forum</value>
+    <comment>phrase: Unsubscribed from a forum</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseWord">
+    <value>Fermer</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LearnMoreLeadScoring">
+    <value>&lt;span class="sfMLeft10"&gt;Ou, &lt;/span&gt; &lt;a href="http://www.sitefinity.com/content-marketing" target="_blank"&gt;en savoir plus&lt;/a&gt;</value>
+    <comment>Label: &lt;span class="sfMLeft10"&gt;Or, &lt;/span&gt; &lt;a href="" target="_blank"&gt;Learn more&lt;/a&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackDownloadsPropNameDescription">
+    <value>La valeur indiquant si les téléchargements doivent être suivis avec le serveur de l'intelligence des données</value>
+    <comment>phrase: The value indicating weather the downloads should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoringInfo">
+    <value>La &lt;b&gt;notation de potentialité client&lt;/b&gt; est le processus de classer les clients potentiels en fonction de leur aptitude à l'achat par rapport à une définition commune d'un client potentiel qualifié.</value>
+    <comment>Brief information about Lead Scoring</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqHeader4">
+    <value>Mes données de suivi sont-elles perdues ?</value>
+    <comment>phrase : Is my tracking data lost?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NamedPersonaInactive">
+    <value>La persona &lt;i&gt;{0}&lt;/i&gt; a été désactivée ou supprimée.</value>
+    <comment>Label: NamedPersonaInactive</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqHeader2">
+    <value>Puis-je étendre la fonctionnalité de suivi en suivant des activités qui ne figurent pas ici ?</value>
+    <comment>phrase : Can I extend the tracking functionality by tracking activities not listed here?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorForDataIntelligence">
+    <value>Connecteur pour le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>Title/header of the module app page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackedAreasAndItemsLabel">
+    <value>Activités suivies</value>
+    <comment>phrase: Tracked details</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackDownloadsPropNameCaption">
+    <value>Suivre les téléchargements</value>
+    <comment>phrase: Track downloads</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqHeader3">
+    <value>Comment me reconnecter au &lt;i&gt;Cloud Sitefinity Digital Experience ?&lt;/i&gt;</value>
+    <comment>phrase : How do I reconnect to Digital Experience Cloud?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangeConnectionLabel">
+    <value>Modifier la connexion</value>
+    <comment>Phrase: Change connection</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsingLeadScoringCan">
+    <value>&lt;b&gt;En utilisant la notation des clients potentiels dans Sitefinity, vous pouvez :&lt;/b&gt;</value>
+    <comment>Label: Using Lead scoring in Sitefinity you can:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsernameReqValidatorLabel">
+    <value>Email doit être renseigné</value>
+    <comment>Validation Label: UsernameReqValidatorLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NetworkingIssuesNoCampaignsLabel">
+    <value>Une erreur s'est produite lors de la connexion au Cloud Sitefinity Digital Experience.</value>
+    <comment>Label: NetworkingIssuesNoCampaignsLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NamedLeadScoreMissingLevel">
+    <value>Le score de Lead &lt;i&gt;{0}&lt;/i&gt; est dans un environnement manquant ou supprimé.</value>
+    <comment>Label: NamedLeadScoreMissingLevel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoreType">
+    <value>Type de scoring pour les leads</value>
+    <comment>phrase: Lead scoring type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContactSales">
+    <value>Contactez &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt; pour activer votre accès au &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>Label: Contact &lt;a href="mailto:sitefinitysales@progress.com"&gt;sitefinitysales@progress.com&lt;/a&gt; to activate your access to &lt;i&gt;Digital Experience Cloud&lt;/i&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackEmailCampaignsInteractionsPropNameDescription">
+    <value>La valeur indiquant si les interactions de la campagne email doivent être suivies par le serveur de données de renseignement</value>
+    <comment>phrase: The value indicating weather the email campaign interactions should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormsTrackingLabel">
+    <value>Formulaire transmis</value>
+    <comment>Phrase: Submitted  form</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackingCookieDomainPropNameCaption">
+    <value>Domaine du cookie de suivi</value>
+    <comment>phrase: Tracking cookie domain</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SalesReadyLeads">
+    <value>Identifier des clients potentiels prêts</value>
+    <comment>Label: Identify sales ready leads</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ModifyFeaturesGenericMessage">
+    <value>Modifier les fonctionnalités du &lt;i&gt;Cloud Digital Experience&lt;/i&gt; (DEC) touchera tous les segments existants utilisant ces fonctionnalités comme critère de personnalisation. &lt;br /&gt;&lt;br /&gt; Êtes-vous sûr de vouloir enregistrer vos modifications ?</value>
+    <comment>Paragraph explaining what happens if you modify DEC features</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReconnectDecMessage">
+    <value>Êtes-vous sûr de vouloir vous reconnecter ?</value>
+    <comment>Label: Are you sure you want to reconnect?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataCenterApiKeyPropNameDescription">
+    <value>La clé API du centre de données qui reçoit des données via le connecteur.</value>
+    <comment>phrase: The API Key of the data center that receives data via the connector</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasswordNotInEncryptedFormatLabel">
+    <value>Le mot de passe n'est pas en format crypté correct - saisissez-le à nouveau dans le formulaire de connexion</value>
+    <comment>Label: PasswordNotInEncryptedFormat</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackingCookieDomainPropNameDescription">
+    <value>Le domaine du cookie de suivi 'sf-data-intell-subject'</value>
+    <comment>phrase: The domain of the tracking cookie 'sf-data-intell-subject'</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Enable">
+    <value>Activer</value>
+    <comment>word: Enable</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetryIntervalPropNameCaption">
+    <value>Intervalle de temps en secondes pour nouvelle tentative</value>
+    <comment>phrase: Retry time interval in seconds</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectLabel">
+    <value>Connecter</value>
+    <comment>Word: Connect</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BaseSegmentInfo">
+    <value>Cible : les utilisateurs qui...</value>
+    <comment>Label: Target: Users who...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsersGroup">
+    <value>Utilisateurs</value>
+    <comment>word: Users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggeledNavigationTrackingLabel">
+    <value>Navigation basculée</value>
+    <comment>phrase: Toggled navigation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FeaturesSettingsLabel">
+    <value>Paramètres des fonctionnalités</value>
+    <comment>phrase: Features settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisconnectLabel">
+    <value>Déconnexion</value>
+    <comment>Word: Disconnect</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Goal">
+    <value>Objectif</value>
+    <comment>Label: Goal</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmReconnectMessage">
+    <value>Oui, reconnecter</value>
+    <comment>Label: Yes, Reconnect</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccountChangeWarning">
+    <value>Vous êtes sur le point de vous connecter à Digital Experience Cloud avec un nouveau compte. Ce compte n'est pas autorisé à accéder aux centres de données que les sites suivantes utilisent pour le tracking:</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackCommentSubmissionsPropNameDescription">
+    <value>La valeur indiquant si les envois de commentaires doivent être suivis par le serveur de données de renseignement</value>
+    <comment>phrase: The value indicating weather the comment submissions should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserLoginTrackingLabel">
+    <value>Utilisateur connecté</value>
+    <comment>phrase: Logged-in user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecBasicSettingsSitesSelectorPrompt">
+    <value>Quels sites tracker dans ce centre de données ?</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqText4">
+    <value>Non. Toutes les données recueillies jusqu'ici (avant la déconnexion) sont stockées dans le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;. Vous pouvez y accéder à tout moment quand vous en avez besoin.</value>
+    <comment>phrase : No. All data collected so far (before disconnect) is stored in Digital Experience Cloud. You can access it anytime you need it.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoCampaignCriteriaDefinedForSegment">
+    <value>Pour créer un segment, vous devez sélectionner une campagne.</value>
+    <comment>Label: NoCampaignCriteriaDefinedForSegment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BrowserNameTrackingLabel">
+    <value>Nom du navigateur</value>
+    <comment>phrase: Browser name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageVisitedTrackingLabel">
+    <value>Page visitée</value>
+    <comment>Phrase: Visited page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectionSettings">
+    <value>Paramètres de connexion</value>
+    <comment>phrase: Connection settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TargetContent">
+    <value>Ciblez le contenu pour différentes personnalités par la personnalisation</value>
+    <comment>Label: Target content for different personas through personalization</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetYourTrackingPhrase">
+    <value>Configurez votre tracking</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CampaignHasEnded">
+    <value>La campagne sélectionnée est terminée</value>
+    <comment>phrase: Selected campaign has ended</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText3_1">
+    <value>Votre instance de Sitefinity se connecte directement au Centre de données du &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>Phrase: Your Sitefinity instance directly connects to the Digital Experience Cloud Data center</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplicationNameRegexValidationLabel">
+    <value>Format non valide. Utilisez jusqu'à 20 caractères. Utilisez uniquement des caractères latins, des chiffres et "_",  "-", "."</value>
+    <comment>Label: ApplicationNameRegexValidationLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PagesGroup">
+    <value>PAGES</value>
+    <comment>word: Pages</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DashboardTemplateUrlPropNameCaption">
+    <value>URL du modèle de tableau de bord</value>
+    <comment>phrase: Dashboard template url</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SocialGroup">
+    <value>Réseaux sociaux</value>
+    <comment>phrase: Social</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackingLostWarning">
+    <value>La connexion avec ce compte va arrêter le tracking pour ces sites.</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ListsGroup">
+    <value>Listes</value>
+    <comment>phrase: Lists</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActiveLabel">
+    <value>Actif</value>
+    <comment>Word: Active</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllowedSitesForTrackingPropNameDescription">
+    <value>Sites autorisés séparés par une virgule pour le suivi des identifiants</value>
+    <comment>phrase: Comma separated allowed sites for tracking ids</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeviceManufacturerTrackingLabel">
+    <value>Fabricant de l'appareil</value>
+    <comment>phrase: Device manufacturer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoreCriterionDisabled">
+    <value>Les valeurs caractéristiques des scores de Lead pour ce segment ont été désactivées ou supprimées.</value>
+    <comment>phrase: Lead score criterion is disabled</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecBasicSettingsTrackingTitle">
+    <value>Tracking</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReferrerTrackingLabel">
+    <value>Venant du site (suivi du referrer)</value>
+    <comment>phrase: Came from site (referrer tracking)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackedCampaign">
+    <value>Campagne dans le &lt;a href="https://dec.sitefinity.com" target="_blank" class="sfExternalRight"&gt;&lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;&lt;/a&gt;</value>
+    <comment>Label: Campaign in Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CancelWord">
+    <value>annuler</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText1_1">
+    <value>Suivez le comportement des utilisateurs sur votre site</value>
+    <comment>Phrase: Track users’ behavior on your website</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText2_3">
+    <value>Nommez cette connexion et saisissez vos identifiants de compte Telerik - nom d'utilisateur et mot de passe. Créez un compte Telerik si vous n'en avez pas</value>
+    <comment>Phrase: Name this connection and enter your Telerik account credentials – user name and password. Create a Telerik account if you do not have one</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntellGroupPageDescription">
+    <value>La page qui maintient les types de notation du Cloud Sitefinity Digital Experience</value>
+    <comment>The Page holding scoring types of Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserActivatedTrackingLabel">
+    <value>Compte d'utilisateur activé</value>
+    <comment>phrase: Activated user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccountConfirmButtonText">
+    <value>Continuer avec le nouveau compte</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForumPostTrackingLabel">
+    <value>Message de forum créé</value>
+    <comment>Word: Created forum post</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Edit">
+    <value>Éditer ...</value>
+    <comment>word: Edit...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackPageVisitsPropNameDescription">
+    <value>La valeur indiquant si les visites de la page doivent être suivies par le serveur de données de renseignement</value>
+    <comment>phrase: The value indicating weather the page visits should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackingSettings">
+    <value>Paramètres de suivi</value>
+    <comment>phrase: Tracking settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectedPropNameDescription">
+    <value>Détermine si le module permettra de suivre et d'envoyer des informations au Cloud Marketing.</value>
+    <comment>Phrase: Determines whether the module will track and send information to Marketing Cloud.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Stages">
+    <value>Environnements</value>
+    <comment>word: Stages</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OtherGroup">
+    <value>Autres</value>
+    <comment>phrase: Other</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DetailsLabel">
+    <value>Activités suivies</value>
+    <comment>phrase: TRACKED ACTIVITIES</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="GoTo">
+    <value>Aller à</value>
+    <comment>GoTo</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="APIKeyReqValidatorLabel">
+    <value>La clé API du centre de données ne peut être vide</value>
+    <comment>Validation Label: APIKeyReqValidatorLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidCredentialsLabel">
+    <value>Informations d'identification non valides</value>
+    <comment>Label: Invalid credentials</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CredentialsDescriptionLabel">
+    <value>Vous devez disposer d'un compte Telerik existant &lt;br/&gt; Le nom d'utilisateur sera utilisé pour les appels au serveur d'API</value>
+    <comment>Phrase: You should have a created Telerik Account The username will be used for API server calls</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText1_3">
+    <value>Profilez votre public pour créer du contenu percutant et atteignez les objectifs commerciaux et marketing de votre entreprise</value>
+    <comment>Phrase: Profile your audience to create impactful content and succeed in your company’s business and marketing goals</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SaveLabel">
+    <value>Enregistrer</value>
+    <comment>Word: Save</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserCreatedMetadataTrackingLabel">
+    <value>Métadonnées utilisateur</value>
+    <comment>phrase: Created user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UseAnotherCampaign">
+    <value>Vous pouvez baser ce segment sur une autre campagne</value>
+    <comment>Label: UseAnotherCampaign</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsingPersonasCan">
+    <value>&lt;b&gt;En utilisant les personas dans Sitefinity, vous pouvez :&lt;/b&gt;</value>
+    <comment>Label: Using personas in Sitefinity you can:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpHeader2">
+    <value>Comment me connecter ?</value>
+    <comment>Phrase: How do I connect?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoringPageUrlName">
+    <value>notation-potentialite-client</value>
+    <comment>The URL of the lead scoring page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackLoginLogout">
+    <value>Suivre les connexions/déconnexions</value>
+    <comment>phrase: Track login / logout</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsightsViewTitle">
+    <value>Perspectives du Cloud Digital Experience</value>
+    <comment>Title of the insights view</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonaInactive">
+    <value>La persona sélectionnée n'est pas active.</value>
+    <comment>Label: PersonaInactive</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApiServerUrlLabel">
+    <value>URL du serveur d'API</value>
+    <comment>Phrase: API Server Url</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="VideosGroup">
+    <value>Vidéos</value>
+    <comment>phrase: Videos</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangeWord">
+    <value>Changer</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackLoginLogoutPropNameDescription">
+    <value>La valeur indiquant si les actions de connexion et déconnexion devraient être suivies avec le serveur de données de renseignement</value>
+    <comment>phrase: The value indicating weather the login and logout actions should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AddTrackingPhrase">
+    <value>Ajouter le tracking</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasswordLabel">
+    <value>Mot de passe</value>
+    <comment>Label: Password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsernameNotInEncryptedFormatLabel">
+    <value>Le nom d'utilisateur n'est pas en format crypté correct - saisissez-le à nouveau dans le formulaire de connexion</value>
+    <comment>Label: UsernameNotInEncryptedFormat</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectorForDigitalExperienceCloud">
+    <value>Connecteur pour Digital Experience Cloud</value>
+    <comment>Title of the data intelligence module group page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectedPropNameCaption">
+    <value>Connecté</value>
+    <comment>Word: Connected</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetryIntervalPropNameDescription">
+    <value>Intervalle de temps après lequel, en cas d'échec, une demande est renvoyée au Cloud Sitefinity Digital Experience.</value>
+    <comment>Phrase: Time interval after which the requests to Digital Experience Cloud will be resend in case of failure.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoActiveCampaignsLabel">
+    <value>Aucune campagne active n'est disponible dans le &lt;a href="https://dec.sitefinity.com" target="_blank" class="sfExternalRight"&gt;Cloud Sitefinity Digital Experience&lt;/a&gt;</value>
+    <comment>Label: NoActiveCampaignsLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoringTitle">
+    <value>La notation de potentialité client est fournie par le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>Title of lead scoring page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText2_2">
+    <value>Obtenez la clé API du centre de données et utilisez-la sur cet écran pour vous connecter au &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>Phrase: Get the Data center API key and use it on this screen to connect to Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackPageVisitsPropNameCaption">
+    <value>Suivre les visites des pages</value>
+    <comment>phrase: Track page visits</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoringPageTitle">
+    <value>Notation de potentialité client</value>
+    <comment>Title of the lead scoring page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewsletterSubscriptionDeletedTrackingLabel">
+    <value>Désabonné de la campagne e-mail</value>
+    <comment>phrase: Unsubscribed from email campaign</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Status">
+    <value>Statut</value>
+    <comment>word:Status</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Save">
+    <value>Enregistrer</value>
+    <comment>word: Save</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CampaignCriterionDescription">
+    <value>Les segments de personnalisation peuvent être fondés sur les campagnes créées dans le Cloud Digital Experience</value>
+    <comment>phrase: Personalization segments can be based on Campaigns created in Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecBasicSettingsNoSitesMessage">
+    <value>Aucun site configuré pour être tracké  dans Digital Cloud Experience</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForumSubscriptionCreatedTrackingLabel">
+    <value>Inscrit à un forum</value>
+    <comment>phrase: Subscribed to a forum</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConnectionDetailsLabel">
+    <value>Détails de connexion</value>
+    <comment>Phrase: Credentials for Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IsAuthLocalDescription">
+    <value>L'authentification est-elle effectuée vers TFIS local ; si non, alors TFIS Live sera utilisé</value>
+    <comment>phrase: Is authentication executed towards local TFIS; If not, then live TFIS will be used</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonaCriterionDisabled">
+    <value>Les valeurs des caractéristiques de persona pour ce segment ont été désactivées ou supprimées.</value>
+    <comment>phrase: Persona criterion is disabled</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileVisitors">
+    <value>Profilez les visiteurs et associez-les à l'un des personas définis</value>
+    <comment>Label: Profile visitors and match them to any of the defined persona</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqText3">
+    <value>Il suffit de cliquer sur &lt;i&gt;Reconnexion&lt;/i&gt; et vous serez immédiatement connecté</value>
+    <comment>phrase : Simply click Reconnect and you will be immediately connected</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectADataCenterPhrase">
+    <value>Sélectionner un centre de données</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RecommendedAction">
+    <value>Expérience recommandée</value>
+    <comment>Label: Recommended experience</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UtmParamsTrackingLabel">
+    <value>A participé à la campagne (paramètres UTM)</value>
+    <comment>phrase: Participated in campaign (UTM parameters)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntelligenceInstructionsHeader">
+    <value>Pourquoi utiliser le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt; ?</value>
+    <comment>Phrase: Why use Digital Experience Cloud?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TimeoutNameDescription">
+    <value>Intervalle de temps après lequel une requête envoyée au Cloud Sitefinity Digital Experience prend fin.</value>
+    <comment>Phrase: Time interval after which a request sent to Digital Experience Cloud will be terminated</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntellGroupPageTitle">
+    <value>Cloud Digital Experience</value>
+    <comment>Title of the data intelligence module group page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetUpScoringRules">
+    <value>Mise en place des règles de notation</value>
+    <comment>Label: Set up scoring rules</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisconnectDecMessage">
+    <value>Si vous vous déconnectez, le suivi des activités du site sera arrêté et tous les segments de personnalisation utilisant les données du &lt;i&gt;Cloud Digital Experience&lt;/i&gt; seront désactivés. &lt;br /&gt;&lt;br /&gt; Êtes-vous sûr de vouloir vous déconnecter ?</value>
+    <comment>Paragraph explaining what happens if you disconnect Digital Experience Cloud connector</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackDownloads">
+    <value>Suivre les téléchargements</value>
+    <comment>phrase: Track downloads</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewsletterSubscriptionCreatedTrackingLabel">
+    <value>Inscrit à la campagne e-mail</value>
+    <comment>phrase: Subscribed to email campaign</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DECGoToLinkText">
+    <value>Cloud Digital Experience</value>
+    <comment>phrase : Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BrowserLanguageTrackingLabel">
+    <value>Langue du navigateur</value>
+    <comment>phrase: Browser language</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DashboardTemplateUrlPropNameDescription">
+    <value>Url du modèle de tableau de bord utilisé pour afficher les aperçus / perspectives du DEC</value>
+    <comment>phrase: Url of the dashboard template used for showing DEC insights</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoreCriterion">
+    <value>Scores des Leads</value>
+    <comment>word: Lead scores</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplicationNamePropNameDescription">
+    <value>Le nom de la connexion est utilisé dans le Cloud Sitefinity Digital Experience pour distinguer les données de ce site de celles provenant d'autres sources.</value>
+    <comment>phrase: The connection name is used by Digital Experience Cloud to distinguish Sitefinity data from other sources’ data.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForumThreadSubscriptionCreatedTrackingLabel">
+    <value>Inscrit à une discussion de forum</value>
+    <comment>phrase: Subscribed to a forum thread</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText2_1">
+    <value>Créer un centre de données dans le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt; (ou en utiliser un déjà créé)</value>
+    <comment>Phrase: Create a Data Center in Digital Experience Cloud (or use an already created one)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TheConnectorIsEnabled">
+    <value>Le connecteur est activé.</value>
+    <comment>phrase: The connector is enabled.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApiServerUrlPropNameDescription">
+    <value>L'URL du serveur d'API à laquelle ce connecteur se connecte</value>
+    <comment>phrase: The API Server URL to which this connector connects to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StagesLeadNurturing">
+    <value>Définir les étapes pour la stimulation des prospects</value>
+    <comment>Label: Define stages for lead nurturing</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CampaignCriterionTitle">
+    <value>Campagne (Digital Experience Optimizer)</value>
+    <comment>Label: Campaign (from Digital Experience Cloud)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntelligenceSettingsHeader">
+    <value>Connexion au &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>phrase : Connect to Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Disable">
+    <value>Désactiver</value>
+    <comment>word: Disable</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeactivatedLabel">
+    <value>Désactivé</value>
+    <comment>Word: Disabled</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonalizedWidgetTrackingLabel">
+    <value>Widget Visités personnalisé</value>
+    <comment>phrase: Visited personalized widget</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisableLeadScoreMessage">
+    <value>Si vous désactivez les scores de Lead vous ne pourrez plus  les utiliser comme critères de personnalisation. Les segments existants qui utilisent les scores de Lead  en tant que critère seront désactivées &lt;br /&gt;&lt;br /&gt;Etes-vous sûr de vouloir désactiver les scores de Lead ?</value>
+    <comment>Paragraph explaining what happens if you disable Lead scores features</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FileDownloadsGroup">
+    <value>Fichiers</value>
+    <comment>Phrase: Files</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpHeader3">
+    <value>Que se passe-t-il après ma connexion au &lt;i&gt;Cloud Sitefinity Digital Experience ?&lt;/i&gt;</value>
+    <comment>Phrase: What happens after I connect to Digital Experience Cloud?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonasPageUrlName">
+    <value>Personas</value>
+    <comment>The URL of the personas page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApiServerUrl">
+    <value>URL du serveur d'API</value>
+    <comment>phrase: API Server URL</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecBasicSettingsNoSitesForTracking">
+    <value>Tous les sites sont maintenant trackés</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TimeoutNameCaption">
+    <value>Délai en millisecondes</value>
+    <comment>Phrase: Timeout in milliseconds</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisableCampaignsMessage">
+    <value>Si vous désactivez la fonctionnalité Campagnes, vous ne serez plus en mesure de les utiliser comme critère de personnalisation. Les segments existants utilisant des campagnes comme critère seront désactivés. &lt;br /&gt;&lt;br /&gt; Êtes-vous sûr de vouloir supprimer la fonction Campagnes ?</value>
+    <comment>Paragraph explaining what happens if you disable Campaigns features</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DashboardResourcesUrlPropNameCaption">
+    <value>URL des ressources du tableau de bord</value>
+    <comment>phrase: Dashboard resources url</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmDisconnectMessage">
+    <value>Oui, déconnecter</value>
+    <comment>Label: Yes, Disconnect</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntellConnectorGroupPageTitle">
+    <value>Cloud Digital Experience</value>
+    <comment>Title of the data intelligence module group page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackPageVisits">
+    <value>Suivre les visites des pages</value>
+    <comment>phrase: Track page visits</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsightsPageTitle">
+    <value>Perspectives</value>
+    <comment>Title of the insights page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NamedCampaignEnded">
+    <value>La campagne &lt;i&gt;{0}&lt;/i&gt; est terminée.</value>
+    <comment>Label: CampaignEnded</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewPersonaInDec">
+    <value>Voir toutes les personnalités dans le &lt;a href="https://dec.sitefinity.com" target="_blank" class="sfExternalRight"&gt;Cloud Sitefinity Digital Experience&lt;/a&gt;</value>
+    <comment>Label: ViewPersonaInDec</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoPersonasFound">
+    <value>Aucune persona n'a encore été créée.</value>
+    <comment>Label: There are no personas created yet.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateLeadScore">
+    <value>Pour créer un score de Lead, allez sur</value>
+    <comment>Label: To create a lead score go to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BrowserAndDeviceGroup">
+    <value>Navigateur et appareil</value>
+    <comment>phrase: Browser and device</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CampaignTrackingEnds">
+    <value>Fin du suivi de campagne</value>
+    <comment>Label: Campaign period</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Done">
+    <value>Fait</value>
+    <comment>word: Done</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SitefinityWord">
+    <value>Sitefinity</value>
+    <comment>Gets a resource string.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecAppUrlPropNameDescription">
+    <value>URL de l'application Web à laquelle se connecte ce connecteur</value>
+    <comment>phrase: The  Web Application URL to which this connector connects to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="APIKeyGUIDValidatorLabel">
+    <value>La clé API du centre de données doit être un GUID valide</value>
+    <comment>Validation Label: APIKeyGUIDValidatorLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileCreatedMetadataTrackingLabel">
+    <value>Métadonnées de profil utilisateur</value>
+    <comment>phrase: Created profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataCenterApiKey">
+    <value>Clé API du centre de données</value>
+    <comment>phrase: Data Center API key</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApiKeyLabel">
+    <value>Clé API du centre de données</value>
+    <comment>Phrase: Data center API Key</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpText1_2">
+    <value>Visualiser les données dans des rapports précis dans le Cloud Sitefinity Digital Experience</value>
+    <comment>Phrase: Visualize data in meaningful reports in Digital Experience Cloud</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SiteToApiKeyMappings">
+    <value>Mappings Nom du site  &lt;-&gt;Clé  API</value>
+    <comment>SiteToApiKeyMappings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntellConnectorGroupPageUrlName">
+    <value>sitefinity-dec-connector</value>
+    <comment>The URL of the data intelligence connector module group page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonaCriterionTitle">
+    <value>Persona (du Cloud Digital Experience)</value>
+    <comment>Label: Persona (from Digital Experience Cloud)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NamedLeadScoreInactive">
+    <value>Le score de Lead  &lt;i&gt;{0}&lt;/i&gt;  a été désactivé ou supprimé</value>
+    <comment>Label: NamedLeadScoreInactive</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeviceTypeTrackingLabel">
+    <value>Type de dispositif</value>
+    <comment>phrase: Device type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsTrackingLabel">
+    <value>Commentaire créé</value>
+    <comment>Word: Created comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IsAuthLocalCaption">
+    <value>Authentification locale ?</value>
+    <comment>phrase: Is authentication local</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForumThreadSubscriptionDeletedTrackingLabel">
+    <value>Désinscrit d'une discussion de forum</value>
+    <comment>phrase: Unsubscribed from a forum thread</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackLoginLogoutPropNameCaption">
+    <value>Suivre les connexions/déconnexions</value>
+    <comment>phrase: Track login / logout</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LearnMorePersonas">
+    <value>&lt;span class="sfMLeft10"&gt;Ou, &lt;/span&gt; &lt;a href="http://www.sitefinity.com/content-marketing" target="_blank"&gt;en savoir plus&lt;/a&gt;</value>
+    <comment>Label: &lt;span class="sfMLeft10"&gt;Or, &lt;/span&gt; &lt;a href="" target="_blank"&gt;Learn more&lt;/a&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApiServerUrlPropNameCaption">
+    <value>URL du serveur d'API</value>
+    <comment>phrase: API Server URL</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoreCriterionDescription">
+    <value>Les scores de Lead créés dans Digital Expérience Cloud sont ajoutés en tant que critères pour la personnalisation des pages</value>
+    <comment>phrase: Lead scores created in Digital Experience Cloud are added as a criteria in page personalization</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="HelpHeader1">
+    <value>Utilisez le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt; pour :</value>
+    <comment>Phrase: Use Digital Experience Cloud to:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SettingsLabel">
+    <value>Paramètres</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecAppUrlPropNameCaption">
+    <value>URL de l'application Web</value>
+    <comment>phrase: Web Application URL</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileUpdatedMetadataTrackingLabel">
+    <value>Profil mis à jour</value>
+    <comment>phrase: Updated profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackForumSubmissions">
+    <value>Suivre les envois du forum</value>
+    <comment>phrase: Track forum submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackFormSubmissionsPropNameCaption">
+    <value>Suivre les envois de formulaires</value>
+    <comment>phrase: Track form submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="For">
+    <value>Pour</value>
+    <comment>Label: For</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntellConnectorGroupPageDescription">
+    <value>Le connecteur pour le Cloud Sitefinity Digital Experience</value>
+    <comment>The description of the DEC connector module group page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReconnectLabel">
+    <value>Reconnexion</value>
+    <comment>Word: Reconnect</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonalizedPageTrackingLabel">
+    <value>Page personnalisée visitée</value>
+    <comment>phrase: Visited personalized page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackForumSubmissionsPropNameCaption">
+    <value>Suivre les envois du forum</value>
+    <comment>phrase: Track forum submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackFormSubmissionsPropNameDescription">
+    <value>La valeur indiquant si les demandes par formulaire doivent être suivies par le serveur de données de renseignement</value>
+    <comment>phrase: The value indicating weather the form submissions should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackCommentSubmissions">
+    <value>Suivre les envois de commentaires</value>
+    <comment>phrase: Track comment submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataIntelligenceAccountSettingsHeader">
+    <value>Se connecter au Cloud Sitefinity Digital Experience en utilisant votre clé API</value>
+    <comment>Phrase: Connect to Digital Experience Cloud using your API Key</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SeeAudience">
+    <value>Voir les tendances sur la répartition des visiteurs qui passent les seuils de persona</value>
+    <comment>Label: See audience trends on the distribution of visitors that pass persona thresholds</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidLeadScoreMessage">
+    <value>Veuillez sélectionner un scoring de lead</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplicationNameDescriptionLabel">
+    <value>Utilisez jusqu'à 20 caractères. Nous vous recommandons d'utiliser ici le nom du site ou l'URL. Ce nom sera utilisé dans le &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt; pour distinguer les données de ce site de celles provenant d'autres sources.</value>
+    <comment>Phrase: Use up to 20 characters. We recommend to use site name or URL here. This name will be used in Digital Experience Cloud  to distinct the data from this site from data coming from other data sources</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplicationNameReqValidationLabel">
+    <value>Le nom de cette connexion doit être renseigné</value>
+    <comment>Label: ApplicationNameReqValidationLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllowedSitesForTrackingPropNameCaption">
+    <value>Suivre toutes les activités pour</value>
+    <comment>phrase: Track all activities for</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqHeader1">
+    <value>Puis-je désactiver le suivi de certaines activités ?</value>
+    <comment>phrase : Can I turn off some activities from tracking?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidLeadScoreLevelsMessage">
+    <value>Veuillez sélectionner au moins une étape</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackForumSubmissionsPropNameDescription">
+    <value>La valeur indiquant si les envois dans les forums doivent être suivis par le serveur de données de renseignement</value>
+    <comment>phrase: The value indicating weather the forum submissions should be tracked with the data intelligence server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqText2">
+    <value>Oui. Vous pouvez suivre toute autre activité, par exemple quand un utilisateur fait défiler une image, clique sur un bouton spécifique, ainsi de suite.</value>
+    <comment>phrase : Yes. You can track any other activity, for example when a user scrolls down to an image, clicks on a specific button, and so forth.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PersonasInfo">
+    <value>Les &lt;b&gt;personas&lt;/b&gt;, ou personnalités, sont des personnes fictives représentant les principaux groupes de vos utilisateurs avec leurs différentes caractéristiques.</value>
+    <comment>Brief information about Personas</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreatePersona">
+    <value>Pour créer une personnalité, allez sur</value>
+    <comment>Label: To create a persona go to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DataCenterApiKeyPropNameCaption">
+    <value>Clé API du centre de données</value>
+    <comment>phrase: Data center API key</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasswordReqValidatorLabel">
+    <value>Le mot de passe Telerik doit être renseigné</value>
+    <comment>Validation Label: PasswordReqValidatorLabel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DocumentsTrackingLabel">
+    <value>Document téléchargé</value>
+    <comment>Phrase: Downloaded  document</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BrowserVersionTrackingLabel">
+    <value>Version du navigateur</value>
+    <comment>phrase: Browser version</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmModifyFeaturesMessage">
+    <value>Oui, enregistrer</value>
+    <comment>Label: Yes, Save</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoLeadScoresFound">
+    <value>Aucun score de Lead n'a encore été créé.</value>
+    <comment>Label: There are no lead scores created yet.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="APIKeyDescriptionLabel">
+    <value>Pour l'obtenir, allez dans &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt; &gt; Administration &gt; Votre centre de données</value>
+    <comment>Phrase: To get it, go to Digital Experience Cloud &gt; Administration &gt; Your data center</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisablePersonasMessage">
+    <value>Si vous désactivez la fonctionnalité Personas, vous ne serez plus en mesure de les utiliser comme critère de personnalisation. Les segments existants utilisant des Personas comme critère seront désactivés. &lt;br /&gt;&lt;br /&gt; Êtes-vous sûr de vouloir supprimer la fonction Personas ?</value>
+    <comment>Paragraph explaining what happens if you disable Personas features</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Change">
+    <value>Changer ...</value>
+    <comment>word: Change...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CampaingsCriterionDisabled">
+    <value>Les valeurs caractéristiques de campagne pour ce segment ont été désactivées ou supprimées.</value>
+    <comment>phrase: Campaings criterion is disabled</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoreCriterionTitle">
+    <value>Score de Lead (de Digital Expérience Cloud)</value>
+    <comment>Lead score (from Digital Experience Cloud)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplicationNameLabel">
+    <value>Nommez cette connexion</value>
+    <comment>Phrase: How to label tracked data?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsGroup">
+    <value>commentaires</value>
+    <comment>Word: Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FaqText1">
+    <value>Oui. Vous pouvez toujours désactiver le suivi de certains événements. Pour ce faire, vous pouvez utiliser les outils fournis par les SDK JavaScript et C# du &lt;i&gt;Cloud Sitefinity Digital Experience&lt;/i&gt;</value>
+    <comment>phrase : Yes. You can always turn some events off from tracking. To do so, you can use the tools provided by the Digital Experience Cloud - JavaScript and C# SDK's</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackEmailCampaignsInteractionsPropNameCaption">
+    <value>Suivre les interactions de campagnes emails</value>
+    <comment>phrase: Track email campaigns interactions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExpandedListTrackingLabel">
+    <value>Liste complète</value>
+    <comment>phrase: Expanded list</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IsEnabledPropNameCaption">
+    <value>Est activé</value>
+    <comment>phrase: Is enabled</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackFormSubmissions">
+    <value>Suivre les envois de formulaires</value>
+    <comment>phrase: Track form submissions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RetryMaxAttemptsPropNameDescription">
+    <value>Nombre maximal de tentatives d'envoi d'une requête au Cloud Sitefinity Digital Experience.</value>
+    <comment>Phrase: Maximum retry attempts for the requests to the Digital Experience Cloud.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeadScoreInactive">
+    <value>Le score de Lead sélectionné n'est pas actif.</value>
+    <comment>Label: LeadScoreInactive</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormsGroup">
+    <value>Formulaires</value>
+    <comment>Word: Forms</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

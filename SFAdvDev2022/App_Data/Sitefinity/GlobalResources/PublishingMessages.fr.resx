@@ -1,0 +1,1195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SocialSection">
+    <value>Réseaux sociaux</value>
+    <comment>phrase: Social</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentPublicationDate">
+    <value>Date de Publication</value>
+    <comment>Title of the Content PublicationDate field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Flux &amp; Notifications</value>
+    <comment>The title of the Publishing module.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterStartUsingTwitterAPI">
+    <value>pour commencer à utiliser l'API de Twitter</value>
+    <comment>Phrase: ' to start using the Twitter API'. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterAddedTwitterApplications">
+    <value>Applications Twitter ajoutées</value>
+    <comment>Phrase: Added Twitter applications. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AddAnotherExportPipe">
+    <value>Ajouter plus...</value>
+    <comment>word: Add another export pipe</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterRegisterBitly">
+    <value>Enregistrez votre propre compte bit.ly</value>
+    <comment>Phrase: Register an account with bitly. Appears in Administration-&gt;Settings-&gt;Twitter. Link to bitly site</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NonexistentCalendar">
+    <value>agenda inexistant</value>
+    <comment>phrase: nonexistent calendar</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FeedsOutputCacheProfileName">
+    <value>Profil du cache de sortie à utiliser pour mettre en cache les flux produits</value>
+    <comment>Label describing the output cache setting</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ButtonTitleOnly">
+    <value>Titre seulement</value>
+    <comment>word: Title only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ListItems">
+    <value>Éléments de liste</value>
+    <comment>word: List Items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlogPosts">
+    <value>Articles de blog</value>
+    <comment>word: Blog Posts</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateCreatedColon">
+    <value>Création :</value>
+    <comment>phrase: Created:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ValidationWholeNumber">
+    <value>Doit être un nombre entier</value>
+    <comment>word: Should be a whole number</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MappingTranslators">
+    <value>Configurer les traducteurs</value>
+    <comment>Label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssPublicationDate">
+    <value>Date de Publication</value>
+    <comment>Title of the RSS PubDate field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterApplicationName">
+    <value>Nom de l'application</value>
+    <comment>phrase: Application Name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EventsAllCalendars">
+    <value>Événements de tous les agendas</value>
+    <comment>phrase: Events from all calendars</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LiterakAllItemsInTheFeedContains">
+    <value>Un élément dans le flux contient</value>
+    <comment>word: An item in the feed contains</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishingUrlName">
+    <value>Flux</value>
+    <comment>Publishing URL name.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemHash">
+    <value>Hash de l'article</value>
+    <comment>Item Hash</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateOwnerHeader">
+    <value>Créé le/Propriétaire</value>
+    <comment>phrase: Created on/Owner</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterPipeUIName">
+    <value>Sélectionnez un flux</value>
+    <comment>Select a feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ValidationMessageUrlCannotBeEmpty">
+    <value>Le nom de l'URL ne peut pas être vide</value>
+    <comment>word: Url name cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OriginalItemId">
+    <value>Id de l'article original</value>
+    <comment>Original Item Id</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectFeed">
+    <value>Sélectionnez un flux</value>
+    <comment>Select a feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccountName">
+    <value>Nom du compte</value>
+    <comment>Phrase: Account Name. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterPipeName">
+    <value>Twitter</value>
+    <comment>Twitter pipe name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterAssociateTwitterUser">
+    <value>Utilisateur Twitter associé</value>
+    <comment>Phrase: Associate Twitter User. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssOwnerLastName">
+    <value>Nom du propriétaire</value>
+    <comment>Title of the RSS OwnerLastName field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectContent">
+    <value>Sélectionner le contenu</value>
+    <comment>phrase: Select content</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RadioIncludeTheNewest">
+    <value>Inclure le plus récent</value>
+    <comment>word: Include the newest</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ValidationNumberGreaterThanZero">
+    <value>Le nombre doit être supérieur à zéro</value>
+    <comment>word: The number should be greater than zero</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishingMessagesTitle">
+    <value>Messages de publication</value>
+    <comment>The title of this resource class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterAddARegisteredTwitterApplication">
+    <value>Ajouter une application Twitter enregistrée</value>
+    <comment>phrase: Add a registered Twitter application. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssOwnerEmail">
+    <value>Email du propriétaire</value>
+    <comment>Title of the RSS OwnerEmail field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NonexistentBlog">
+    <value>Blog inexistant</value>
+    <comment>phrase: nonexistent blog</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssOwnerFirstName">
+    <value>Prénom du propriétaire</value>
+    <comment>Title of the RSS OwnerFirstName field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3Password">
+    <value>Mot de passe</value>
+    <comment>phrase: Password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ValidationMessagePop3Account">
+    <value>Le compte POP3 doit être paramétré</value>
+    <comment>phrase: POP3 account must be set</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExampleUnderTitle">
+    <value>Important ! Ce titre sera visible pour les internautes et les moteurs de recherche. Ex.  si vous créez un flux RSS, son titre sera le titre de l'ensemble du flux dans le lecteur RSS (par exemple  Google Reader)</value>
+    <comment>word: Important! This title will be visible for people and search engines. E.g. if you create a RSS feed, the title will be the title of the whole feed in the RSS reader (e.g. Google Reader)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterFeedWidgetTitle">
+    <value>Flux Twitter</value>
+    <comment>phrase: Twitter Feed </comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ValidationMessagePop3ServerPortValidation">
+    <value>Le port doit être un nombre positif</value>
+    <comment>phrase: The port must be a positive natural number</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Groupe de pages pour le module de publication.</value>
+    <comment>Publishing Page Group Description</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Autorisations</value>
+    <comment>Label for the buttons that switch to the permissions dialog.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceApiKeyNotEmpty">
+    <value>La clé API ne peut être vide</value>
+    <comment>Phrase: API Key cannot be empty. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectInboundPipes">
+    <value>Contenu à inclure</value>
+    <comment>Label for the inbound pipes selector</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PipeSettingsUrlNameNotSet">
+    <value>L'url du flux RSS sera généré automatiquement</value>
+    <comment>phrase: RSS feed url will be generated automatically</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NonexistentProduct">
+    <value>produit inexistant</value>
+    <comment>phrase: nonexistent product</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ButtonTitleAndContent">
+    <value>Titre et contenu</value>
+    <comment>word: Title and content</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterWhichTwitterApplicationToUse">
+    <value>Quelle est l'application Twitter à utiliser ?</value>
+    <comment>Phrase: Which Twitter application to use?. Appears in Administration-&gt;Feeds &amp; Notifications-&gt;Edit feed-&gt;Publish as-&gt;Add more...-&gt;Twitter feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentParentItemId">
+    <value>Id de l'élément parent</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldParentItemId field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExportToContentType">
+    <value>Importer des données comme</value>
+    <comment>Title of content picker in Content outbound pipe</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Éditer...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShorteningService">
+    <value>Service de raccourcissement</value>
+    <comment>Phrase: Shortening Service. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SslOption">
+    <value>Utiliser une connexion SSL</value>
+    <comment>phrase: Use SSL Connection</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackLinksPages">
+    <value>Page où ce contenu est publié</value>
+    <comment>Label in the content inbound pipe designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Calendars">
+    <value>Agendas</value>
+    <comment>word: Calendars</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentContent">
+    <value>Contenu</value>
+    <comment>Title of the Content Content field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LastPublicationOn">
+    <value>Dernière publication le :</value>
+    <comment>word: Last publication on:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishDataQuestion">
+    <value>Publier automatiquement les données importées</value>
+    <comment>Asing weather data should be publsihed after being imported</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterAssociationSuccess">
+    <value>L'utilisateur {0} a été associé avec succès.</value>
+    <comment>Successful Twitter association message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceName">
+    <value>Service de raccourcissement</value>
+    <comment>Phrase: Shortening service. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Mapping">
+    <value>Correspondance</value>
+    <comment>Label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChoiceRssAndAtomSeparated">
+    <value>RSS et Atom séparés</value>
+    <comment>word: RSS and Atom separated</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3PipeName">
+    <value>Contenu du message</value>
+    <comment>POP3 mail inbound pipe name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemsAllLists">
+    <value>Articles de toutes les listes</value>
+    <comment>phrase: Items from all lists</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentLink">
+    <value>Lien</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldLink field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InactiveFeeds">
+    <value>Flux inactifs</value>
+    <comment>The text of inactive feeds sidebar button</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>word: View</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="dataItemsProviderSettings">
+    <value>Paramètres du fournisseur d'éléments de données</value>
+    <comment>Dictionary of settings for the initialization of publishing data items providers.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SearchPattern">
+    <value>Motif de recherche Twitter</value>
+    <comment>Twitter search pattern</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterRegisterTwitterApp">
+    <value>Enregistrer une application dans Twitter</value>
+    <comment>Phrase: Register an application in Twitter. Appears in Administration-&gt;Settings-&gt;Twitter. Link to Twitter site</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssHash">
+    <value>Identifiant de hachage unique</value>
+    <comment>A generated uniqe hash identifier of a RSS item</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishingConfig">
+    <value>Config de la publication</value>
+    <comment>Configuration section description.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProviderSettings">
+    <value>Paramètres du fournisseur</value>
+    <comment>Dictionary of settings for the initialization of publishing providers.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentOwnerUsername">
+    <value>Nom d'utilisateur du propriétaire</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldUsername field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AdvancedOptionsSection">
+    <value>Options avancées &lt;em class='sfNote'&gt;(structure de données, type de flux)&lt;/em&gt;</value>
+    <comment>Phrase: Advanced options (Caching, Multiple URLs, Head tags)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PipeSettingsShortDescriptionBase">
+    <value>Le flux RSS est disponible sur :&lt;br /&gt;</value>
+    <comment>phrase: RSS feed is available on:&lt;br /&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IncorrectUrlFormat">
+    <value>Veuillez vérifier que le format de l'URL est correct</value>
+    <comment>phrase: Please, verify the URL is in correct format</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChoiceSmartFeed">
+    <value>Flux intelligent compatible avec toute application de lecture de flux</value>
+    <comment>word: Smart feed compatible with any feed reader application</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IncludeAllItems">
+    <value>Inclure tous les éléments</value>
+    <comment>word: Include all items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProviderNameQueryKey">
+    <value>Format du nom d'utilisateur</value>
+    <comment>Gets or sets the query string key used to look up provider name from query string</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByLastPublication">
+    <value>Par dernière publication</value>
+    <comment>The title of the feeds by last publication sidebar section</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Feed">
+    <value>Flux</value>
+    <comment>word: Feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssFeedUrlName">
+    <value>Nom d'URL</value>
+    <comment>Rss Feed url name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserAvatar">
+    <value>Avatar de l'utilisateur</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExposeAuthorEmailInFeeds">
+    <value>Définit si l'email de l'auteur (pour les articles de blog, etc.) apparaîtra dans les flux RSS.</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Fournit une fonctionnalité de syndication et publication de contenu vers des et provenant de systèmes externes</value>
+    <comment>The description of the Publishing module</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AddMapping">
+    <value>Ajouter une liaison</value>
+    <comment>Label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WarningMessagePop3DeleteOnRetrieve">
+    <value>&lt;strong&gt;Attention :&lt;/strong&gt; Tous les messages récupérés seront supprimés du serveur POP3.</value>
+    <comment>phrase: Warning: All successfully retrieved mail messages will be deleted from the server.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3SenderFirstName">
+    <value>Prénom de l'envoyeur</value>
+    <comment>phrase: Sender first name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MappingSettings">
+    <value>Préférences des liaisons</value>
+    <comment>Label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentTags">
+    <value>Catégories</value>
+    <comment>Title of the Content Tags field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceAccountLogin">
+    <value>Login du compte</value>
+    <comment>Phrase: Account Login. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TitleFieldTitle">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentPipeName">
+    <value>Contenu Sitefinity</value>
+    <comment>Content inbound pipe name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterPipeSettingsShortDescription">
+    <value>Le fil Twitter est disponible sur :&lt;br /&gt;</value>
+    <comment>phrase: Twitter feed is available on:&lt;br /&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SettingsPipeLabel">
+    <value>Paramètres...</value>
+    <comment>word: Settings...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RunPipes">
+    <value>Effectuer</value>
+    <comment>Label used for the Execute pipes action</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentDateCreated">
+    <value>Date de création</value>
+    <comment>Title of the Content pipe PublishingConstants.ContentDateCreated field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Advanced">
+    <value>Avancé</value>
+    <comment>Label: Advanced</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FeedsBaseUrlPattern">
+    <value>Url de base des flux : {0}</value>
+    <comment>phrase: Feeds base url: {0}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Catégories</value>
+    <comment>word: Categories</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Persistent">
+    <value>Persistant</value>
+    <comment>Label: Persistent</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PagePipe">
+    <value>HTML statique dans les pages</value>
+    <comment>Page pipe</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3PipeSettingsImportShortDescription">
+    <value>Importation du serveur POP3 : {0}, compte : {1}</value>
+    <comment>phrase: Importing from POP3 server: {0}, account:{1}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Flux &amp; Notifications</value>
+    <comment>Page group for the Publishing module.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectIndex">
+    <value>Point de publication Twitter sélectionné</value>
+    <comment>Selected Twitter Publishing Point</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3SenderLastName">
+    <value>Nom de l'envoyeur</value>
+    <comment>phrase: Sender last name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentExpirationDate">
+    <value>Date d'expiration</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterAssociationFail">
+    <value>L'utilisateur n'a pas pu être associé.</value>
+    <comment>Unsuccessful Twitter association message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserNameFormat">
+    <value>Format du nom d'utilisateur</value>
+    <comment>Gets or sets the username template. {FirstName} is a placeholder for the first name and {LastName} is a placeholder for the last name.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Author">
+    <value>Auteur</value>
+    <comment>word: Author</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectOutboundPipes">
+    <value>Contenu à inclure</value>
+    <comment>Label for the outbound pipes selector</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterFeedWidgetTemplate">
+    <value>Modèle</value>
+    <comment>phrase: Template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentOwnerLastName">
+    <value>Nom du propriétaire</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerLastName field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllItems">
+    <value>Tous les éléments</value>
+    <comment>phrase: All items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishingMessagesTitlePlural">
+    <value>Pluriel des titres des messages de publication</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssOutboundName">
+    <value>Flux RSS</value>
+    <comment>Rss outblound pipe name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterWantToRegisterAnApplicationInTwitter">
+    <value>Voulez-vous enregistrer une application dans Twitter ?</value>
+    <comment>phrase: Want to register an application in Twitter?. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceLoginNotEmpty">
+    <value>Le nom de connexion ne peut être vide</value>
+    <comment>Phrase: Account Login cannot be empty. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceApiKey">
+    <value>Clé API</value>
+    <comment>Phrase: API Key. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3Account">
+    <value>Compte</value>
+    <comment>phrase: Account:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageKeywords">
+    <value>Mots clés de la page</value>
+    <comment>Title of the Content Keywords field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RadioIncludeAllPublishedItems">
+    <value>Inclure tous les éléments publiés</value>
+    <comment>word: Include all published items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Stopped">
+    <value>Arrêté</value>
+    <comment>word: Stopped</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FeedsByContentType">
+    <value>Flux par type de contenu</value>
+    <comment>The title of feeds filter by content type sidebar section</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefaultProvider">
+    <value>Fournisseur par défaut</value>
+    <comment>Name of the default provider for the publishing system.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FeedType">
+    <value>Type de flux</value>
+    <comment>Label: Feed type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterFeeds">
+    <value>Filtre RSS</value>
+    <comment>The title of feeds filter sidebar section</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentCategories">
+    <value>Catégories</value>
+    <comment>Title of the Content Categories field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoFeeds">
+    <value>Aucun flux n'a été créé pour l'instant</value>
+    <comment>word: Date</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterDontHaveAnApplicationRegisteredInTwitter">
+    <value>Ne pas avoir d'application enregistrée dans Twitter ?</value>
+    <comment>Phrase: Don't have an application registered in Twitter?. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChoiceAtomOnly">
+    <value>Atom seulement</value>
+    <comment>word: Atom only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChoiceRssOnly">
+    <value>RSS seulement</value>
+    <comment>word: RSS only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Comments">
+    <value>commentaires</value>
+    <comment>word: Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentOwnerFirstName">
+    <value>Prénom du propriétaire</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerFirstName field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DuplicateUrlException">
+    <value>Un élément avec l'URL '{0}' existe déjà.</value>
+    <comment>Error message.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentStatus">
+    <value>Statut</value>
+    <comment>Title of the Content pipe PublishingConstants.ContentStatus field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentType">
+    <value>Type de contenu</value>
+    <comment>phrase: Content type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NonexistentList">
+    <value>La liste n'existe pas</value>
+    <comment>phrase: nonexistent list</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LiteralCharactersOfTheContent">
+    <value>caractères du contenu</value>
+    <comment>word: characters of the content</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ValidationEnterWholeNumber">
+    <value>Entrez un nombre entier</value>
+    <comment>word: Enter a whole number</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentToInclude">
+    <value>Contenu à inclure</value>
+    <comment>word: Content to include</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterDelete">
+    <value>Supprimer</value>
+    <comment>phrase: Delete. Appears in Administration-&gt;Settings-&gt;Twitter in grid menu Actions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CalendarNotSelected">
+    <value>Veuillez sélectionner un agenda vers lequel importer les données</value>
+    <comment>phrase: Please, select a calendar to import the data into</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemsCount">
+    <value>éléments</value>
+    <comment>Used for items count limitation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefaultDisplayPageRight">
+    <value>sont publiés :</value>
+    <comment>Label in the content inbound pipe designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StartUpdatingFeed">
+    <value>Démarrer la mise à jour</value>
+    <comment>Command text for the 'Start updating' command of the feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PostsAllBlogs">
+    <value>Articles de tous les blogs</value>
+    <comment>phrase: Posts from all blogs</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssOrAtomToGenerateTitle">
+    <value>RSS ou Atom à générer ?</value>
+    <comment>word: RSS or Atom to generate?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ButtonTitleAndFirst">
+    <value>Titre et les premiers</value>
+    <comment>word: Title and first</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoPublishingPoint">
+    <value>Vous devez spécifier un point de publication.</value>
+    <comment>Sitefinity was expecting a publishing point and didn't find one.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Events">
+    <value>Évènements</value>
+    <comment>word: Events</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterUrlShortening">
+    <value>Raccourcissement d'URL</value>
+    <comment>Phrase: URL Shortening. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PassThrough">
+    <value>Faire passer</value>
+    <comment>Label: Pass through</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AddAnotherContentType">
+    <value>Ajouter un autre type de contenu</value>
+    <comment>word: Add another content type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3SenderEmail">
+    <value>Adresse email de l'envoyeur</value>
+    <comment>phrase: Sender e-mail</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Active">
+    <value>Actif</value>
+    <comment>word: Active</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssContent">
+    <value>Contenu</value>
+    <comment>Title of the RSS Content field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssTitle">
+    <value>Titre</value>
+    <comment>Title of the RSS Title field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentSummary">
+    <value>Résumé</value>
+    <comment>Title of the Content Summary field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MaxItems">
+    <value>Nombre d'éléments à inclure</value>
+    <comment>Twitter Max Items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3ReceivedOn">
+    <value>Reçu le</value>
+    <comment>phrase: Received on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Créer un flux</value>
+    <comment>The title of the create new feed dialog</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishedAsHeader">
+    <value>Publié comme</value>
+    <comment>phrase: Published As</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssItemId">
+    <value>Id de l'élément</value>
+    <comment>Title of the RSS ItemId field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PipeId">
+    <value>Id du canal</value>
+    <comment>Pipe Id</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateNew">
+    <value>Créer un flux</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UncheckToStopUpdatingTheFeed">
+    <value>Décochez pour arrêter la mise à jour du flux</value>
+    <comment>word: Uncheck to stop updating the feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishAs">
+    <value>Publier en tant que ...</value>
+    <comment>word: Publish as...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActiveFeeds">
+    <value>Flux actifs</value>
+    <comment>The text of active feeds sidebar button</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StopUpdatingFeed">
+    <value>Arrêter la mise à jour</value>
+    <comment>Command text for the 'Stop updating' command of the feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Dupliquer</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishingHtmlTitle">
+    <value>Flux &amp; Notifications</value>
+    <comment>HTML title of the Publishing module landing page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewPublishingPointDefaultTitle">
+    <value>Nouveau point de publication</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MyFeeds">
+    <value>Mes flux</value>
+    <comment>The text of my feeds sidebar button</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterNoTwitterApplicationsAdded">
+    <value>Aucune application Twitter ajoutée</value>
+    <comment>phrase: No Twitter applications added. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DuplicateFeedTitle">
+    <value>Un flux avec ce titre existe déjà.</value>
+    <comment>Error message: Duplicate feed title.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Lists">
+    <value>Listes</value>
+    <comment>word: Lists</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssLink">
+    <value>Lien</value>
+    <comment>Title of the RSS Link field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreatedByColon">
+    <value>par :</value>
+    <comment>phrase: by:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Modifier un flux</value>
+    <comment>The title of the edit feed dialog</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>Que voulez-vous faire maintenant ?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssInboundName">
+    <value>Flux RSS/Atom externe</value>
+    <comment>Rss inbound pipe name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+    <comment>Label for the buttons that delete an event.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ThisFeedIsActive">
+    <value>Ce flux est actif</value>
+    <comment>phrase: This feed is Active</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllFeeds">
+    <value>Tous les flux</value>
+    <comment>The text of all feeds sidebar button</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PagePipeSettingsImportShortDescription">
+    <value>Importation à partir de la page : {0}</value>
+    <comment>phrase: Importing from Page: {0}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhichItemsToInclude">
+    <value>Quels éléments sont à inclure ?</value>
+    <comment>word: Which items to include?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublicationDateHeader">
+    <value>Dernière publication le</value>
+    <comment>phrase: Last publication on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterPipeSettingsUrlNameNotSet">
+    <value>L'URL du flux Twitter sera généré automatiquement</value>
+    <comment>phrase: Twitter feed url will be generated automatically</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssSummary">
+    <value>Résumé</value>
+    <comment>Title of the RSS Summary field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LiteralLimitTheItems">
+    <value>Limiter les éléments dans le flux</value>
+    <comment>word: Limit the items in the feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PipeSettingsImporShortDescriptionBase">
+    <value>Importation à partir de :&lt;br /&gt;</value>
+    <comment>phrase: Importing from:&lt;br /&gt;</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FeedsBaseUrl">
+    <value>Partie URL de base pour les flux RSS et Atom</value>
+    <comment>Configurable url part which identifies the publishing endpoint.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterStartUsingBitlyApiKey">
+    <value>et obtenez une clé API pour commencer à l'utiliser dans Sitefinity</value>
+    <comment>Phrase: ' and get an API key to start using it in Sitefinity'. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedFeeds">
+    <value>Afficher les flux dernièrement mis à jour en ...</value>
+    <comment>The text of last updated feeds sidebar button</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentTitle">
+    <value>Titre</value>
+    <comment>Title of the Content Title field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterItemsCount">
+    <value>Nombre de tweets affichés</value>
+    <comment>Number of displayed tweets</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PublishingMessagesDescription">
+    <value>Contient des ressources localisables pour le système de publication de Sitefinity.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Retour à tous les éléments</value>
+    <comment>The text of the back to Publishing Items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DefaultDisplayPageLeft">
+    <value>Page par défaut où</value>
+    <comment>Label in the content inbound pipe designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RssCategories">
+    <value>Catégories</value>
+    <comment>Title of the RSS Categories field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlogNotSelected">
+    <value>Veuillez sélectionner un blog vers lequel importer les données</value>
+    <comment>Not selected blog into content pipe outbound mode</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Pop3ServerName">
+    <value>serveur POP3</value>
+    <comment>phrase: POP3 server</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterSelectTwitterUserForPublishing">
+    <value>Quelle est l'application Twitter à utiliser ?</value>
+    <comment>Phrase: Select Twitter user for publishing. Appears in Administration-&gt;Feeds &amp; Notifications-&gt;Edit feed-&gt;Publish as-&gt;Add more...-&gt;Twitter feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentOwnerEmail">
+    <value>Email du propriétaire</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerEmail field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterAssociatedUsers">
+    <value>Utilisateurs associés</value>
+    <comment>phrase: Associated users. Appears in Administration-&gt;Settings-&gt;Twitter as column header</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

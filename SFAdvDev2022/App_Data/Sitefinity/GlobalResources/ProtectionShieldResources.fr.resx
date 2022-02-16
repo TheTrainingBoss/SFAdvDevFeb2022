@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RemoveAccessOption">
+    <value>Supprimer l'accès</value>
+    <comment>Phrase: Remove access</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessTokenAccessTypeLabel">
+    <value>Accès</value>
+    <comment>Phrase: Access.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessEmailTitle">
+    <value>Accéder à {0 }</value>
+    <comment>Phrase: Access {0}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeactivateForThisSiteMessage">
+    <value>Désactiver pour ce site</value>
+    <comment>Phrase: Deactivate for this site</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendEmailInvitationAgainMessage">
+    <value>Envoyer à nouveau l'invitation par email</value>
+    <comment>Phrase: Resend email invitation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveAccessForUsersAboveOnLabel">
+    <value>Supprimer l'accès pour les utilisateurs affichés ci-dessus le…</value>
+    <comment>Phrase: Revoke access for users above on...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmDeactivationButtonMessage">
+    <value>Oui, OK pour la désactivation</value>
+    <comment>Phrase: Yes, deactivate</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessStatusBlocked">
+    <value>Bloqué</value>
+    <comment>Phrase: Blocked</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnblockAccessOption">
+    <value>Débloquer</value>
+    <comment>Phrase: Unblock</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveAccessDialogAreYouSureMessage">
+    <value>Voulez-vous vraiment supprimer l'utilisateur ?</value>
+    <comment>Phrase: Are you sure you want to remove the user?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProtectionShieldUrlName">
+    <value>Bouclier</value>
+    <comment>phrase: Shield</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProtectionShieldSettings">
+    <value>Paramètres Site Shield</value>
+    <comment>Phrase: Site Shield settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessStatusSending">
+    <value>Envoi en cours ...</value>
+    <comment>Phrase: Sending...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessStatusInvitationNotSent">
+    <value>L'invitation n'a pas été envoyée</value>
+    <comment>Phrase: Invitation has not been sent</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendEmailInvitationMessage">
+    <value>Les utilisateurs avec les emails indiqués  recevront des invitations avec un lien vers les sites Web contenant une clé d'accès unique</value>
+    <comment>Phrase: The users with the specified emails will receive invitations with a link to the websites that contains a unique access key</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UseTheFollowingLinkEmailBody">
+    <value>&lt;h2&gt;Accès {0}&lt;/h2&gt; {0} peut uniquement accéder aux utilisateurs de confiance. &lt;br/&gt; Vous ({1}) avez été invité à voir le site Web. &lt;br/&gt; &lt;br/&gt; Utilisez ce lien: &lt;br/&gt; &lt;a href='{2}' targer='blank'&gt;{2}&lt;/a&gt; &lt;br/&gt; &lt;br/&gt;Ne le partagez pas ! Ce lien est pour votre usage personnel uniquement &lt;br/&gt; &lt;br/&gt; L'accès expire le: {3:dd/MM/yyyy}</value>
+    <comment>Phrase: &lt;h2&gt;Access {0}&lt;/h2&gt; {0} has limited access to trusted users only. &lt;br/&gt; You ({1}) have been invited to view the website. &lt;br/&gt; &lt;br/&gt; Use the following link: &lt;br/&gt; &lt;a href='{2}' targer='blank'&gt;{2}&lt;/a&gt; &lt;br/&gt; &lt;br/&gt; Do not share! This link is for personal use only. &lt;br/&gt; &lt;br/&gt; Access expires on: {3}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendEmailInvitationsPluralTitleMessage">
+    <value>Envoyer les invitations par email</value>
+    <comment>Phrase: Send email invitations</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SiteNameDescription">
+    <value>Activer le bouclier de protection pour le site indiqué</value>
+    <comment>Phrase: Enable Protection shield for specified site name.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlockAccessDialogAreYouSureMessage">
+    <value>Voulez-vous vraiment bloquer l'accès de cet utilisateur?</value>
+    <comment>Phrase: Are you sure you want to block the access of this user?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProtectionShieldResourcesTitlePlural">
+    <value>Site Shield</value>
+    <comment>phrase: Site shield</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveMessage">
+    <value>Supprimer</value>
+    <comment>Phrase: Remove</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlockAccessDialogConfirmMessage">
+    <value>Oui, bloquer l'accès</value>
+    <comment>Phrase: Yes, block access</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RemoveAccessDialogConfirmMessage">
+    <value>Oui, OK pour suppression</value>
+    <comment>Phrase: Yes, remove</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlockAccessDialogWarningMessage">
+    <value>Une fois bloqué, l'utilisateur apparaitra dans la liste et ne pourra accéder au site.</value>
+    <comment>Phrase: Once blocked the user will appear in the list and will not be able to access the website.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessStatusAllowed">
+    <value>Autorisé</value>
+    <comment>Phrase: Allowed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProtectionShieldResourcesTitle">
+    <value>Ressources du bouclier de protection</value>
+    <comment>phrase: Protection shield resources</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SiteCantBeReachedText">
+    <value>Impossible de contacter le site !</value>
+    <comment>Phrase: This site can't be reached!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeactivateShield">
+    <value>Désactiver le bouclier?</value>
+    <comment>Phrase: Deactivate shield?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendEmailExampleMessage">
+    <value>Entrez les emails séparés par une virgule, un point-virgule, un espace ou un retour à la  ligne.</value>
+    <comment>Enter emails separated by comma, semicolon, space or new line.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InviteUsersMessage">
+    <value>Inviter des utilisateurs</value>
+    <comment>Phrase: Invite users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SiteNameLabel">
+    <value>Nom du site</value>
+    <comment>Phrase: Site Name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessTokenDevicesLabel">
+    <value>Périphériques</value>
+    <comment>Phrase: Devices.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProtectionShieldDescription">
+    <value>Protégez votre site internet tandis qu'il est en cours de développement  en autorisant uniquement vos utilisateurs confiance à le prévisualiser pour l'évaluer.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendEmails">
+    <value>Le système n'a pas été configuré pour l'envoi d'emails. Allez dans  &lt;a href='{0}' target='_blank'&gt;SMTP settings&lt;/a&gt;  ou demandez à votre administrateur de configurer l'envoi des emails.</value>
+    <comment>Phrase: The system has not been configured to send emails. Go to &lt;a href='{0}' target='_blank'&gt;SMTP settings&lt;/a&gt; or ask your administrator to set them</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlockAccessOption">
+    <value>Bloquer l'accès</value>
+    <comment>Phrase: Block access</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhoHasAccessToThisSiteLabel">
+    <value>Qui peut accéder à ce site</value>
+    <comment>Phrase: Who has access to this site</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SpecificUsersMessage">
+    <value>Autoriser des utilisateurs spécifiques</value>
+    <comment>Phrase: Allow specific users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendEmailsReadOnlyMode">
+    <value>Le système n'a pas été configuré pour envoyer des emails. Allez dans les paramètres SMTP ou demandez à votre administrateur de les configurer.</value>
+    <comment>Phrase: The system has not been configured to send emails. Go to SMTP settings or ask your administrator to set them</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActivateForThisSiteMessage">
+    <value>Activer pour ce site</value>
+    <comment>Phrase: Activate for this site</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendInvitationMessage">
+    <value>Envoyer l'invitation</value>
+    <comment>Phrase: Send invitation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetExpirationTimeLabel">
+    <value>Définir le délai d'expiration</value>
+    <comment>Phrase: Set expiration time</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmDeactivationMessage">
+    <value>Etes-vous sûr de vouloir désactiver Site Shield pour ce site ?</value>
+    <comment>Phrase: Are you sure you want to deactivate Site Shield for this site?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

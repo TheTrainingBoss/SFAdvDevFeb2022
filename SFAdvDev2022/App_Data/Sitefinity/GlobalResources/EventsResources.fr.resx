@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ByCalendars">
+    <value>par agendas...</value>
+    <comment>by Calendars...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoEventsSelectedYet">
+    <value>Aucun évènement n'est sélectionné</value>
+    <comment>Phrase: No events selected yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsByTag">
+    <value>Évènements par tag</value>
+    <comment>Phrase: Events by tag</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Author">
+    <value>Auteur</value>
+    <comment>word: Author</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FilterEvents">
+    <value>Filtrer les évènements</value>
+    <comment>phrase: Filter events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarAppearance">
+    <value>Apparence de l'agenda</value>
+    <comment>Calendar appearance</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventEnd">
+    <value>Fin de l'événement</value>
+    <comment>phrase: Event End</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expire le :</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Dupliquer</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="At">
+    <value>À</value>
+    <comment>word: At</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>word: View</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllDay">
+    <value>Toute la journée</value>
+    <comment>All day event</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SortEvents">
+    <value>Trier les événements</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CurrentEvents">
+    <value>Evènements actuels</value>
+    <comment>Phrase: Current events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="HowToFindUs">
+    <value>Comment nous trouver</value>
+    <comment>How to find us</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Language">
+    <value>Langue</value>
+    <comment>word: Language</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AddEventTo">
+    <value>Ajouter un évènement à :</value>
+    <comment>The text preceding  the event exporters.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateCalendar">
+    <value>Créer un nouvel agenda</value>
+    <comment>phrase: Create a calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllCalendars">
+    <value>Tous les agendas</value>
+    <comment>phrase: All calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GoogleEventExporterTitle">
+    <value>Agenda Google</value>
+    <comment>The title for the Google Calendar export widget.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Search">
+    <value>Recherche</value>
+    <comment>Search word.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowCreateCalendars">
+    <value>Permettre aux utilisateurs de créer des agendas</value>
+    <comment>Allow users to create calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Weeks">
+    <value>Semaines</value>
+    <comment>Weeks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>L'URL ne peut être vide</value>
+    <comment>Word: URL cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Step2Title">
+    <value>Paramètres</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarRequired">
+    <value>L'agenda est requis</value>
+    <comment>The error message indicating that the calendar, that the event belongs to, is a required element.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SettingsForEvents">
+    <value>Paramètres</value>
+    <comment>phrase: Settings for events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="End">
+    <value>Fin</value>
+    <comment>Word: End</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoEvents">
+    <value>Aucun événement n'a encore été créé</value>
+    <comment>phrase: No events have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageCalendars">
+    <value>Gérer les agendas</value>
+    <comment>phrase: Manage Calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CurrentOpenedEventItem">
+    <value>Élément évènement actuellement ouvert</value>
+    <comment>Current opened event item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditButton">
+    <value>Éditer</value>
+    <comment>Word: Edit</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarNotSelected">
+    <value>L'agenda n'est pas sélectionné.</value>
+    <comment>phrase: Calendar is not selected.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PagesWhereEventsArePublished">
+    <value>Page où les évènements sont publiés</value>
+    <comment>Pages where Events are published</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectACalendar">
+    <value>Sélectionnez un agenda</value>
+    <comment>Select a calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarTemplate">
+    <value>Modèle d'agenda</value>
+    <comment>Calendar template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarsSingleTypeName">
+    <value>Calendrier</value>
+    <comment>word: Calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsMasterViewFriendlyName">
+    <value>Évènements - liste</value>
+    <comment>Phrase: Events - list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lStreet">
+    <value>Rue</value>
+    <comment>Word: Street</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyEvents">
+    <value>Mes évènements</value>
+    <comment>The text of my events sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListTemplate">
+    <value>Modèle de liste</value>
+    <comment>List template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarsUrlName">
+    <value>Agendas</value>
+    <comment>Calendars URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisEvent">
+    <value>Êtes-vous sûr de vouloir supprimer cet événement ?</value>
+    <comment>Confirmation message when an event is deleted.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="HowToFindUsFormat">
+    <value>&lt;strong&gt;Comment nous trouver :&lt;/strong&gt; {0}</value>
+    <comment>&lt;strong&gt;How to find us:&lt;/strong&gt; {0}</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Éditer...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PastEvents">
+    <value>Événements passés</value>
+    <comment>Phrase: Past events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowCreateEvents">
+    <value>Permettre aux utilisateurs de créer des évènements</value>
+    <comment>Allow users to create events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsDescription">
+    <value>Gérer les commentaires</value>
+    <comment>Provides description for the comments view of events module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SingleItemOnly">
+    <value>Élément unique seulement</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsForEvents">
+    <value>Commentaires des événements</value>
+    <comment>phrase: Comments for events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventPluralItemName">
+    <value>Évènements</value>
+    <comment>Word: events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Évènements</value>
+    <comment>The name of the events module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Retour aux événements</value>
+    <comment>The text of the back to events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsViewTitle">
+    <value>Évènements</value>
+    <comment>Provides a UI for displaying events.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoCalendars">
+    <value>Aucun calendrier n'a encore été créé</value>
+    <comment>phrase: No calendars have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContactCell">
+    <value>&lt;strong&gt;Téléphone portable :&lt;/strong&gt;</value>
+    <comment>phrase: Cell Phone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EndsAt">
+    <value>Fin</value>
+    <comment>Ends at</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lState">
+    <value>État</value>
+    <comment>Word: State</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarsHtmlTitle">
+    <value>Agendas</value>
+    <comment>Html Title for Calendars page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsResourcesTitlePlural">
+    <value>Ressources évènements</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WebSite">
+    <value>&lt;strong&gt;Site Web :&lt;/strong&gt; &lt;a href='{0}'&gt;{0}&lt;/a&gt;</value>
+    <comment>phrase: Web Site</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lWebExample">
+    <value>Commence par &lt;em&gt;http://&lt;/em&gt;&lt;br /&gt;Exemple : &lt;em&gt;http://devreach.com/&lt;/em&gt;</value>
+    <comment>Example: Start with http://</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContactName">
+    <value>&lt;strong&gt;Contact :&lt;/strong&gt;</value>
+    <comment>Contact Name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllDayEvent">
+    <value>Événement toute la journée</value>
+    <comment>All day event</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lCountry">
+    <value>Pays</value>
+    <comment>Word: Country</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+    <comment>Label for the buttons that create an event.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Modifier un événement</value>
+    <comment>The title of the edit event dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateEvents">
+    <value>Créer des événements</value>
+    <comment>Create events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Address">
+    <value>&lt;strong&gt;Adresse :&lt;/strong&gt;</value>
+    <comment>phrase: Address</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lContactName">
+    <value>Nom du contact</value>
+    <comment>Word: Contact name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreDetails">
+    <value>Plus de détails</value>
+    <comment>The more details link in the QuickAddEventDialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedEvents">
+    <value>Affichage des événements mis à jour depuis …</value>
+    <comment>The text of last updated events sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Or">
+    <value>ou</value>
+    <comment>Word: or</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesMetafieldDescription">
+    <value>Définit la catégorie de cet élément de contenu.</value>
+    <comment>Description of the metafield containing the categories taxonomy for events.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Event">
+    <value>Événement</value>
+    <comment>Event word.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisCalendar">
+    <value>Êtes-vous sûr de vouloir supprimer cet agenda ?</value>
+    <comment>Confirmation message when calendar is deleted.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventCreatedFirst">
+    <value>Dernières créations en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Trier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>par Date de modification ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="History">
+    <value>Historique</value>
+    <comment>word: History</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Autoriser les commentaires</value>
+    <comment>Phrase: Allow comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsViewDescription">
+    <value>Listes des événements</value>
+    <comment>Describes the purpose of the EventsView control.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lSummary">
+    <value>Résumé</value>
+    <comment>word: Summary</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarsDescription">
+    <value>Gestion des agendas</value>
+    <comment>Provides description for the Calendars screen of Events module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Tri personnalisé ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ClickToAddDescription">
+    <value>Cliquez pour ajouter une description</value>
+    <comment>phrase: Click to add description</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publié le :</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Dates">
+    <value>&lt;strong&gt;Dates :&lt;/strong&gt;</value>
+    <comment>phrase: Dates</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EndTimeShouldNotBeEarlierThanStartTime">
+    <value>L'heure de fin de l'événement ne peut pas être définie plus tôt que celle du début.</value>
+    <comment>Message: Event's end time cannot be set earlier than its start time.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Préférences des événements</value>
+    <comment>phrase: Events settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>annuler</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Start">
+    <value>Début</value>
+    <comment>Word: Start</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageForSingleItem">
+    <value>Page pour élément unique&lt;br/&gt; &lt;span class="sfNote"&gt;Il s'agit de la page qui s'ouvre en cliquant sur le nom d'un élément de liste. Il doit y avoir un widget Évènement sur cette page réglé pour afficher seulement l'élément unique.&lt;/span&gt;</value>
+    <comment>Page for Single item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventStartCannotBeEmpty">
+    <value>Début de l'évènement doit être renseigné.</value>
+    <comment>EventStart cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsCalendarViewFriendlyName">
+    <value>Événements - agenda</value>
+    <comment>Phrase: Events - calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListOnly">
+    <value>Liste seulement</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContactEmail">
+    <value>&lt;strong&gt;Email :&lt;/strong&gt; &lt;a href='mailto:{0}'&gt;{0}&lt;/a&gt;</value>
+    <comment>Contact Name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EndDateShouldNotBeEarlierThanStartDate">
+    <value>La date de fin de l'événement ne peut pas être définie plus tôt que la date de début.</value>
+    <comment>Message: Event's end date cannot be set earlier than its start date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Champs personnalisés pour les événements</value>
+    <comment>phrase: Custom Fields for events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleRequired">
+    <value>Le titre est requis</value>
+    <comment>The error message indicating that the title of the event is a required element.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Définir les Autorisations</value>
+    <comment>phrase: Set permissions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ClickToAddSummary">
+    <value>Cliquez ici pour ajouter le résumé</value>
+    <comment>phrase: Click to add summary</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventEndEllipsis">
+    <value>Fin de l'événement...</value>
+    <comment>phrase: Event end...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsResourcesDescription">
+    <value>Contient des ressources localisables pour le module des événements</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+    <comment>Label for the buttons that delete an event.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AddEventsToCalendarOption">
+    <value>Autoriser les utilisateurs à ajouter des événements à leur calendrier</value>
+    <comment>Allow users to add events to their calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TagsMetafieldDescription">
+    <value>Définit les mots-clés pour cet élément de contenu.</value>
+    <comment>Description of the metafield containing the tags taxonomy for events.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RepeatEvent">
+    <value>Répéter l'évènement</value>
+    <comment>Phrase: Repeat event</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShowMoreCalendars">
+    <value>{0} agendas en plus</value>
+    <comment>phrase: {0} more calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SearchEvents">
+    <value>Recherche d'événements ...</value>
+    <comment>phrase: Search events...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Plus d'options &lt;em class='sfNote'&gt;(URL, Commentaires)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditEventsSettings">
+    <value>Modifier les préférences des évènements</value>
+    <comment>Phrase: Edit Events settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lContactInformation">
+    <value>Coordonnées &lt;em class='sfNote'&gt;(Email, Web, Nom de contact, Téléphone)&lt;/em&gt;</value>
+    <comment>Phrase: Contact information &lt;em class='sfNote'&gt;(Email, Web, Contact name, Phone)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventTimeZone">
+    <value>Fuseau horaire</value>
+    <comment>phrase: Event time zone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShowLessCalendars">
+    <value>{0} agendas en moins</value>
+    <comment>phrase: {0} less calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AutoListAndSingleItem">
+    <value>Auto : Liste + élément unique</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsDataFields">
+    <value>Champs des données relatives aux évènements</value>
+    <comment>phrase: Events data fields</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToAllItems">
+    <value>Retour à tous les événements</value>
+    <comment>phrase: Back to all events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsSingleTypeName">
+    <value>Événement</value>
+    <comment>Events single type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>En savoir plus avec des tutoriels vidéo</value>
+    <comment>Label for the external links used in Pages</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CloseSearch">
+    <value>Fermer la recherche</value>
+    <comment>Close search.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewCalendar">
+    <value>Nouvel agenda</value>
+    <comment>phrase: New calendar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>Par Titre (A - Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lCity">
+    <value>Ville</value>
+    <comment>Word: City</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsUrlName">
+    <value>commentaires</value>
+    <comment>Comments URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PagingSectionComplementoryText">
+    <value>Pagination, limite et tri</value>
+    <comment>Paging, limit and sorting</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventModifiedFirst">
+    <value>Dernières modifications en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventStart">
+    <value>Début de l'évènement</value>
+    <comment>phrase: Event Start</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Day">
+    <value>Jour</value>
+    <comment>Day</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsDetailViewFriendlyName">
+    <value>Évènements - unique</value>
+    <comment>Phrase: Events - single</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventSingularItemName">
+    <value>Événement</value>
+    <comment>Word: event</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>Par Titre (Z - A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>La date de publication doit être renseignée.</value>
+    <comment>PublicationDate cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Comments">
+    <value>commentaires</value>
+    <comment>word: Comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DraftEvents">
+    <value>Brouillons</value>
+    <comment>The text of draft events sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishedEvents">
+    <value>Publié</value>
+    <comment>The text of published events sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsHtmlTitle">
+    <value>Évènements</value>
+    <comment>HTML title of the Events module landing page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Color">
+    <value>Couleur</value>
+    <comment>phrase: Color</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsCountFormat">
+    <value>{0} évènements</value>
+    <comment>phrase: {0} events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UpcomingEvents">
+    <value>Événements à venir</value>
+    <comment>Phrase: Upcoming events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsByCalendar">
+    <value>Événements par agenda</value>
+    <comment>phrase: Events by calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsByCategory">
+    <value>Évènements par catégorie</value>
+    <comment>Phrase: Events by category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionsForEvents">
+    <value>Autorisations</value>
+    <comment>phrase: Permissions for events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="IncludeInSitemap">
+    <value>Inclure dans le plan du site</value>
+    <comment>phrase: Include in sitemap</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Step1Title">
+    <value>Quelle fonction d'évènements utiliser ?</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Créer un événement</value>
+    <comment>The title of the create new event dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Week">
+    <value>Semaine</value>
+    <comment>Week</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateEvent">
+    <value>Créer un événement</value>
+    <comment>Label of the dialog that creates an event.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Évènements</value>
+    <comment>Page group for the events module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsPremissionsHtmltitle">
+    <value>Autorisations Évènements</value>
+    <comment>HTML title of the page handling permissions for the Events module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyCalendars">
+    <value>Mes agendas</value>
+    <comment>phrase: My calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gérer aussi</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Supprimer</value>
+    <comment>phrase: Delete this event item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AddEventsToOutlook">
+    <value>Les utilisateurs peuvent ajouter des évènements à Outlook, Agenda Google et iCal</value>
+    <comment>The users can add events to Outlook, Google Calendar and iCal</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditEvent">
+    <value>Modifier l'événement</value>
+    <comment>Phrase: Edit event</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Catégories</value>
+    <comment>word: Categories</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditCalendar">
+    <value>Modifier un agenda</value>
+    <comment>phrase: Edit a calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarNotAvailableInEditMode">
+    <value>Les évènements peuvent ne pas s'afficher correctement en mode conception. Si vous avez des problèmes, cliquez sur Aperçu en haut de cette page pour voir les évènements.</value>
+    <comment>phrase: Events might not be correctly displayed in design mode. If you have issues click Preview on top of this page to see the events.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Catégories et tags</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefaultPage">
+    <value>Page par défaut</value>
+    <comment>Phrase: Default page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="HowToFindUsDescription">
+    <value>Instructions sans formulaire Vous pouvez également utiliser ce champ pour entrer l'emplacement de manière libre.</value>
+    <comment>Description of 'How to find us' field.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Plus d'actions avec les événements</value>
+    <comment>phrase: More actions with events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Occurs">
+    <value>Survient</value>
+    <comment>word: Occurs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsToolboxSectionTitle">
+    <value>Évènements</value>
+    <comment>Events toolbox section title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Date de Publication</value>
+    <comment>phrase: Publication Date</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowChangeCalendarView">
+    <value>Permettre aux utilisateurs de changer le mode d'affichage</value>
+    <comment>Allow users to change view mode</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarsPluralTypeName">
+    <value>Agendas</value>
+    <comment>word: Calendars</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lCellPhone">
+    <value>Téléphone portable</value>
+    <comment>Word: Cell phone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propriétaire</value>
+    <comment>word: Owner</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoCalendarsSelectedYet">
+    <value>Aucun agenda n'est sélectionné</value>
+    <comment>Phrase: No calendars selected yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Date d'expiration</value>
+    <comment>phrase: Expiration Date</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageEvents">
+    <value>Gérer les événements</value>
+    <comment>phrase: Manage Events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Month">
+    <value>mois</value>
+    <comment>Month</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsViewPropertyEditorTitle">
+    <value>Évènements</value>
+    <comment>word: Events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ScheduledEvents">
+    <value>Planifié</value>
+    <comment>The text of scheduled events sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WaitingForPublishing">
+    <value>En attente de publication</value>
+    <comment>The text of the 'Awaiting Publishing' button in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Groupe de page pour le module d'événements.</value>
+    <comment>Events Page Group Description</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lWeb">
+    <value>Site Web</value>
+    <comment>Word: Web</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Category">
+    <value>Catégorie</value>
+    <comment>word: Category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewCalendar">
+    <value>Créer un nouvel agenda</value>
+    <comment>phrase: Create a new calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventStartRequired">
+    <value>La date de début de l'évènement est nécessaire</value>
+    <comment>The error message indicating that the start date of the event is a required element.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lPhone">
+    <value>Téléphone</value>
+    <comment>Word: Phone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Calendar">
+    <value>Calendrier</value>
+    <comment>Word: Calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsUrlName">
+    <value>Évènements</value>
+    <comment>Events URL.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Where">
+    <value>&lt;strong&gt;Emplacement :&lt;/strong&gt;</value>
+    <comment>phrase: Where</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllEvents">
+    <value>Tous les évènements</value>
+    <comment>Phrase: All events</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>L'URL contient des symboles non valides.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentCannotBeEmpty">
+    <value>Le contenu ne peut être vide</value>
+    <comment>Content cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsToolboxSectionDescription">
+    <value>Titre de la section évènements de la boîte à outils.</value>
+    <comment>Describes the event toolbox section title.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisCalendar">
+    <value>Créer cet agenda</value>
+    <comment>phrase: Create this calendar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="lLocation">
+    <value>Emplacement &lt;em class='sfNote'&gt;(Rue, Ville, Pays, État)&lt;/em&gt;</value>
+    <comment>Word: Location &lt;em class='sfNote'&gt;(Street, City, Country, State)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historique des révisions</value>
+    <comment>phrase: Review history</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="StartsAt">
+    <value>Début</value>
+    <comment>Starts at</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Autorisations</value>
+    <comment>Label for the buttons that switch to the permissions dialog.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsHtmlTitle">
+    <value>commentaires</value>
+    <comment>Html Title for the comments events module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsTitle">
+    <value>commentaires</value>
+    <comment>Title of the comments page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisItem">
+    <value>Créer l'événement</value>
+    <comment>phrase: Create this event</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>Annuler la publication</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CalendarsTitle">
+    <value>Agendas</value>
+    <comment>Title of the Calendars page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefaultView">
+    <value>Affichage par défaut</value>
+    <comment>Default view</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Status">
+    <value>Statut</value>
+    <comment>Word: Status</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContactPhone">
+    <value>&lt;strong&gt;Téléphone :&lt;/strong&gt;</value>
+    <comment>phrase: Phone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En attente d'approbation</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Fournit l'interface utilisateur de gestion des événements.</value>
+    <comment>The description of the events module</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsPluralTypeName">
+    <value>Évènements</value>
+    <comment>Events plural type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>Que voulez-vous faire maintenant ?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EventsResourcesTitle">
+    <value>Ressources évènements</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesMetafieldTitle">
+    <value>Catégorie</value>
+    <comment>Name of the metafield containing the categories taxonomy for events.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propriétés</value>
+    <comment>word: Properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

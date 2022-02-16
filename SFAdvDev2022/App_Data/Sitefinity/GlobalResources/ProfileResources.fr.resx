@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditProfileUploadImage">
+    <value>Changer de photo</value>
+    <comment>phrase : Change photo</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OpenPage">
+    <value>Ouvrir une page spécialement préparée...</value>
+    <comment>phrase : Open a specially prepared page...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileEditChangePasswordHeader">
+    <value>Modifier le mot de passe</value>
+    <comment>phrase : Change password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MinimumPasswordLength">
+    <value>Le mot de passe doit avoir au moins 9 caractères de long!</value>
+    <comment>phrase : Password length must be at least {0} symbols long!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileUsername">
+    <value>Nom d'utilisateur</value>
+    <comment>phrase : User name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileNickname">
+    <value>Pseudonyme</value>
+    <comment>phrase : Nickname</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileResourcesTitle">
+    <value>Ressources du widget Profil</value>
+    <comment>Title for the Profile widget resources class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Template">
+    <value>Modèle</value>
+    <comment>phrase : Template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileOldPassword">
+    <value>Mot de passe actuel</value>
+    <comment>phrase : Current password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmailExistsMessage">
+    <value>Adresse email déjà présente</value>
+    <comment>phrase : Email already exists.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PreviewProfileSaveMessage">
+    <value>L'enregistrement des modifications n'est pas disponible en mode  Preview</value>
+    <comment>phrase : Saving changes is not available in Preview</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditModeOnly">
+    <value>Mode Éditer seulement</value>
+    <comment>phrase : Edit mode only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasswordEditMessage">
+    <value>Veuillez saisir votre mot de passe pour valider le changement d'adresse email associée à votre compte.</value>
+    <comment>phrase : To complete the change of your email address, you are required to enter your password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhenChangesAreSaved">
+    <value>Lorsque les modifications sont enregistrées...</value>
+    <comment>phrase : When the changes are saved...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileLink">
+    <value>Modifier le profil</value>
+    <comment>phrase : Edit profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BothModes">
+    <value>Tous les deux: Lire le mode peut être modifié</value>
+    <comment>phrase : Both: Read mode can be edited</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangePasswordGeneralErrorMessage">
+    <value>Données invalides.</value>
+    <comment>Description: Invalid data.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileRepeatPassword">
+    <value>Saisissez de nouveau le mot de passe</value>
+    <comment>phrase : Repeat new password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileResourcesDescription">
+    <value>Codes localisables pour le widget Profil.</value>
+    <comment>Description for the Profile widget resources class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExternalProviderNoPassword">
+    <value>La connexion avec {0} ne nécessite pas de mot de passe.</value>
+    <comment>phrase : Login with {0} does not require password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileLastName">
+    <value>Nom</value>
+    <comment>phrase : Last name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Templates">
+    <value>Modèles</value>
+    <comment>phrase : Templates</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditingProfile">
+    <value>Modifier le profil</value>
+    <comment>phrase : Editing profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RegistratedWithExternal">
+    <value>Enregistré avec {0]</value>
+    <comment>phrase : Registered with {0}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReadModeOnly">
+    <value>Mode lecture seulement</value>
+    <comment>phrase : Read mode only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SwitchToReadMode">
+    <value>Passer en "Mode lecture"</value>
+    <comment>phrase : Switch to 'Read mode'</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileNewPassword">
+    <value>Nouveau mot de passe</value>
+    <comment>phrase : New password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShowMsg">
+    <value>Afficher un message en dessus du formulaire</value>
+    <comment>phrase : Show message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileAbout">
+    <value>A propos</value>
+    <comment>phrase : About</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileFirstName">
+    <value>Prénom</value>
+    <comment>phrase : First name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileCancel">
+    <value>annuler</value>
+    <comment>phrase : Cancel</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Profile">
+    <value>Profil</value>
+    <comment>phrase : Profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangesAreSaved">
+    <value>Vos modifications ont été enregistrées</value>
+    <comment>phrase : Your changes are saved</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileSave">
+    <value>Enregistrer les modifications</value>
+    <comment>phrase : Save changes</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidPassword">
+    <value>Mot de passe incorrect</value>
+    <comment>phrase : Invalid Password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfileChangePasswordButton">
+    <value>Modifier le mot de passe</value>
+    <comment>phrase : Change password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Classes CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RequiredProfileField">
+    <value>Le champ de profil {0} est requis!</value>
+    <comment>phrase : The {0} profile field is required!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Password">
+    <value>Mot de passe</value>
+    <comment>phrase : Password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditNotAllowed">
+    <value>La modification n'est pas autorisée!</value>
+    <comment>phrase : Edit is not allowed!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DomainAlreadyUsedByAnotherSite">
+    <value>Le domaine "{0}" est déjà utilisé par le site "{1}"</value>
+    <comment>Error message: Domain "{0}" is already used by site "{1}"</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSiteIsInOfflineMode">
+    <value>Ce site est en mode hors ligne</value>
+    <comment>Phrase: This site is in offline mode</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteDashboardUrlName">
+    <value>tableau de bord</value>
+    <comment>Url name of the dashboard page of the multisite</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSettingsDescription">
+    <value>Fournit une interface utilisateur pour les paramètres du site.</value>
+    <comment>Description of site settings section.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SetOfflineSiteMessage">
+    <value>Arrêter ce site depuis la liste des sites.</value>
+    <comment>The text message to be shown for stopping a site.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DeleteSiteMessage">
+    <value>Toutes les données, les utilisateurs et les fichiers utilisés par ce site seront également supprimés.</value>
+    <comment>The text message to be shown for deleting a site.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DevelopmentContent">
+    <value>Sélectionner cette option si votre site est en cours de développement et ajouter un domaine de test pour pouvoir prévisualiser le site lors de son développement.</value>
+    <comment>phrase: The text displayed after clicking the 'Details' link.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSpecificDomainCannotContainPath">
+    <value>Le domaine du site "{0}" ne peut contenir plus d'un niveau dans le chemin</value>
+    <comment>Site's domain "{0}" cannot contain more than one levels in the path</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DomainAliases">
+    <value>Alias de domaine (un par ligne)</value>
+    <comment>phrase: Domain aliases (one per line)</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigureByDeploymentBtn">
+    <value>Configurer par déploiement</value>
+    <comment>Configure by deployment button text</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteCountFormat">
+    <value>dans {0} sites</value>
+    <comment>phrase: in {0} sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DomainAliasesExample">
+    <value>&lt;strong&gt;Exemple :&lt;/strong&gt; &lt;div class='sfAlignTop sfInlineBlock sfMLeft5'&gt;mysite.com&lt;br/&gt; my-legacy-site.com&lt;/div&gt;</value>
+    <comment>phrase: Example: mysite.com, my-legacy-site.com</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="RemoveASource">
+    <value>Supprimer une source</value>
+    <comment>phrase for the 'Remove source' confirmation dialog title: Remove a source</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigureModulesDescription">
+    <value>Quels modules, contenu et design des autres sites à utiliser ?</value>
+    <comment>Text: Which modules, content and design from other sites to use?</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SharedWith">
+    <value>UTILISÉ DANS</value>
+    <comment>phrase: Used in</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSettingsTitle">
+    <value>Paramètres du site</value>
+    <comment>The title of the site settings page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDisableThisDataSource">
+    <value>Enlever cette source la fera disparaître de l'interface, mais toutes les données qu'elle contient resteront dans la base de données.&lt;br/&gt;Vous pourrez l'activer plus tard depuis les paramètres avancés.&lt;br/&gt;Souhaitez-vous vraiment enlever cette source ?</value>
+    <comment>phrase: Removing this source will hide it from the interface but all the data that contains will remain in the database.&lt;br/&gt;You can enable this source later from Advanced settings.&lt;br/&gt;Are you sure you want to remove this source?</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteManagementHtmlTitle">
+    <value>Gestion multisites</value>
+    <comment>The html title of the Multisite management page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TestingDomainCannotBeEmpty">
+    <value>Domaine de test ne peut être vide.</value>
+    <comment>phrase: Testing domain cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ManageSites">
+    <value>Gérer les sites</value>
+    <comment>phrase: Manage sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisPageIsNotAccessible">
+    <value>Cette page n'est pas accessible</value>
+    <comment>Phrase: This page is not accessible</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteDomainCannotContainSpaces">
+    <value>Le domaine du site ne peut contenir d'espaces</value>
+    <comment>Site's domain cannot contain spaces</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="InOneSite">
+    <value>dans 1 site</value>
+    <comment>phrase: in 1 site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DuplicateSiteName">
+    <value>Un site nommé "{0}" existe déjà</value>
+    <comment>Site with name "{0}" already exists</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSiteCanUseModuleFrom">
+    <value>Ce site peut utiliser {0} depuis ...</value>
+    <comment>Phrase: This site can use {0} from...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DomainAliasAlreadyUsedByAnotherSite">
+    <value>L'alias de domaine "{0}" est déjà utilisé par le site "{1}"</value>
+    <comment>Error message: Domain alias "{0}" is already used by site "{1}"</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="IncludeCurrentSiteDescription">
+    <value>Sinon ce sera quelque chose comme "Autres sites"</value>
+    <comment>Phrase: Otherwise it will be something like "Other sites"</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSettingsHtmlTitle">
+    <value>Paramètres du site</value>
+    <comment>The html title of the site settings page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SetDefault">
+    <value>Définir par défaut</value>
+    <comment>phrase: Set as default</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TemplateUsageTitleSingular">
+    <value>Ce modèle est partagé avec 1 site</value>
+    <comment>phrase: This template is shared with 1 site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ProvidersDescription">
+    <value>Fournit une interface utilisateur pour les fournisseurs.</value>
+    <comment>Description of providers section.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="AddressForPublicUsersLogin">
+    <value>Adresse pour la connexion des utilisateurs publics</value>
+    <comment>phrase: Address for public users login</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSiteHas">
+    <value>Ce site a :</value>
+    <comment>Phrase: This site has:</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectedSites">
+    <value>Sites sélectionnés...</value>
+    <comment>SelectedSites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSelectorDefaultLabel">
+    <value>Sélectionner un site</value>
+    <comment>Phrase: Select a site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MoreText">
+    <value>Afficher plus...</value>
+    <comment>phrase: Show more</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="NotFound">
+    <value>Non trouvé</value>
+    <comment>phrase: Not found</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DropDownViewMenuLabel">
+    <value>Menu déroulant</value>
+    <comment>Phrase: Drop-down menu</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="AdministrationGroupPageDescription">
+    <value>Fournit une interface utilisateur pour la page de groupe d'administration multi site</value>
+    <comment>Description of Multisite administration group page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="GeneralSettings">
+    <value>Paramètres généraux</value>
+    <comment>Phrase: General settings</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="PublicLoginPageDescription">
+    <value>Indiquer l'URL depuis le même domaine</value>
+    <comment>phrase: Enter URL from the same domain</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteResourcesTitle">
+    <value>Gestion multisites</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SetOfflineSiteTitle">
+    <value>Êtes-vous sûr de vouloir passer ce site hors ligne ?</value>
+    <comment>The text to be shown for setting a site offline</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="AdministrationGroupPageUrlName">
+    <value>Multi-sites</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="LanguagePerSiteDescription">
+    <value>Allez dans Gérer les sites &gt; Propriétés et choisissez les langues que vous souhaitez utiliser sur le site concerné. Notez que les présentes langues ne seront pas ajoutées automatiquement aux sites existants.</value>
+    <comment>phrase: Go to Manage sites &gt; Properties and select the languages you want to be used in the respective site.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DuplicatePagesAndSettingsFromExistingSite">
+    <value>Pages et paramètres dupliqués du site existant ...</value>
+    <comment>phrase: Duplicate pages and settings from existing site...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="EnableSubFolderSiteFallbackTitle">
+    <value>Permettre le repli vers le site du domaine</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Properties">
+    <value>Propriétés</value>
+    <comment>phrase: Properties</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ListOfLinksViewMenuLabel">
+    <value>Liste de liens</value>
+    <comment>Phrase: List of links</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Change">
+    <value>Changer</value>
+    <comment>Word: Change</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="InThisSite">
+    <value>dans ce site</value>
+    <comment>phrase: in this site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="NotSharedWithAnySite">
+    <value>Partagé avec aucun site</value>
+    <comment>phrase: Not shared with any site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSite">
+    <value>ce site</value>
+    <comment>phrase: this site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigurationByDeploymentMode">
+    <value>Par déploiement</value>
+    <comment>Configuration by deployment mode text</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Domain">
+    <value>Domaine</value>
+    <comment>Phrase: Domain</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DeleteSite">
+    <value>Supprimer ce site Web</value>
+    <comment>Delete this website.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigureModules">
+    <value>Configurer les modules</value>
+    <comment>Phrase: Configure Modules</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="OtherSites">
+    <value>Autres sites</value>
+    <comment>Phrase: Other sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Offline">
+    <value>Hors ligne</value>
+    <comment>Word: Offline</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="IncludeCurrentSite">
+    <value>Inclure le site actuel</value>
+    <comment>Phrase: Include the current site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectSitesExplanationLine2">
+    <value>À titre d'exemple, si vous gérez 5 sites sur 45 vous pouvez ne sélectionner qu'eux à apparaître dans le menu.</value>
+    <comment>Phrase: For example, if you manage 5 of 45 sites you can select only them to appear in the menu.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DeleteSiteTitle">
+    <value>Êtes-vous sûr de vouloir supprimer ce site Web ?</value>
+    <comment>The text to be shown for deleting a website</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="CreateThisSite">
+    <value>Créer ce site</value>
+    <comment>Phrase: Create this site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteConfiguredManuallyMessage">
+    <value>Les propriétés du site  et les modules sont configurés manuellement</value>
+    <comment>The site properties and modules are configured manually message.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="AllSites">
+    <value>Tous les {0} sites</value>
+    <comment>phrase: All {0} sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteManagementDescription">
+    <value>Fournit l'interface utilisateur pour la gestion multisites.</value>
+    <comment>Description of Multisite management section.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectSite">
+    <value>Choisir le site</value>
+    <comment>Phrase: Select site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Protocol">
+    <value>Protocole</value>
+    <comment>phrase: Protocol</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SetOnline">
+    <value>Mettre en ligne</value>
+    <comment>Word: Set online</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ShowLanguagesOnly">
+    <value>Montrer uniquement les langues</value>
+    <comment>Phrase: Show languages only</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ManualConfigurationMode">
+    <value>Manuellement</value>
+    <comment>Manual configuration mode text</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSpecificDomainCannotContainSpaces">
+    <value>Le domaine du site "{0}" ne peut contenir d'espaces</value>
+    <comment>Site's domain "{0}" cannot contain spaces</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="RemoveSource">
+    <value>Enlever la source</value>
+    <comment>phrase for the 'Remove source' confirmation dialog button: Remove source</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ShowSiteNamesAndLanguagesOption">
+    <value>Montrer les noms des sites et les langues</value>
+    <comment>Phrase: Show site names and languages</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="LanguagePerSite">
+    <value>Comment ajouter des langues par site ?</value>
+    <comment>phrase: How can I add languages per site?</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="UseModuleInSitesTitle">
+    <value>Comment puis-je utiliser ce module sur d'autres sites ?</value>
+    <comment>phrase: How can I use this module in other sites?</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SitesAll">
+    <value>Tous les sites</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TemplateUsageTitle">
+    <value>Ce modèle est partagé avec {0} sites</value>
+    <comment>phrase: This template is shared with {0} sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ProvidersTitle">
+    <value>Configuration des fournisseurs</value>
+    <comment>The title of the configure providers page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigureManuallyBtn">
+    <value>Configurer manuellement</value>
+    <comment>Configure manually button text</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="InvalidDomainName">
+    <value>Nom de domaine invalide</value>
+    <comment>Invalid domain name.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Online">
+    <value>En ligne</value>
+    <comment>Word: Online</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Gestion multisites</value>
+    <comment>Module title.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteNameExample">
+    <value>&lt;strong&gt;Exemple:&lt;/strong&gt; &lt;em&gt;Mon site &amp;mdash; Australia&lt;/em&gt;</value>
+    <comment>Example: My site - Australia</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectSites">
+    <value>Choisir les sites</value>
+    <comment>Phrase: Select sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DisplayAsLabel">
+    <value>Afficher comme ...</value>
+    <comment>Phrase: Display as...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="CreateEmptySite">
+    <value>Créer un site vide</value>
+    <comment>phrase: Create empty site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectSources">
+    <value>Sélectionner les sources</value>
+    <comment>Phrase: Select sources</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectedSitesNoDots">
+    <value>Sites sélectionnés</value>
+    <comment>phrase: Selected sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSelectorControlDescription">
+    <value>Interface utilisateur widget du sélecteur de sites</value>
+    <comment>The description of the SiteSelectorControl Widget</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSpecificDomainIsInvalid">
+    <value>Le domaine du site "{0}" n'est pas valide</value>
+    <comment>Site's domain "{0}" is invalid</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="UsedAlsoBy">
+    <value>Utilisé aussi par</value>
+    <comment>phrase: Used also by</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="BackToCreateSite">
+    <value>Retour à Créer un site</value>
+    <comment>Phrase: Back to Create a site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="UrlTypeLabel">
+    <value>Url principale</value>
+    <comment>Phrase: Main url</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="UseModuleInSitesDescription">
+    <value>Afin d'activer ce module pour un site particulier, rendez vous dans Gérer les sites &gt; Menu des actions du site &gt; Configurer les modules</value>
+    <comment>phrase: Go to Manage sites &gt; Site actions menu &gt; Configure modules to enable this module for a particular site.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSettingsUrlName">
+    <value>paramètres du site</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSiteCanUseDataFrom">
+    <value>Ce site peut utiliser des données provenant de ...</value>
+    <comment>Phrase: This site can use data from...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSelectorControlTitle">
+    <value>Sélecteur de site</value>
+    <comment>The title of the SiteSelectorControl Widget</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSiteIsInProcessOfDevelopment">
+    <value>Ce site est en cours d'élaboration</value>
+    <comment>phrase: This site is in process of development</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SetOffline">
+    <value>Mettre le site hors ligne</value>
+    <comment>Word: Set website offline</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TaxonomyUsedIn">
+    <value>{0} sont utilisés dans ...</value>
+    <comment>phrase: {0} are used in...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="PermissionsSitesUsageSingle">
+    <value>{0} utilisé(s) dans {1} site</value>
+    <comment>Permissions used in single site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="PermissionsSitesUsageMultiple">
+    <value>{0} utilisé(s) dans {1} site(s)</value>
+    <comment>Permissions used in multiple sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SelectSitesExplanationLine1">
+    <value>Vous pouvez personnaliser le menu et choisir quels sites vous voulez voir.</value>
+    <comment>Phrase: You can customize the menu and select which sites you want to see.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteSelectorControlDefaultLabel">
+    <value>Sélectionner un site</value>
+    <comment>Phrase: Select a site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteConfiguredByDeploymentMessage">
+    <value>Les propriétés du site  et les modules sont configurés durant  le processus de déploiement</value>
+    <comment>The site properties and modules are configured as a part of the deployment process message</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteResourcesTitlePlural">
+    <value>Gestion multisites</value>
+    <comment>Title plural for the Multisite management module.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="LiveUrl">
+    <value>Url live</value>
+    <comment>Phrase: Live url</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ThisSiteCapital">
+    <value>Ce site</value>
+    <comment>phrase: This site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="RedirectToPage">
+    <value>Rediriger vers une page particulière...</value>
+    <comment>phrase: Redirect to specific page...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="AdministrationGroupPageTitle">
+    <value>Groupe d'administration multi-sites</value>
+    <comment>The title of the Multisite administration group page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+    <comment>Word: Name</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ShareTemplateTitle">
+    <value>Partager ce modèle avec les sites choisis</value>
+    <comment>phrase: Share this template with selected sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DisplayLanguageVersions">
+    <value>Afficher chaque version linguistique comme un site séparé</value>
+    <comment>Phrase: Display each language version as a separate site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="StagingUrl">
+    <value>Url de développement</value>
+    <comment>Phrase: Staging url</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="EnableSubFolderSiteFallbackDescription">
+    <value>Si activé et qu'aucune page n'est trouvée dans le site de sous-répertoire résolu, le système cherchera une page avec la même URL dans le site du domaine, et autrement renverra une exception HTTP 404 Page non trouvée</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigureModulesDefaultsDescription">
+    <value>Par défaut tous les modules utilisent du contenu provenant uniquement de ce site</value>
+    <comment>Text: By default, all modules use content from this site only</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="LessText">
+    <value>Afficher moins</value>
+    <comment>phrase: Show less</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="InvalidSiteName">
+    <value>Nom de site invalide</value>
+    <comment>Invalid site name.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TestingDomainAlreadyUsedByAnotherSite">
+    <value>Le domaine de test "{0}" est déjà utilisé par le site "{1}"</value>
+    <comment>Error message: Testing domain "{0}" is already used by site "{1}"</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TestingDomain">
+    <value>Domaine de test &lt;span class='sfLblNote'&gt;(utilisé en cours de développement)&lt;/span&gt;</value>
+    <comment>Phrase: Testing domain (used while in process of development)</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="SiteDomainCannotContainPath">
+    <value>Le domaine du site ne peut contenir plus d'un niveau dans le chemin</value>
+    <comment>Site's domain cannot contain a subpath in the path</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="BackToSites">
+    <value>Retour aux Sites</value>
+    <comment>Phrase: Back to Sites</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ProvidersHtmlTitle">
+    <value>FOURNISSEURS</value>
+    <comment>The html title of the providers page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="GlobalSettings">
+    <value>Paramètres</value>
+    <comment>phrase: Settings</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DomainCannotBeEmpty">
+    <value>Domaine ne peut être vide.</value>
+    <comment>phrase: Domain cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="DomainExample">
+    <value>&lt;strong&gt;Exemple :&lt;/strong&gt; &lt;div class='sfAlignTop sfInlineBlock sfMLeft5'&gt;monsite.com&lt;br/&gt;marketing.monsite.com&lt;br /&gt;monsite.com:80&lt;/div&gt;</value>
+    <comment>Phrase: Example: mysite.com, marketing.mysite.com, mysite.com:80</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ProvidersUrlName">
+    <value>FOURNISSEURS</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Customize">
+    <value>Personnaliser</value>
+    <comment>word: Customize</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="CreateSite">
+    <value>Créer un site</value>
+    <comment>Phrase: Create a site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="EnterUrl">
+    <value>Indiquer l'URL</value>
+    <comment>phrase: Enter URL</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteManagementTitle">
+    <value>Gestion multisites</value>
+    <comment>The title of the Multisite management page.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ConfigureModulesFor">
+    <value>Configurer les modules pour</value>
+    <comment>Phrase: Configure modules for</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MakeDefault">
+    <value>Définir comme paramètres par défaut</value>
+    <comment>phrase: Make Default</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="IfSomeoneTriesToOpenPage">
+    <value>Si quelqu'un essaie d'ouvrir une page de ce site ...</value>
+    <comment>phrase: If someone tries to open a page from this site...</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="TemplateUsageDescription">
+    <value>Les modifications du modèle affecteront tous ces sites :</value>
+    <comment>phrase: Template changes will affect all of these sites:</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="ShowMessage">
+    <value>Afficher le message</value>
+    <comment>phrase: Show message</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="Default">
+    <value>Par défaut</value>
+    <comment>phrase: Default</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="EditSite">
+    <value>Modifier un site</value>
+    <comment>Phrase: Edit a site</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+  <data name="MultisiteResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur de gestion multisites</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:37</lastModified>
+  </data>
+</root>

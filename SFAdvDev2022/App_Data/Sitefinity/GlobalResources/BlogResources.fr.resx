@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayLastUpdatedPosts">
+    <value>Afficher les derniers articles mis à jour dans...</value>
+    <comment>The text of last updated posts sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishedPosts">
+    <value>Publié</value>
+    <comment>The text of published posts sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailAuthor">
+    <value>Envoyer un courriel à l'auteur de l'article lorsqu'un nouveau commentaire est publié</value>
+    <comment>Phrase: Email the post author when a new comment is submitted</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsUrlName">
+    <value>commentaires</value>
+    <comment>Comments URL.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyPosts">
+    <value>Mes articles</value>
+    <comment>The text of my posts sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomFieldsForBlogs">
+    <value>Champs personnalisés pour les blogs</value>
+    <comment>phrase: Custom fields for blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllBlogs">
+    <value>Tous les blogs</value>
+    <comment>Phrase: All blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Autoriser les commentaires</value>
+    <comment>Phrase: AllowComments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesMetafieldTitle">
+    <value>Catégorie</value>
+    <comment>Name of the metafield containing the categories taxonomy for blog posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Generate">
+    <value>Générer ...</value>
+    <comment>The text of my blogs sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditPost">
+    <value>Éditer un article</value>
+    <comment>The title of the edit post dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ForAllBlogs">
+    <value>Pour tous les blogs</value>
+    <comment>phrase: For all blogs...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToBlogs">
+    <value>Retour aux blogs</value>
+    <comment>The text of the back to blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoBlogs">
+    <value>Aucun blog n'a encore été créé</value>
+    <comment>phrase: No blogs have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Blog_Behaviour">
+    <value>Comportement</value>
+    <comment>"Behaviour" section name for Blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Trier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Move">
+    <value>Déplacer</value>
+    <comment>The text of the Move button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionsForPosts">
+    <value>Autorisations pour les articles</value>
+    <comment>phrase: Permissions for posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionsForBlogs">
+    <value>Autorisations</value>
+    <comment>phrase: Permissions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Définir les Autorisations</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyBlogs">
+    <value>Mes blogs</value>
+    <comment>The text of my blogs sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Blog_AdditionalInfo">
+    <value>+ d'infos</value>
+    <comment>"AdditionalInfo" section name for Blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Category">
+    <value>Catégorie</value>
+    <comment>word: Category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostTitle">
+    <value>Titre</value>
+    <comment>Text of the items grid header showing a blog post's title.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Language">
+    <value>Langue</value>
+    <comment>word: Language</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Autorisations</value>
+    <comment>word: Permissions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="IncludeInSitemap">
+    <value>Inclure dans le plan du site</value>
+    <comment>phrase: Include in sitemap</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogSingularItemName">
+    <value>Blog</value>
+    <comment>Word: blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DraftPosts">
+    <value>Brouillons</value>
+    <comment>The text of draft posts sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteBlogPost">
+    <value>Supprimer</value>
+    <comment>Text of the action that will delete a blog post.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastPostLiteral">
+    <value>Dernier article :</value>
+    <comment>A literal for 'Last post'</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Summary">
+    <value>Résumé</value>
+    <comment>word: Summary</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsListControlFriendlyName">
+    <value>Liste des blogs.</value>
+    <comment>Title of the blogs list template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ForAllBlogsLabel">
+    <value>Filtrer les blogs</value>
+    <comment>Title: For all blogs ...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Blog_General">
+    <value>Général</value>
+    <comment>"General" section name for Blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToComments">
+    <value>Retour aux commentaires</value>
+    <comment>phrase: Back to Comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsForAllPostsInABlog">
+    <value>commentaires</value>
+    <comment>Text for the label for all post comments in a blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ScheduledPosts">
+    <value>Planifié</value>
+    <comment>The text of scheduled posts sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>Annuler la publication</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToPosts">
+    <value>Retour aux articles</value>
+    <comment>The text of the back to posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostDateCreated">
+    <value>commentaires</value>
+    <comment>Label for the blog post creation date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewBlog">
+    <value>Voir le blog</value>
+    <comment>Label for 'view blog' command.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FullStory">
+    <value>Lire la suite</value>
+    <comment>Phrase: Full story</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TodayLiteral">
+    <value>Aujourd'hui</value>
+    <comment>A literal for 'Today'.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historique des révisions</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageBlogs">
+    <value>Gérer les Blogs</value>
+    <comment>word: ManageBlogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Author">
+    <value>Auteur</value>
+    <comment>word: Author</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Post_General">
+    <value>Général</value>
+    <comment>"General" section name for BlogPost</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GroupDeleteBlogPosts">
+    <value>Supprimer</value>
+    <comment>Text of the button that performs a group delete for blog posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SettingsForBlogs">
+    <value>Paramètres</value>
+    <comment>phrase: Settings for blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPost_EditItem">
+    <value>Éditer un article</value>
+    <comment>phrase: Edit a post</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Date d'expiration</value>
+    <comment>phrase: Expiration Date</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentCannotBeEmpty">
+    <value>Le contenu ne peut être vide</value>
+    <comment>Content cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoBlogsSelectedYet">
+    <value>Aucun blog n'est sélectionné</value>
+    <comment>Phrase: No blogs selected yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogSettingsProblem">
+    <value>Il y a un problème avec les paramètres de ce blog</value>
+    <comment>phrase: There is a problem with this blog settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsList">
+    <value>Liste des blogs</value>
+    <comment>Title of the blogs list widget</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsPostsSingleTypeName">
+    <value>Article de blog</value>
+    <comment>Blog Posts type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlog">
+    <value>Êtes-vous sûr de vouloir supprimer ce blog ?</value>
+    <comment>Confirmation message when a blog is deleted.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByLiteral">
+    <value>Par</value>
+    <comment>A literal for 'By'.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Blog_BackToAllItems">
+    <value>Retour à tous les blogs</value>
+    <comment>phrase: Back to all blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastCommentLiteral">
+    <value>Dernier commentaire</value>
+    <comment>A literal for 'Last comment'.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsMoreActions">
+    <value>Plus d'actions</value>
+    <comment>Label for the 'more actions' header for blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Retour aux articles</value>
+    <comment>The text of the back to posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsListDescription">
+    <value>Liste des blogs - affiche une liste des blogs</value>
+    <comment>Description of the blogs list widget</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Éditer...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsDetailViewFriendlyName">
+    <value>Articles de blog - unique</value>
+    <comment>Phrase: Blog posts - single</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PostsByTag">
+    <value>Articles par tag</value>
+    <comment>Phrase: Posts by tag</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsDescription">
+    <value>Gérer les commentaires</value>
+    <comment>Provides description for the comments view of blogs module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogSelectorTitle">
+    <value>Sélectionner {0} où déplacer {1} {2}</value>
+    <comment>The title of the blog selector.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En attente d'approbation</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsWithoutPosts">
+    <value>Blogs sans articles</value>
+    <comment>Label: Blogs without posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteBlog">
+    <value>Supprimer</value>
+    <comment>Label for the 'delete blog' command.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManagePosts">
+    <value>Gérer les articles</value>
+    <comment>word: ManagePosts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="History">
+    <value>Historique</value>
+    <comment>word: History</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsToolboxSectionDescription">
+    <value>Titre de la boîte à outils du module des blogs</value>
+    <comment>Description of the blogs module toolbox title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsHtmlTitle">
+    <value>Articles de blog</value>
+    <comment>Title for the Blog Posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsTitle">
+    <value>commentaires</value>
+    <comment>Title for the comments page module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogCreatedFirst">
+    <value>Dernières créations en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>L'URL ne peut être vide</value>
+    <comment>URL cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PagesWhereBlogPostsArePublished">
+    <value>Pages où les articles de blog sont publiés</value>
+    <comment>Pages where Blog Posts are published</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoPosts">
+    <value>Aucun article n'a encore été créé</value>
+    <comment>phrase: No posts have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllPosts">
+    <value>Tous les articles</value>
+    <comment>Phrase: All posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostAuthor">
+    <value>commentaires</value>
+    <comment>Label for blog post author</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditPosts">
+    <value>Éditer les articles</value>
+    <comment>Edit posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PostsByCategory">
+    <value>Articles par catégorie</value>
+    <comment>Phrase: Posts by category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Supprimer</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>par Date de modification ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GroupDeleteBlogs">
+    <value>Supprimer</value>
+    <comment>Label for the 'group delete blog' command.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WaitingForPublishing">
+    <value>En attente de publication</value>
+    <comment>The text of the 'Awaiting Publishing' button in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisBlog">
+    <value>Créer ce blog</value>
+    <comment>phrase: Create this blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogHeaderTitle">
+    <value>Supprimer</value>
+    <comment>Header text for the items grid view column showing a blog's title.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propriétaire</value>
+    <comment>word: Owner</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ClickToAddSummary">
+    <value>Cliquez ici pour ajouter le résumé</value>
+    <comment>Click to add summary</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogSelectorSearchBoxTitle">
+    <value>Commencer à taper le nom de {0} ...</value>
+    <comment>The title of the search box in blog selector.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>Par Titre (Z - A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsDataFields">
+    <value>Champs de données des articles de blogs</value>
+    <comment>phrase: Blogs posts data fields</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>Par Titre (A - Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>L'URL contient des symboles non valides.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostPluralItemName">
+    <value>Articles de blog</value>
+    <comment>Word: blog posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateBlog">
+    <value>Créer un blog</value>
+    <comment>Label of the dialog that creates a new blog.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expire le :</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>word: View</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Catégories</value>
+    <comment>word: Categories</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewAllBlogs">
+    <value>Tous les blogs</value>
+    <comment>Text of the link that will show the view that lists all blog posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AlternativePublishing">
+    <value>Publication alternative (RSS)</value>
+    <comment>Alternative publishing (RSS)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostComments">
+    <value>commentaires</value>
+    <comment>Label for blog post comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PostsLiteral">
+    <value>Articles</value>
+    <comment>A literal for 'posts'.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsDataFields">
+    <value>Champs de données des blogs</value>
+    <comment>phrase: Blogs data fields</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Tri personnalisé ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MostUsedOnTop">
+    <value>Plus utilisés en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Date de Publication</value>
+    <comment>phrase: Publication Date</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+    <comment>Label for the buttons that create a new blog post and a new blog.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ThisOperationCanTakeConsiderableAmountOfTime">
+    <value>Le déplacement des images/vidéos/documents peut prendre un moment. Vous ne serez pas en mesure de continuer à travailler jusqu'à ce que le processus se termine</value>
+    <comment>warning message: Moving items may take a while. You will not be able to continue with your work until the process finishes</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsCommandPanelTitle">
+    <value>Articles</value>
+    <comment>Title of the blog posts command panel (the panel shown when viewing a blog's posts).</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propriétés</value>
+    <comment>word: Properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Status">
+    <value>Statut</value>
+    <comment>Status</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur des blogs.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>Que voulez-vous faire maintenant ?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogProperties">
+    <value>Titre et Propriétés</value>
+    <comment>Phrase: Blog properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TagsMetafieldDescription">
+    <value>Définit les mots-clés pour cet élément de contenu.</value>
+    <comment>Description of the metafield containing the tags taxonomy for blog posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesMetafieldDescription">
+    <value>Définit la catégorie de cet élément de contenu.</value>
+    <comment>Description of the metafield containing the categories taxonomy for blog posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogUrlName">
+    <value>URL du blog</value>
+    <comment>phrase: Blog URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsPostsPluralTypeName">
+    <value>Articles de blog</value>
+    <comment>Blog Posts type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsOlderThan">
+    <value>Seulement les blogs ayant des articles pas plus anciens que</value>
+    <comment>phrase: Only blogs that have posts not older than </comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsTitleFormat">
+    <value>&lt;em&gt;{0}&lt;/em&gt; articles</value>
+    <comment>Title format for the blog posts view.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publié le :</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsTitle">
+    <value>Articles</value>
+    <comment>Title for the Blog Posts.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OnlyRegisteredUsers">
+    <value>Seulement les utilisateurs enregistrés</value>
+    <comment>Phrase: Only registered user</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhichBlog">
+    <value>Quels blogs afficher ?</value>
+    <comment>phrase: Which blogs to display?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToAllItems">
+    <value>Retour à tous les articles de blog</value>
+    <comment>phrase: Back to all blog posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsUrlName">
+    <value>Articles de blog</value>
+    <comment>Blog Posts URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres pour les blogs</value>
+    <comment>phrase: Posts Settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Plus d'options &lt;em class='sfNote'&gt;(URL, Commentaires)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisPost">
+    <value>Créer cet article</value>
+    <comment>phrase: Create this post</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToAllBlogs">
+    <value>Revenir à tous les blogs.</value>
+    <comment>Go back to all blogs.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+    <comment>word: Delete</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Posts">
+    <value>articles</value>
+    <comment>word: posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditBlog">
+    <value>Modifier un blog</value>
+    <comment>The title of the edit blog dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FilterPosts">
+    <value>Filtrer les articles</value>
+    <comment>phrase: Filter posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Post_AdditionalInfo">
+    <value>+ d'infos</value>
+    <comment>"AdditionalInfo" section name for BlogPost</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gérer aussi</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Post_Behaviour">
+    <value>Comportement</value>
+    <comment>"Behaviour" section name for BlogPost</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsHtmlTitle">
+    <value>Commentaires des articles du blog</value>
+    <comment>Html Title for the comments page module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Dupliquer</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsForPosts">
+    <value>Commentaires des blogs</value>
+    <comment>phrase: Comments for blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Catégories et tags</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditBlogPostsSettings">
+    <value>Modifier les paramètres des articles de blog</value>
+    <comment>Phrase: Edit Blog posts settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreActionsWithPosts">
+    <value>Plus d'actions avec les articles</value>
+    <comment>phrase: More actions with posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsViewDescription">
+    <value>Liste des articles de blogs</value>
+    <comment>Describes the BlogPostsView title in the toolbox</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsApproved">
+    <value>Les commentaires doivent être approuvés avant d'apparaître sur le site</value>
+    <comment>Phrase: CommentsApproved</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPluralItemName">
+    <value>Blogs</value>
+    <comment>Word: blogs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewBlogPost">
+    <value>Voir</value>
+    <comment>Text of the link that will preview a blog post</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsMoreThan">
+    <value>Blogs avec plus de</value>
+    <comment>phrase: Blogs with more than</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogsMasterViewFriendlyName">
+    <value>Articles de blog - liste</value>
+    <comment>Phrase: Blog posts - list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoveToAnotherBlog">
+    <value>&lt;strong&gt;Aller sur&lt;/strong&gt; un autre blog</value>
+    <comment>The text of the button for moving blog post to another blog in the action menu.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateBlogPost">
+    <value>Créer un article</value>
+    <comment>Text of the button that creates a new blog post.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Months">
+    <value>mois</value>
+    <comment>word: months</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewBlog">
+    <value>Créer un blog</value>
+    <comment>The title of the create new blog dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Groupe de page racines pour toutes les pages dans le module des blogs.</value>
+    <comment>Description of the blogs page group</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Blog_EditItem">
+    <value>Modifier un blog</value>
+    <comment>phrase: Edit a blog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefaultPage">
+    <value>Page par défaut</value>
+    <comment>Phrase: Default page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogPostsViewTitle">
+    <value>Articles de blog</value>
+    <comment>BlogPostsView title in the toolbox</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlogModifiedFirst">
+    <value>Dernières modifications en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowTrackBacks">
+    <value>Autoriser les rétroliens</value>
+    <comment>Phrase: AllowTrackBacks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlogPost">
+    <value>Êtes-vous sûr de vouloir supprimer cet article de blog ?</value>
+    <comment>Confirmation message sent to the he user prior to deleting an item.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewPost">
+    <value>Créer un article</value>
+    <comment>The title of the create new post dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Properties">
+    <value>Titre et Propriétés</value>
+    <comment>phrase: Title &amp; Properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefaultPageNotSet">
+    <value>La page par défaut pour ce blog n'est pas définie.</value>
+    <comment>The message shown when the blog has no default pages set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>annuler</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SortBlogPosts">
+    <value>Trier les articles de blog</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>La date de publication doit être renseignée.</value>
+    <comment>Publication date cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Anyone">
+    <value>Tout le monde</value>
+    <comment>Phrase: Anyone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhoCanPostComments">
+    <value>Qui peut poster des commentaires</value>
+    <comment>WhoCanPostComments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Champs personnalisés pour les articles</value>
+    <comment>phrase: Custom Fields for posts</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SearchPosts">
+    <value>Rechercher des articles...</value>
+    <comment>phrase: Search posts...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SortByLastPostDate">
+    <value>Par date du dernier article (plus récent en haut)</value>
+    <comment>phrase: By date of the last post (newest on top)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ByContentType">
+    <value>par type de contenu...</value>
+    <comment>The text of the content filter sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsForm">
+    <value>Formulaire des commentaires</value>
+    <comment>phrase:Comments form</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Published">
+    <value>Publié</value>
+    <comment>Phrase: Published</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisplayCommentsIn">
+    <value>Afficher les commentaires dans...</value>
+    <comment>Phrase:Display comments in...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ThreadKeyText">
+    <value>Type de contenu personnalisé ou ID associé aux commentaires</value>
+    <comment>phrase: Custom content type or ID associated to comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsGridCommentCol">
+    <value>Date / Statut /  Commentaire</value>
+    <comment>Phrase: Date / Status /  Comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Reply">
+    <value>Répondre</value>
+    <comment>Word: Reply</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShowNewestOnTop">
+    <value>Afficher le dernier en haut</value>
+    <comment>Phrase: Show newest on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Reviews">
+    <value>Avis</value>
+    <comment>phrase: reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>par Date de modification ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Autoriser les commentaires pour cet élément</value>
+    <comment>Phrase: Allow comments for this item</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="VideosThreadTitle">
+    <value>Vidéos</value>
+    <comment>phrase: Videos</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoComments">
+    <value>Aucun commentaire n'a encore été envoyé</value>
+    <comment>phrase: No comments have been submitted yet</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentCount">
+    <value>{0} commentaire</value>
+    <comment>phrase: Shows label with comment count, single</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+    <comment>word: Name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewSubmittedSuccessfullyMessage">
+    <value>Merci ! Votre avis a bien été envoyé</value>
+    <comment>The text that is displayed when a review is submitted successfully</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsCountBackend">
+    <value>Tous les {0} commentaires</value>
+    <comment>phrase: All {0} comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Hidden">
+    <value>Invisible</value>
+    <comment>Phrase: Hidden</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullyUnsubscribedFromReviews">
+    <value>Vous vous êtes désabonné des nouveaux avis</value>
+    <comment>Text that will appear once you unsubscribe to new reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsListViewTemplate">
+    <value>Modèle de vue de liste de commentaires</value>
+    <comment>Comments List View template label in designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LoadMoreComments">
+    <value>Charger plus de commentaires</value>
+    <comment>Phrase: Load more comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TypeCodeAbove">
+    <value>Veuillez taper le code ci-dessus</value>
+    <comment>phrase: Please type the code above</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur de sécurité.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NinetyNinePlus">
+    <value>+ de 99</value>
+    <comment>phrase: 99+</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres pour les commentaires</value>
+    <comment>phrase: Settings for comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PostedHoursAgo">
+    <value>Écrit il y a {0} heures</value>
+    <comment>phrase: Posted {0} hours ago</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlogPostsThreadTitle">
+    <value>Articles de blog</value>
+    <comment>phrase: Blog posts</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsGridAuthorCol">
+    <value>Auteur / Email / IP</value>
+    <comment>Phrase: Author / Email / IP</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubmitCommentUnauthenticatedTemplate">
+    <value>Modèle d'affichage d'envoi de commentaire pour utilisateur non identifié</value>
+    <comment>Submit comment view template label for unauthenticated user in designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkSpam">
+    <value>Marquer comme spam</value>
+    <comment>Phrase: Mark as spam</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewCount">
+    <value>{0} avis</value>
+    <comment>phrase: Shows label with review count, single</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsUrlName">
+    <value>commentaires</value>
+    <comment>phrase: Comments Url Name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmptyCommentErrorMessage">
+    <value>Commentaire ne peut pas être vide</value>
+    <comment>phrase: Comment cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewCode">
+    <value>Nouveau code</value>
+    <comment>phrase: New code</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewItem">
+    <value>Voir un élément</value>
+    <comment>phrase: View item</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReplyToComment">
+    <value>Répondre au &lt;a class= 'a-comment'&gt;commentaire&lt;/a&gt; de {0}</value>
+    <comment>Shows text when replying to existing comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CancelReply">
+    <value>Annuler la réponse</value>
+    <comment>Phrase: Cancel reply</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ByContentTypeHeader">
+    <value>Commentaires par type de contenu</value>
+    <comment>The title of the comments filter widget.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WithRating">
+    <value>Avec évaluation</value>
+    <comment>Phrase:With Rating</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubmitCommentTemplate">
+    <value>Modèle d'affichage d'envoi de commentaire</value>
+    <comment>Submit comment view template label in designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WaitingApproval">
+    <value>En attente d'approbation</value>
+    <comment>Phrase: Waiting for approval</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Rating">
+    <value>Évaluation</value>
+    <comment>phrase : Rating</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AverageRating">
+    <value>Évaluation moyenne :</value>
+    <comment>phrase: Average Rating</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CurrentlySubscribedToReviews">
+    <value>Vous êtes abonné aux nouveaux avis</value>
+    <comment>The text that will appear when the user could unsubscribe to reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RequiredApprovalMessage">
+    <value>Merci pour le commentaire ! Votre commentaire doit d'abord être approuvé</value>
+    <comment>The text that will be displayed when requires approval is set for this thread</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsSingleTypeName">
+    <value>commentaire</value>
+    <comment>Comments class singular</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DoNotRequireAuthorizationCaption">
+    <value>Ne nécessite pas d'autorisation</value>
+    <comment>Phrase: Back to all Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FilterComments">
+    <value>Filtrer les commentaires</value>
+    <comment>Phrase:Filter comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CannotSubmitCommentMessage">
+    <value>Le commentaire ne peut être envoyé maintenant. Veuillez réactualiser la page et réessayer.</value>
+    <comment>Comment cannot be submitted at the moment. Please refresh the page and try again.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RequireAuthorizationCaption">
+    <value>Nécessite l'autorisation</value>
+    <comment>Phrase: Require authorization</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ListItemsThreadTitle">
+    <value>Liste éléments</value>
+    <comment>phrase: List items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsGridItemCol">
+    <value>Élément commenté</value>
+    <comment>Phrase: Commented item</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DoNotRequireApproval">
+    <value>Ne nécessite pas d'approbation</value>
+    <comment>Phrase: Do not require approval</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CannotSubmitInvalidCommentArgs">
+    <value>Le commentaire ne peut être envoyé maintenant. Les arguments des données de commentaire ne sont pas valides.</value>
+    <comment>Comment cannot be submitted at the moment. The comment data arguments are not valid.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CannotSubmitInvalidThreadArgs">
+    <value>Le commentaire ne peut être envoyé maintenant. Les arguments des données discussion ne sont pas valides.</value>
+    <comment>Comment cannot be submitted at the moment. The thread data arguments are not valid.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullySubscribed">
+    <value>Vous êtes abonné aux nouveaux commentaires</value>
+    <comment>Text that will appear once you subscribe to comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeaveComment">
+    <value>Laisser un commentaire</value>
+    <comment>Phrase: Leave a comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubmitFormRatingLabel">
+    <value>Évaluation :</value>
+    <comment>The label displayed before the rating control in the Comments Submit Form</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CaptchavalidationError">
+    <value>Vous avez tapé le code de manière incorrecte. Veuillez essayer à nouveau</value>
+    <comment>You typed the code incorrectly. Please try again</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShowOldestOnTop">
+    <value>Afficher le plus ancien en haut</value>
+    <comment>Phrase: Show oldest on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsListViewTemplateName">
+    <value>Liste des commentaires</value>
+    <comment>phrase: Comments list</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseContentFilter">
+    <value>Fermer les types de contenu</value>
+    <comment>The link for closing the content types filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RestrictToAuthenticatedReviewText">
+    <value>&lt;a href='{0}'&gt;Connectez-vous&lt;/a&gt; pour pouvoir rédiger un avis</value>
+    <comment>The text that will be displayed when the thread is restricted to authenticated users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CannotSubmitInvalidGroupArgs">
+    <value>Le commentaire ne peut être envoyé maintenant. Les arguments des données groupe ne sont pas valides.</value>
+    <comment>Comment cannot be submitted at the moment. The group data arguments are not valid.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToComments">
+    <value>Retour à tous les commentaires</value>
+    <comment>Phrase: Back to all Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageComments">
+    <value>Commentaires de la page</value>
+    <comment>phrase: Page Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnblockIp">
+    <value>Débloquer l'IP</value>
+    <comment>Phrase: Unblock IP</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubscribeToReviews">
+    <value>S'abonner aux nouveaux avis</value>
+    <comment>The text that will appear when the user could subscribe to reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MyComments">
+    <value>Commentaires sur mes éléments</value>
+    <comment>Phrase:Comments on my items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="All">
+    <value>Tous</value>
+    <comment>Phrase: All</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Review">
+    <value>examiner</value>
+    <comment>phrase: review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RatingIsRequiredMessage">
+    <value>Le commentaire ne peut être transmis sans évaluation.</value>
+    <comment>A message displayed when ratings are allowed and a comment is submitted without rating.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WriteAReview">
+    <value>Écrivez un avis</value>
+    <comment>phrase: Write a review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OtherFilterOptions">
+    <value>Autres options de filtrage</value>
+    <comment>Phrase:Other filter options</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Comments">
+    <value>commentaire</value>
+    <comment>Word: Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AverageRatingBasedOnPublishedItems">
+    <value>Basé sur les éléments publiés</value>
+    <comment>phrase: Based on published items</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AnonymousUser">
+    <value>Utilisateur anonyme</value>
+    <comment>phrase: Anonymous user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsTemplate">
+    <value>Modèle des commentaires</value>
+    <comment>Comments template label in designer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ClosedThreadText">
+    <value>Les commentaires ne sont plus autorisés</value>
+    <comment>The text that will be displayed when the thread is closed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RestrictToAuthenticatedText">
+    <value>&lt;a href='{0}'&gt;Connectez-vous&lt;/a&gt; pour pouvoir commenter</value>
+    <comment>The text that will be displayed when the thread is restricted to authenticated users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullySubscribedToReviews">
+    <value>Vous êtes abonné aux nouveaux avis</value>
+    <comment>Text that will appear once you subscribe to reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsTitle">
+    <value>commentaires</value>
+    <comment>Control title: Comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProductsThreadTitle">
+    <value>Produits</value>
+    <comment>phrase: Products</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PostedOn">
+    <value>Posté le</value>
+    <comment>phrase: Posted on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CurrentlySubscribed">
+    <value>Vous êtes abonné aux nouveaux commentaires</value>
+    <comment>The text that will appear when the user could unsubscribe to comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewCommentsCount">
+    <value>Afficher {0} nouveaux commentaires</value>
+    <comment>Shows label with new comments count</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RequireApproval">
+    <value>Nécessite l'approbation</value>
+    <comment>Phrase: Require approval</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EventsThreadTitle">
+    <value>Évènements</value>
+    <comment>phrase: Events</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessCommentsDescription">
+    <value>Action de sécurité qui permet l'accès aux pages d'administration du module de commentaires</value>
+    <comment>Description of the 'AccessCommentsDescription' security action</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PostedMinutesAgo">
+    <value>Écrit il y a {0} minutes</value>
+    <comment>phrase: Posted {0} minutes ago</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccessCommentsTitle">
+    <value>Accès aux commentaires</value>
+    <comment>Title of the 'AccessCommentsTitle' security action</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ThreadTitle">
+    <value>Titre (utilisé dans l'interface d'administration des commentaires)</value>
+    <comment>phrase: Title (used in Comments Backend)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AlreadySubmittedReviewMessage">
+    <value>Vous avez déjà envoyé un avis pour cet article</value>
+    <comment>The text that will be displayed when the user has already submitted a review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsResourcesTitle">
+    <value>Labels du module de commentaires</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseComments">
+    <value>Fermer les commentaires pour cet élément</value>
+    <comment>Phrase:  Close comments for this item</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SettingForComments">
+    <value>Paramètres des commentaires</value>
+    <comment>phrase: Comment settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NameWatermark">
+    <value>Votre nom</value>
+    <comment>phrase: Your name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsDescription">
+    <value>Un widget qui affiche les commentaires de la discussion en question.</value>
+    <comment>Control description: A widget that shows the comments in the particular thread.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllComments">
+    <value>Tous les commentaires</value>
+    <comment>Phrase:All comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsOptions">
+    <value>Options des commentaires</value>
+    <comment>Phrase: Comments options</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewsTitle">
+    <value>Avis</value>
+    <comment>Control title: Reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReplyComment">
+    <value>Répondre au commentaire</value>
+    <comment>Phrase: Reply to comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmailWatermark">
+    <value>Email (facultatif)</value>
+    <comment>phrase: Email (optional)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Inappropriate">
+    <value>Inapproprié</value>
+    <comment>Phrase: Inappropriate</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullyUnsubscribed">
+    <value>Vous vous êtes désabonné des nouveaux commentaires</value>
+    <comment>Text that will appear once you unsubscribe to comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ManageComments">
+    <value>Gérer les commentaires</value>
+    <comment>Phrase: Manage comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OnlyOneCommentWithRatingAllowedMessage">
+    <value>Un seul commentaire sans évaluation est autorisé par utilisateur.</value>
+    <comment>An error message displayed when multiple comments with rating per user are submitted.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmptyReviewErrorMessage">
+    <value>L'avis ne peut être vide</value>
+    <comment>phrase: Review cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnmarkSpam">
+    <value>Ne plus marquer comme spam</value>
+    <comment>Phrase: Unmark as Spam</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsFor">
+    <value>Commentaires pour</value>
+    <comment>phrase: Comments for</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubscribeToComments">
+    <value>S'abonner aux nouveaux commentaires</value>
+    <comment>The text that will appear when the user could subscribe to comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsCount">
+    <value>{0} commentaires</value>
+    <comment>Shows label with comments count</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MarkAsInappropriate">
+    <value>Marquer comme inapproprié</value>
+    <comment>phrase: Mark as inappropriate</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormsThreadTitle">
+    <value>Formulaires</value>
+    <comment>phrase: Forms</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Champs personnalisés pour les commentaires</value>
+    <comment>phrase: Custom Fields for comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Hide">
+    <value>Masquer</value>
+    <comment>Phrase: Hide</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsPluralTypeName">
+    <value>commentaires</value>
+    <comment>Comments class plural</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewsCount">
+    <value>{0} avis</value>
+    <comment>phrase: Shows label with reviews count</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PostedDaysAgo">
+    <value>Écrit il y a {0} jours</value>
+    <comment>phrase: Posted {0} days ago</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WithoutRating">
+    <value>Sans évaluation</value>
+    <comment>Phrase:Without Rating</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditComment">
+    <value>Éditer le commentaire</value>
+    <comment>Edit comment dialog title</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnmarkAsInappropriate">
+    <value>Ne plus marquer comme inapproprié</value>
+    <comment>phrase: Unmark as inappropriate</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoRatingErrorMessage">
+    <value>L'évaluation est requise</value>
+    <comment>phrase: Rating is required</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RequiredApprovalMessageReviews">
+    <value>Merci pour l'avis ! Votre avis doit d'abord être approuvé</value>
+    <comment>The text that will be displayed when requires approval is set for this thread and ratings are enabled</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

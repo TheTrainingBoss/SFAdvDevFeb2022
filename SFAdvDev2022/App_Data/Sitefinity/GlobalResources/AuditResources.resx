@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MoveTo">
+    <value>à</value>
+    <comment>word: to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DateOn">
+    <value>sur</value>
+    <comment>word: on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemMoved">
+    <value>{0} a été déplacé de {1} à {2} par {3} le {4}</value>
+    <comment>phrase: Page was moved from</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AuditResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface du module d'audit trail.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserCreated">
+    <value>L'utilisateur {0} a été créé par {1} le {2}</value>
+    <comment>phrase: User {0} was created by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NotApplicable">
+    <value>N/A</value>
+    <comment>word: N/A</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnsuccessfulLoginAttempt">
+    <value>Une tentative de connexion infructueuse a été lancée depuis l'adresse IP {0} le  {1}</value>
+    <comment>phrase: Unsuccessful log in attempt was made from IP {0} on {1}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileDeleted">
+    <value>Le profil de l'utilisateur {0} a été supprimé par {1} le {2}</value>
+    <comment>phrase: User Profile of user {0} was deleted by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemStatusChanged">
+    <value>Le statut de l'élément a été modifié de {0} à {1} par {2} le {3}</value>
+    <comment>phrase: Item status was changed from {0} to {1} by {2} on {3}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AuditResourcesTitle">
+    <value>Libellé du module Audit Trail</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserRoleUnassigned">
+    <value>Le rôle {1} a été désassigné à l'utilisateur {0} par {2} le {3}</value>
+    <comment>phrase: User {0} was unassigned of role {1} by {2} on {3}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileUpdated">
+    <value>Le profil de l'utilisateur {0} a été mis à jour par {1} le {2}</value>
+    <comment>phrase: User Profile of user {0} was updated by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageTemplateChanged">
+    <value>La page {0} basée sur modèle{1} a été modifiée en {2} par {3} le {4}</value>
+    <comment>phrase: Page {0} with template {1} was changed to {2} by {3} on {4}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BlankTemplate">
+    <value>Modèle vierge</value>
+    <comment>phrase: Blank Template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserLoggedSuccessfully">
+    <value>Utilisateur ayant le Nom Utilisateur {0} s'est connecté depuis l'IP {1} le {2}</value>
+    <comment>phrase: User with User Name {0} logged in successfully from IP {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserDeleted">
+    <value>L'utilisateur {0} a été supprimé par {1} le {2}</value>
+    <comment>phrase: User {0} was deleted by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserRoleAssigned">
+    <value>L'utilisateur {0} a été affecté au rôle {1} par {2} le {3}</value>
+    <comment>phrase: User {0} was assigned to role {1} by {2} on {3}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FieldChanged">
+    <value>Le champ {0} ayant une valeur de {1}  a été modifié en {2} par {3} le {4}</value>
+    <comment>phrase: Field {0} with value {1} was changed to {2} by {3} on {4}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileCreated">
+    <value>Le profil de l'utilisateur {0} a été créé par  {1} le  {2}</value>
+    <comment>phrase: User Profile of user {0} was created by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserLoggedOutSuccessfully">
+    <value>L'utilisateur ayant le nom d'utilisateur {0} s'est connecté depuis l'adresse {1} le {2}.</value>
+    <comment>phrase: User with User Name {0} logged out successfully from IP {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemDeleted">
+    <value>{0} {1} a été supprimé par {2} le {3}</value>
+    <comment>phrase: {0} {1} was deleted by {2} on {3}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ModifiedBy">
+    <value>Par</value>
+    <comment>word: by</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageDuplicatedToAnotherSite">
+    <value>La page a été dupliquée vers  {0} par {1} le {2}</value>
+    <comment>phrase: Page was duplicated to {0} by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Unknown">
+    <value>Inconnu</value>
+    <comment>word: Unknown</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserUpdated">
+    <value>L'utilisateur {0} a été mis à jour par {1} le {2}</value>
+    <comment>phrase: User {0} was updated by {1} on {2}</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

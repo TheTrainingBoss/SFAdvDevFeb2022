@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VersionAndLicensing">
+    <value>Version et licences</value>
+    <comment>Title of the license information screen.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProductVersion">
+    <value>Version du produit</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseDetailsHeaderNote">
+    <value>Les paramètres suivants seront appliqués à tous les domaines</value>
+    <comment>phrase: The following parameters are applied for all domains.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UpdateNoSuchLicenseKey">
+    <value>la clé de licence indiquée n'est pas entrée correctement ou n'existe pas</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageLimitation">
+    <value>Limitation de page</value>
+    <comment>phrase: Page Limitation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BuildVersion">
+    <value>Version de compilation</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseIdNumberMessage">
+    <value>Clé de licence (xx-chiffres)</value>
+    <comment>LicenseIdNumberMessage</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseType">
+    <value>Type de licence</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ServerConnectionProblem">
+    <value>&lt;h1 class="sfSepTitle"&gt;Une erreur s'est produite en essayant d'obtenir la licence du serveur de licences &lt;/h1&gt;&lt;p class="sfErrorDetail"&gt;Veuillez contacter &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt; pour plus d'assistance &lt;/p&gt;</value>
+    <comment>Connection problem</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseExpirationWidgetDescription">
+    <value>Widget de notification d'expiration de licence</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Refresh">
+    <value>Actualiser</value>
+    <comment>Refresh</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Edition">
+    <value>Édition</value>
+    <comment>Edition</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidDomain">
+    <value>Domaine invalide</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UseSitefinityAccount">
+    <value>Utilisez &lt;strong&gt;l'e-mail et le mot de passe&lt;/strong&gt; de votre compte Sitefinity.com</value>
+    <comment>Use the &lt;strong&gt;email and password&lt;/strong&gt; for your Telerik account</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IssuedOn">
+    <value>Date d'activation</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EnterLicenseIDMessage">
+    <value>Entrez la clé de licence (xx-chiffres)</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseProblems">
+    <value>Statut de la licence</value>
+    <comment>Header shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PurchaseLicense">
+    <value>Acheter une licence</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MaxUsers">
+    <value>Utilisateurs simultanés</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicensingMessagesTitlePlural">
+    <value>Titre pluriel des Messages de licences</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ServerWrongCredentials">
+    <value>&lt;h1 class="sfSepTitle"&gt;Email et/ou mot de passe incorrect&lt;/h1&gt;&lt;p class="sfNote sfErrorDetail"&gt;Pour toute aide à propos de la licence, veuillez écrire à &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt;&lt;/p&gt;</value>
+    <comment>Incorrect email and/or password </comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseNotSavedSuccessfully">
+    <value>La licence ne sera pas mise à jour. Les données de licence que vous avez entré ne sont pas valides.</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IsTrailLicense">
+    <value>Licence d'évaluation</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IfYouNeedToExtendHosted">
+    <value>Si vous souhaitez prolonger la période d'essai hébergé, &lt;a href="http://www.sitefinity.com/purchase.aspx" target="_blank"&gt;achetez un renouvellement&lt;/a&gt; sur notre site web ou écrivez à &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt;</value>
+    <comment>If you want to extend the hosted trial period Purchase a renewal on our website or contact sitefinitysales@progress.com</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmptyLicenseFieldMsg">
+    <value>Veuillez entrer votre clé de licence !</value>
+    <comment>Please, enter license key!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewAndCompareAllEditions">
+    <value>Comparez toutes les éditions</value>
+    <comment>Compare all editions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Domains">
+    <value>Domaines</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WidgetNotLicensed">
+    <value>Ce widget n'est pas autorisée. L'édition est désactivée</value>
+    <comment>Message shown in page editor.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseDataConfirmationHeader">
+    <value>Votre licence Sitefinity sera actualisée, les détails de la nouvelle licence sont :</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseIsCorrupted">
+    <value>La licence est corrompue</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AddLicense">
+    <value>Entrez la clé de licence</value>
+    <comment>Message shown in license info page, reminding to add a license , when such is missing</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Update">
+    <value>Mise à jour</value>
+    <comment>Update license button label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Subscription">
+    <value>Abonnement</value>
+    <comment>Label shown in license info page when the current license is a subscription license.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseHolder">
+    <value>Titulaire de la licence :</value>
+    <comment>Label shown in License expiration widget</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RenewAndUpdate">
+    <value>* Veuillez renouveler et actualiser votre fichier de licence.</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UpdateLicenseBtnMsg">
+    <value>Actualiser votre fichier de licence</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseTypeLabel">
+    <value>Type de licence</value>
+    <comment>License type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InTrialMode">
+    <value>Sitefinity fonctionne en mode évaluation, car aucune licence valide n'est fournie. Entrez la clé de licence pour commencer à l'utiliser en mode licence.</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicensingMessagesDescription">
+    <value>Contient des ressources localisables pour les messages Sitefinity liés à la licence.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidLicenseSignature">
+    <value>Signature de licence non valide</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MissingLicenseKey">
+    <value>Clé de licence manquante</value>
+    <comment>Message shown in license info page for the license key when the license is not ok</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActivateNewValidLicense">
+    <value>Activer une nouvelle licence valide</value>
+    <comment>Activate a new valid license</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ServerMoreThanOneLicense">
+    <value>&lt;h1 class="sfSepTitle"&gt;Il y a plusieurs licences disponibles pour cette édition&lt;/h1&gt;&lt;p class="sfErrorDetail"&gt;&lt;a href="http://www.sitefinity.com/login.aspx?returnurl=%2f" target="_blank"&gt;Connectez-vous&lt;/a&gt; à votre compte &lt;em&gt;Sitefinity.com&lt;/em&gt;, téléchargez la licence que vous souhaitez utiliser et activez-la manuellement.&lt;/p&gt;&lt;p class="sfNote sfErrorDetail"&gt;Pour toute aide à propos de la licence, veuillez écrire à &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt;&lt;/p&gt;</value>
+    <comment>More than one license available.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PurchaseRenewal">
+    <value>Acheter un renouvellement</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NotAllowed">
+    <value>Enregistrement requis</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DaysRemaining">
+    <value>Jours restants</value>
+    <comment>Label shown in License expiration widget</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActivateRenewedHostedLicense">
+    <value>Activez la licence renouvelée</value>
+    <comment>Activate renewed license</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmailCampaignsSubscribersCountFormat">
+    <value>{0} - {1} abonnés</value>
+    <comment>Label displaying 'Email Campaigns' and subscribers count.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnableToUpdateLicense">
+    <value>*Nous n'avons pas pu actualiser votre fichier de licence ou votre paiement n'a pas pu être traité.</value>
+    <comment>Message shown in license expiration widget.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Perpetual">
+    <value>Constant</value>
+    <comment>Label shown in license info page when the current license is a perpetual license.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseFreeTrialHeader">
+    <value>Essai gratuit 30 jours</value>
+    <comment>Label shown in License expiration widget</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AdditionalExtensions">
+    <value>Extensions supplémentaires</value>
+    <comment>phrase: Additional Extensions</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CustomerID">
+    <value>Identifiant client</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Allowed">
+    <value>Autorisé</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UseDownloadedLicense">
+    <value>Utiliser un &lt;strong&gt;fichier de licence&lt;/strong&gt; que vous avez téléchargé</value>
+    <comment>Use a &lt;strong&gt;license file&lt;/strong&gt; you have downloaded</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseSavedSuccessfull">
+    <value>La licence est mis à jour. Vous utilisez maintenant Sitefinity en mode licence pour les domaines enregistrés.</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseExpirationDateApproaching">
+    <value>Votre date d'expiration approche</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SiteWillStopWorking">
+    <value>Si vous n'effectuez pas de paiement, votre site Web s'arrêtera de fonctionner dans {0} jours</value>
+    <comment>Message shown in license expiration widget.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PagesLimit">
+    <value>Pages publiées</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidLicenseInfo">
+    <value>Info licence non valide</value>
+    <comment>Invalid License Info</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IfYouHaveLicense">
+    <value>Si vous avez déjà un fichier de licence, transférez-le ici pour l'activer.</value>
+    <comment>If you have already a license file upload it here to activate it.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Subdomains">
+    <value>Sous-domaines</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Password">
+    <value>Mot de passe</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReloadLicense">
+    <value>Recharger la licence</value>
+    <comment>Reload license</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProductFileVersion">
+    <value>Version du produit</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UpdateConnectionProblem">
+    <value>La connexion avec le serveur de licences n'a pas pu être établie. Essayez de mettre à jour la licence manuellement</value>
+    <comment>Message for license updateing connection problems.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CustomerName">
+    <value>Nom du client</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Product">
+    <value>Produit</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseIsUpToDate">
+    <value>Votre licence est à jour, il n'est pas nécessaire de la mettre à jour</value>
+    <comment>Message shown in license info page when the license is current</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseKeyIsChanging">
+    <value>Votre clé de licence sera remplacée par la nouvelle ci-dessous.</value>
+    <comment>Warning shown in confirmation screen</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CurrentDomainNotInLicense">
+    <value>Vous utilisez actuellement Sitefinity à partir d'un domaine qui n'est pas inclus dans la nouvelle licence.</value>
+    <comment>Warning shown in confirmation screen</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseExpiredMonthlySubscriptionMessage">
+    <value>Votre abonnement pour Sitefinity {0} a expiré*</value>
+    <comment>Label used when the subscription monthly license has expired.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EnterLicenseContentMessage">
+    <value>Entrez les données de licence</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DomainsHeader">
+    <value>Domaines</value>
+    <comment>word: Domains</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Date d'expiration :</value>
+    <comment>Label shown in License expiration widget</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OrLabel">
+    <value>ou</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentLimit">
+    <value>Éléments de contenu publiés</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Modules">
+    <value>Extensions</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForgotPassword">
+    <value>Adresse email ou mot de passe oubliés</value>
+    <comment>Forgot email or password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseFileSaveProblem">
+    <value>Le système n'a pas pu enregistrer la licence</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PurchaseInformation">
+    <value>Informations d'achat</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseContentMessage">
+    <value>Données de licence</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActivateLicense">
+    <value>Activer une licence</value>
+    <comment>Activate License</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UpdateLicense">
+    <value>Continuer</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicensingMessagesTitle">
+    <value>Messages de licences</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LearnMore">
+    <value>En savoir plus</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Details">
+    <value>Détails !</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Unlimited">
+    <value>Illimitée</value>
+    <comment>Unlimited</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseExpirationWidgetTitle">
+    <value>Widget de notification d'expiration de licence</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UpdateNoLicenseForProductVersion">
+    <value>Cette clé de licence n'est pas autorisée pour la version de votre produit</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UpdateLicensingProblem">
+    <value>La licence ne sera pas mise à jour car</value>
+    <comment>Message shown in license info page when a licensing problem occurs during the lciense update</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IfPurchasedHostedRenewal">
+    <value>Si vous avez déjà acheté un renouvellement</value>
+    <comment>If you have already purchased a renewal</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IfTheTrialPeriodHasBeenExtended">
+    <value>Si la période d'essai a été prolongée</value>
+    <comment>If the trial period has been extended</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ServerWrongNoAvailableLicense">
+    <value>&lt;h1 class="sfSepTitle"&gt;Il n'y a pas de licence disponible pour cette édition&lt;/h1&gt;&lt;p class="sfErrorDetail"&gt;Pour pouvoir activer une licence, vous devez d'abord l'acheter.&lt;br /&gt;&lt;a href="http://www.sitefinity.com/login.aspx?returnurl=%2f" target="_blank"&gt;Connectez-vous&lt;/a&gt; à votre compte &lt;em&gt;Sitefinity.com&lt;/em&gt; pour effectuer un achat.&lt;/p&gt;&lt;p class="sfNote sfErrorDetail"&gt;Pour toute aide à propos de la licence, veuillez écrire à &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt;&lt;/p&gt;</value>
+    <comment>No license available</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhatTypeOfInstallation">
+    <value>Quel type d'installation souhaitez-vous utiliser ?</value>
+    <comment>What type of installation you want to use? </comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseDetailsHeader">
+    <value>Détails sur la licence</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="GetYourExtendedTrialLicense">
+    <value>Obtenez votre licence d'essai prolongée</value>
+    <comment>Get your extended trial license</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToRunSitefinityYouNeedToActivete">
+    <value>Pour utiliser le CMS Sitefinity, vous devez activer une licence valide</value>
+    <comment>Activate a license for Progress Sitefinity CMS</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WrongProductVersion">
+    <value>Mauvaise version du produit</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseId">
+    <value>Clé de licence</value>
+    <comment>Label shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MissingLicense">
+    <value>Licence manquante</value>
+    <comment>Message shown in license info page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EnterEmailAndThePassword">
+    <value>Entrez le email et le mot de passe de votre compte Sitefinity.com</value>
+    <comment>Enter the email and the password from your Telerik account</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IfYouNeedToExtend">
+    <value>Si vous avez besoin que votre période d'essai soit &lt;b&gt;prolongée&lt;/b&gt;, veuillez écrire à &lt;a href="mailto:sales@sitefinity.com"&gt;sales@sitefinity.com&lt;/a&gt;</value>
+    <comment>If you need your trial period to be extended please, contact sitefinitysales@progress.com</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LicenseExpiredSubscriptionMessage">
+    <value>Votre abonnement pour Sitefinity {0} a expiré</value>
+    <comment></comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

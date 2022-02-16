@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LastName">
+    <value>Nom</value>
+    <comment>phrase : Last name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Classes CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginPageInfo">
+    <value>C'est la page dans laquelle vous avez ajouté le widget Formulaire de connexion</value>
+    <comment>phrase : This is the page where you have dropped Login form widget</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByConfirmationEmail">
+    <value>Par le lien de confirmation envoyé à l'email de l'utilisateur</value>
+    <comment>Account activation method : By confirmation link sent to user email</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Question">
+    <value>Question secrète</value>
+    <comment>phrase : Secret question</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Answer">
+    <value>Réponse secrète</value>
+    <comment>phrase : Secret answer</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShowMsg">
+    <value>Afficher le message</value>
+    <comment>phrase : Show message</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ProviderDescription">
+    <value>Emplacement où l'utilisateur sera inscrit</value>
+    <comment>phrase : where the user will be registered</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SendAgain">
+    <value>Envoyer à nouveau</value>
+    <comment>phrase: Send again</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Username">
+    <value>Nom d'utilisateur</value>
+    <comment>phrase : Username</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ReTypePassword">
+    <value>Retaper le mot de passe</value>
+    <comment>phrase : Repeat password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FormSuccessfullySubmited">
+    <value>Lorsque le formulaire est soumis correctement...</value>
+    <comment>phrase : When the form is successfully submitted...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefaultSuccessfulRegistrationMessage">
+    <value>Vous vous êtes inscrit avec succès .</value>
+    <comment>You are successfully registered.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AccountActivation">
+    <value>Activation d'un compte</value>
+    <comment>phrase : Account activation</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RolesDescription">
+    <value>qui seront attribués à l'utilisateur</value>
+    <comment>phrase: which the user will be assigned to</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ActivationLinkHasBeenSentAgain">
+    <value>Un autre lien d'activation a été envoyé à {0} Si vous ne recevez pas cet email, veuillez vérifier votre dossier de courriels indésirables</value>
+    <comment>phrase: Another activation link has been sent to {email} If you do not received an email please check your spam box</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Registration">
+    <value>Inscription</value>
+    <comment>phrase : Registration</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Register">
+    <value>S'inscrire</value>
+    <comment>phrase : Register</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ActivateAccounts">
+    <value>Activer les comptes...</value>
+    <comment>phrase:Activate accounts...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="General">
+    <value>Général</value>
+    <comment>phrase : General</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SendEmailAfterRegistration">
+    <value>Envoyer un e-mail pour une inscription réussie</value>
+    <comment>phrase: Send an email for successful registration</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Or">
+    <value>ou</value>
+    <comment>phrase : Or</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RegistrationResourcesTitle">
+    <value>Ressources du widget d'inscription</value>
+    <comment>Title for the Registration widget resources class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ConnectWith">
+    <value>Ou se connecter avec …</value>
+    <comment>phrase : Or connect with...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OpenPage">
+    <value>Ouvrir une page spécialement préparée...</value>
+    <comment>phrase : Open a specially prepared page...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ConfirmationEmailTemplate">
+    <value>Modèle d'email de confirmation</value>
+    <comment>phrase:Confirmation email template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Provider">
+    <value>Fournisseur</value>
+    <comment>phrase : Provider</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Roles">
+    <value>Rôles</value>
+    <comment>word: Roles</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExternalProvidersRegiterOptions">
+    <value>Permettre aux utilisateurs de s'enregistrer avec…</value>
+    <comment>phrase : Allow users to register with...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SuccessEmailTemplate">
+    <value>Modèle de succès de l'envoi d'email</value>
+    <comment>phrase: Success email template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Immediately">
+    <value>Immédiatement</value>
+    <comment>Account activation method : Immediately</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ThankYou">
+    <value>Merci!</value>
+    <comment>Thank you!</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SuccessEmailDefaultSubject">
+    <value>Bienvenue</value>
+    <comment>The default subject of the success email</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RegistrationResourcesDescription">
+    <value>Codes localisables pour le widget Inscription.</value>
+    <comment>Description for the Registration widget resources class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FirstName">
+    <value>Prénom</value>
+    <comment>phrase : First name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Template">
+    <value>Modèle</value>
+    <comment>phrase : Template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ActivationPage">
+    <value>Page d'activation</value>
+    <comment>phrase: Activation page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="VisitYourEmail">
+    <value>Veuillez consulter vos emails</value>
+    <comment>phrase: Please check your email</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Password">
+    <value>Mot de passe</value>
+    <comment>phrase : Password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ActivationLinkHasBeenSent">
+    <value>Un lien d'activation a été envoyé à {0}</value>
+    <comment>phrase: An activation link has been sent to {email}</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToLogin">
+    <value>Connexion</value>
+    <comment>Log in</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ActivationPageDescription">
+    <value>Ceci est la page qui s'ouvre quand utilisateur clique sur lien de confirmation . Le widget Activation du compte se trouve là-dedans.</value>
+    <comment>Activation page description</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginPage">
+    <value>Page de connexion</value>
+    <comment>phrase : Login page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

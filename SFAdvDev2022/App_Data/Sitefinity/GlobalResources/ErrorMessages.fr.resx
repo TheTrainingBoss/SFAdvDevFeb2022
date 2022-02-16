@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangePasswordDefaultNewPasswordRequiredErrorMessage">
+    <value>Nouveau mot de passe est requis</value>
+    <comment>ChangePassword control - New password is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="IdOrTypeNotSepcified">
+    <value>L'id ou le Type de recherche doivent d'abord être spécifiés.</value>
+    <comment>This error is thrown by GenericContainer class if neither id or search type is specified when searching for child control.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TemplateParserCannotSetAttributeValue">
+    <value>{0} ('{1}') : ne peut pas définir l'attribut avec le nom '{2}' à '{3}'</value>
+    <comment>{TagName} ('{TypeName}'): cannot set attribute with name '{PropertyName}' to '{Value}'</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentDetailIsNull">
+    <value>Aucun détail de contenu à afficher.</value>
+    <comment>Message shown when view is in detail mode but the Content Detail is null.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NameLength">
+    <value>Le nom doit comporter 250 symboles maximum,</value>
+    <comment>phrase: The name should be at most 250 symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultConfirmPasswordCompareErrorMessage">
+    <value>Le mot de passe et sa confirmation doivent correspondre</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the password and confirm password do not match.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultQuestionLabelText">
+    <value>Question de sécurité</value>
+    <comment>CreateUserWizard - The text that identifies the question textbox.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AuthorizationFailedOnlyAdminsAllowed">
+    <value>Échec de l'autorisation ! Seuls les administrateurs système sont autorisés à effectuer l'opération : "{0}".</value>
+    <comment>The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultPasswordRequiredErrorMessage">
+    <value>Le mot de passe est requis</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the password is empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultCompleteSuccessText">
+    <value>Votre compte a été créé avec succès.</value>
+    <comment>CreateUserWizard - The text to be shown after the user has been created.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultAnswerRequiredErrorMessage">
+    <value>Réponse de sécurité doit être renseigné</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the answer is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultUnknownErrorMessage">
+    <value>Votre compte n'a pas été créé. Veuillez essayer à nouveau.</value>
+    <comment>Your account was not created. Please try again.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultCreateUserButtonText">
+    <value>Créer un utilisateur</value>
+    <comment>CreateUserWizard - The text of the create user button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewModeNotDefined">
+    <value>Le mode de vue "{0}" n'est pas défini pour ce contrôle.</value>
+    <comment>This error is thrown by ViewMode base control if there is an attempt to access a view that was not defined.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DynamicTypeDefinitionIsNotArray">
+    <value>Un type d'objet dynamique doit être un tableau</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultSubject">
+    <value>Mot de passe</value>
+    <comment>PasswordRecovery controls - Default subject of the mail.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Resource_InvalidPropertyName">
+    <value>Nom de la propriété "{0}" invalide pour le type de ressource "{1}".</value>
+    <comment>This error is thrown when invalid property name is specified for a localizable resource.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TargetAndSourceNotSame">
+    <value>Les types source et cible doivent être identiques.</value>
+    <comment>This error is usually thrown when performing operations such as comparison of objects of different type.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ParameterCanNotContainComma">
+    <value>Le paramètre '{0}' ne doit pas contenir de virgules.</value>
+    <comment>The parameter '{0}' must not contain commas.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ControlNotFoundOnPage">
+    <value>Aucun contrôle avec l'identifiant "{0}" n'a été trouvé sur cette page.</value>
+    <comment>This error is thrown if a required control is not found on the page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotFindTemplate">
+    <value>Impossible de trouver le modèle "{0}".</value>
+    <comment>This error is thrown by ControlUtilities class when trying to load external template but the specified virtual path is invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidDateRange">
+    <value>Vous avez spécifié une plage de dates incorrecte.</value>
+    <comment>Message: You have specified an invalid date range.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidProviderName">
+    <value>Nom du fournisseur invalide.</value>
+    <comment>Invalid provider name.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="IntegerViolationMessage">
+    <value>Vous avez entré un nombre entier incorrect.</value>
+    <comment>Message: You have entered an invalid integer.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContextOriginsFormDifferentHandler">
+    <value>Les origines du contexte du fournisseur demandé forment une gestion différente.</value>
+    <comment>This error is thrown by route handlers.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidActionForPermissionSet">
+    <value>Il n'y a pas d'action définie du nom spécifié "{0}" pour le jeu d'autorisations "{1}".</value>
+    <comment>This error is thrown when a user tries to access security action that has not been defined.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailNotFound">
+    <value>Il n'y a aucun utilisateur ayant cette adresse email.</value>
+    <comment>phrase: There is no user with this email.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailAddressViolationMessage">
+    <value>Vous avez entré une adresse email incorrecte.</value>
+    <comment>Message: You have entered an invalid email address.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordResetIsNotEnabled">
+    <value>La réinitialisation du mot de passe n'est pas activée. Activer la propriété Permettre la réinitialisation du mot de passe du fournisseur d'inscriptions.</value>
+    <comment>Password reset is not enabled.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ErrorMessagesDescription">
+    <value>Contient des ressources localisables pour les erreurs Sitefinity.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidPlaceHolderSpecified">
+    <value>Le contrôle (Type : {0}, ID : {1}) dans le modèle "{2}" spécifie un emplacement avec l'ID: "{3}", mais un tel emplacement n'existe pas dans la hiérarchie modèle actuel. Avez-vous renommé ou supprimé l'emplacement ?</value>
+    <comment>This error is thrown when a Content control has ContentPlaceHolderID property set to place holder that does not exist in the template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SuccessfulRegistrationMailSubject">
+    <value>Bienvenue</value>
+    <comment>Default subject of the email sent to the client after a successful registration.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardStepAllowReturnCannotBeSet">
+    <value>Permettre Retour ne peut être défini.</value>
+    <comment>AllowReturn cannot be set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidPassword">
+    <value>Mot de passe non valide.</value>
+    <comment>phrase: Invalid password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotSendEmails">
+    <value>Impossible d'envoyer des emails</value>
+    <comment>The error message title to be shown when SMTP settings are not set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultDuplicateUserNameErrorMessage">
+    <value>Veuillez choisir un nom d'utilisateur différent.</value>
+    <comment>CreateUserWizard - Text to be shown when a duplicate email error is returned from create user.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DatabaseServerNameCannotBeEmpty">
+    <value>Le nom du serveur de base de données ne peut pas être vide.</value>
+    <comment>The exception that is thrown when the name of the database server is not supplied.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultBody">
+    <value>Votre compte a été créé.&lt;br /&gt;&lt;br /&gt;Nom d'utilisateur : &lt;%\s*UserName\s*%&gt;&lt;br /&gt;Mot de passe : &lt;%\s*Password\s*%&gt;</value>
+    <comment>Default body of the mail for creating new user.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TheSystemHasIsNotPermittedToSendEmails">
+    <value>Le système n'a pas la ou les autorisations pour envoyer des emails.</value>
+    <comment>phrase: The system is denied the permission(s) to send email.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ConfirmPasswordCompareErrorMessage">
+    <value>Les entrées du nouveau mot de passe ne correspondent pas.</value>
+    <comment>Change password - The new password entries do not match.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultUserNameLabelText">
+    <value>Nom d'utilisateur</value>
+    <comment>CreateUserWizard - User Name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewAndOldPasswordsAreEqual">
+    <value>Le nouveau mot de passe doit être différent de l'actuel.</value>
+    <comment>phrase: The new password should be different than the current one.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotResolveTypeInTemplate">
+    <value>Impossible de résoudre le type pour le tag "{0}". Assurez-vous que l'espace de nom approprié est enregistré.</value>
+    <comment>This error is thrown by TemplateParser class when a declared type cannot be resolved.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WCFErrorOnSave">
+    <value>ERREUR: L'élément n'a pas pu être sauvegardé.</value>
+    <comment>Error thrown during saving resource of WCF service.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidPageTaxonomy">
+    <value>Configuration de la taxinomie de la page non valide. Aucune taxinomie avec le nom "{0}" pour le fournisseur "{1}".</value>
+    <comment>Configuration error.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UserNotFound">
+    <value>L'utilisateur "{0}" n'a pas été trouvé.</value>
+    <comment>This error is thrown by Role data providers.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="KeyAlreadyExistsInResource">
+    <value>La clé "{0}" existe déjà dans la classe ressource "{1}".</value>
+    <comment>This error is thrown when there are more then one resource entries with the same key in a resource class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendEmails">
+    <value>Le système n'a pas été configuré pour envoyer des emails.</value>
+    <comment>phrase: The system has not been configured to send email.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotResolveGenericProvider">
+    <value>Impossible de résoudre le fournisseur qui fonctionne avec les éléments de type {0}.</value>
+    <comment>Message shown when Sitefinity tries to determine the provider it has to use for the generic content manager</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ResourceLink_ResourceNameMissingExtension">
+    <value>La propriété Nom de ressource des Liens ressources n'a pas d'extension définie, ce qui n'est pas autorisé</value>
+    <comment>This error is thrown if the ResourceName property of the ResourceLinks control does not have a specified extension.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ObjectDoesNotSupportPermissionSet">
+    <value>L'objet de type {0} ne prend pas en charge le jeu d'autorisations "{1}".</value>
+    <comment>This error is thrown when a permission is demanded for an object with a permission set it does not support.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RoleIsNotEmpty">
+    <value>Le rôle "{0}" spécifié n'est pas vide.</value>
+    <comment>This error is thrown by Role data providers.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultBody">
+    <value>Veuillez retourner sur le site et vous connecter en utilisant les informations suivantes.
+Nom d'utilisateur : &lt;%UserName%&gt;
+Nouveau mot de passe : &lt;%Password%&gt;</value>
+    <comment>ChangePassword controls - the mail message body.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RequiredViolationMessage">
+    <value>Champ obligatoire.</value>
+    <comment>Message: Required field.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotInferItemTypeFromQueryString">
+    <value>Impossible de déduire le type d'élément à partir de la chaîne de requête. Veuillez vérifier que vous avez un paramètre de chaîne de requête de type d'élément dans votre appel au service.</value>
+    <comment>Message shown when Sitefinity needs to generate a new type for the WCF pipeline</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoSmtpPermissionGrantedForNonDefaultPort">
+    <value>Permission SMTP avec accès = La Connexion au port d'accès SMTP sans restrictions doit être accordée lors de l'utilisation d'un port SMTP non conventionnel (autre que le 25).</value>
+    <comment>phrase: SmtpPermission with Access = SmtpAccess.ConnectToUnrestrictedPort should be granted, when using non default SMTP port (different from 25).</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultAnswerLabelText">
+    <value>Réponse</value>
+    <comment>PasswordRecovery controls - Answer</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidSiteMapRootNode">
+    <value>Le fournisseur de plan du site "{0}" a renvoyé nœud racine invalide ou nul.</value>
+    <comment>This error is thrown a SiteMap provider does not return root node.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AuthorizationFailed">
+    <value>Échec de l'autorisation.</value>
+    <comment>The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardNoPasswordTextBox">
+    <value>{0}: Le modèle de contenu pour les étapes de l'assistant à la création d'utilisateur ne contient pas de contrôle de texte éditable avec l'ID {1} pour le nouveau mot de passe, cela est requis si Générer Mot de passe Auto = Oui.</value>
+    <comment>CreateUserWizard - The Textbox for password is missing.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultContinueButtonText">
+    <value>Continuer</value>
+    <comment>CreateUserWizard - The text of the continue button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordQuestionAndAnswerDefaultChangePasswordFailureText">
+    <value>Mot de passe incorrect ou la nouvelle question secrète et/ou la réponse sont invalides.</value>
+    <comment>ChangePasswordQuestionAndAnswer control - Password incorrect or New Question or/and Answer are invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultUserNameLabelText">
+    <value>Nom d'utilisateur</value>
+    <comment>ChangePassword control - User Name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ErrorMessagesTitlePlural">
+    <value>Pluriel du titre des messages d'erreur</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidPermissionSet">
+    <value>Il n'y pas de jeu d'autorisations définit avec le nom "{0}".</value>
+    <comment>This error is thrown when a user tries to access permission set that has not been defined.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AltTextMaxLength">
+    <value>Le texte de remplacement doit contenir au plus 255 symboles.</value>
+    <comment>phrase: The alternative text should be at most 255 symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CouldNotCreateHashAlgorithm">
+    <value>Erreur en créant l'algorithme de hachage</value>
+    <comment>phrase: Error creating the hash algorithm</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ParameterTooLong">
+    <value>Le paramètre '{0}' est trop long : il ne doit pas dépasser une longueur de {1} caractères.</value>
+    <comment>The parameter '{0}' is too long: it must not exceed {1} chars in length.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordFailureText">
+    <value>Erreur lors du changement de mot de passe.</value>
+    <comment>Error changing password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultDuplicateEmailErrorMessage">
+    <value>L'adresse email que vous avez entré est déjà utilisée. Veuillez indiquer une autre adresse email.</value>
+    <comment>CreateUserWizard - Text to be shown when a duplicate email error is returned from create user.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidClassIdInTemplate">
+    <value>Un fichier de ressources avec l'ID de classe spécifiée "{0}" n'a pas été trouvé. Cette déclaration d'ID de classe apparaît dans {1}.</value>
+    <comment>This error is thrown when global resource is requested by wrong class ID.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidProviderUserKeyType">
+    <value>Type de clé utilisateur fournisseur invalide Type doit être GUID.</value>
+    <comment>Invalid providerUserKey type. Type must be GUID.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidResourceKey">
+    <value>La clé "{0}" n'est pas défini dans le fichier ressource avec l'ID de classe "{1}". Cette déclaration de clé apparaît dans {2}.</value>
+    <comment>This error is thrown when global resource is specified with wrong key in a template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NicknameAlreadyUsed">
+    <value>Un utilisateur avec ce pseudonyme existe déjà.</value>
+    <comment>phrase: A user with this nickname already exists.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="KeyNotFound">
+    <value>Clé non trouvée.</value>
+    <comment>This error is usually thrown by dictionaries if the specified key is not found.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DuplicateUrlException">
+    <value>Un élément avec l'URL '{0}' existe déjà.</value>
+    <comment>Error message.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleMaxLength">
+    <value>Le titre doit contenir au plus 255 symboles.</value>
+    <comment>phrase: The title should be at most 255 symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="USZipCodeViolationMessage">
+    <value>Vous avez indiqué un code ZIP US incorrect.</value>
+    <comment>Message: You have entered an invalid US ZIP code.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardNoUserNameTextBox">
+    <value>{0} : CreateUserWizardStep.ContentTemplate ne contient pas de contrôle de texte éditable avec l'ID {1} pour le nom d'utilisateur.</value>
+    <comment>CreateUserWizard - The error me to be shown if required textbox control is not presented in the template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewStateInvalidViewState">
+    <value>État de la vue non valide</value>
+    <comment>CreateUserWizard - Invalid viewstate.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageIsNull">
+    <value>L'objet page n'est pas défini à une référence.</value>
+    <comment>This error is thrown when the page object is required by the code, yet it is not set to a reference.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WizardInvalidBubbleEvent">
+    <value>La commande '{0}' n'est pas valide pour l'étape précédente, vérifiez que le type d'étape n'est pas modifié entre les publications.</value>
+    <comment>The command '{0}' is not valid for the previous step, make sure the step type is not changed between postbacks.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ResourceLink_ResourceNameInvalidExtension">
+    <value>La propriété Nom de ressource des Liens ressources a spécifié une ressource avec une extension non valide. Les extensions autorisées sont : .css, .jpg, .jpeg, .gif, .png et .js</value>
+    <comment>This error is thrown if the ResourceName has defined a resource with an invalid extension.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultInvalidAnswerErrorMessage">
+    <value>Veuillez indiquer une réponse de sécurité différente.</value>
+    <comment>CreateUserWizard - Text to be shown when the security answer is invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RequiredControlNotFound">
+    <value>Un contrôle requis n'a pas été trouvé dans le modèle de "{0}". Le contrôle doit être de forme assignable de type "{1}" et doit avoir l'ID "{2}".</value>
+    <comment>This error is thrown if a required control is not found in a template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultConfirmPasswordRequiredErrorMessage">
+    <value>La confirmation du mot de passe ne peut être vide</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the confirm password is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DatabaseNotFound">
+    <value>Impossible de se connecter à la base de données.</value>
+    <comment>The exception that is thrown when connection to the database cannot be established.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefinedFileNotFound">
+    <value>Le fichier défini comme valeur de la propriété '{0}' sur l'objet '{1}' ne peut pas être trouvé.</value>
+    <comment>This error is thrown when the value of a property is a file path, but the specified file cannot be found.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultCreateUserTitleText">
+    <value>Ouvrez votre nouveau compte</value>
+    <comment>CreateUserWizard - Sign Up for Your New Account</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NonAlphaNumericViolationMessage">
+    <value>Les caractères alphanumériques ne sont pas autorisés.</value>
+    <comment>Message: Alphanumeric characters are not allowed.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageIsLocked">
+    <value>Cette page est verrouillée par {0}.</value>
+    <comment>This error is thrown when a user attempts to edit a page locked by someone else.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NullTemplateInfo">
+    <value>La propriété Info modèle ne doit pas être nulle.</value>
+    <comment>This error is thrown if the propery TemplateInfo of SitefinityRouteHandler class is not set prior to invoking GetHttpHandler method.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultGeneralFailureText">
+    <value>Votre tentative pour récupérer votre mot de passe a échouée. Veuillez essayer à nouveau.</value>
+    <comment>PasswordRecovery controls - Your attempt to retrieve your password was not successful. Please try again.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisabledServiceCannotStart">
+    <value>Le service "{0}" est désactivé et ne peut pas être démarré.</value>
+    <comment>This error is thrown when Start() method is called on disabled system service.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ScriptManagerIsNull">
+    <value>L'objet ScriptManager n'est pas défini à une référence.</value>
+    <comment>This error is thrown when the ScriptManager object is required by the code, yet it is not present on the page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AlphaNumericViolationMessage">
+    <value>Les caractères non alphanumériques ne sont pas autorisés.</value>
+    <comment>Message: Non alphanumeric characters are not allowed.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageModifiedBySomeoneElse">
+    <value>Cette page a été modifiée par quelqu'un d'autre pendant que vous étiez en train de l'éditer.</value>
+    <comment>This error is thrown when a user attempts to publish a page that was modified someone else while the user was editing it.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidRedirectKey">
+    <value>Une clé de redirection "{0}" invalide a été spécifiée.</value>
+    <comment>This error is thrown when an invalid key is specified for BackendRedirectRouteHandler.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultUserNameRequiredErrorMessage">
+    <value>Nom d'utilisateur doit être renseigné</value>
+    <comment>PasswordRecovery controls - Username cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordInvalidPasswordErrorMessage">
+    <value>Veuillez entrer un mot de passe différent.</value>
+    <comment>PasswordRecovery controls - Please enter a different password.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultConfirmPasswordRequiredErrorMessage">
+    <value>Confirmer le nouveau mot de passe est requis</value>
+    <comment>ChangePassword control - Confirm New Password is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultChangePasswordTitle">
+    <value>Changer votre mot de passe</value>
+    <comment>ChangePassword control - Change Your Password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardSidebarLabelNotFound">
+    <value>Le contrôle {0} doit contenir un Label avec l'ID {1} dans son modèle d'élément.</value>
+    <comment>CreateUserWizard - {0} control must contain a Label with ID {1} in its ItemTemplate.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordResetNotConfigured">
+    <value>La réinitialisation du mot de passe n'est pas configurée</value>
+    <comment>phrase: Password reset is not configured</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardNoQuestionTextBox">
+    <value>{0} : CreateUserWizardStep.ContentTemplate ne contient pas de contrôle de texte éditable avec l'ID {1} pour la question de sécurité, cela est requis si votre fournisseur d'inscriptions requiert une question et réponse.</value>
+    <comment>CreateUserWizard - The text to be shown if the passwors answer textbox is missing from the template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ResourceIncorrectArgs">
+    <value>Nombre incorrect d'arguments de mise en forme.
+Id de Classe : {0}
+Clé : {1}
+Valeur : {2}
+Args : {3}</value>
+    <comment>This error is thrown when the number formats in the string do not match the number of arguments passed.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MembershipUserLocked">
+    <value>Utilisateur verrouillé.</value>
+    <comment>Membership User is locked.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidItemType">
+    <value>Type d'élément de données "{0}" invalide. Les types d'éléments acceptés sont : {1}.</value>
+    <comment>This error is thrown when invalid type of data item is passed as parameter to data provider.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NumericViolationMessage">
+    <value>Vous avez entré un numéro non valide.</value>
+    <comment>Message: You have entered an invalid number.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoSuchAction">
+    <value>Aucune action avec le nom de "{0}" n'est définie pour le jeu d'autorisations "{1}".</value>
+    <comment>This error is thrown when a none existent security action is requested for a permission set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultAnswerLabelText">
+    <value>Réponse de sécurité</value>
+    <comment>CreateUserWizard - The text that identifies the answer textbox.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidRootSiteNode">
+    <value>Le nœud racine configuré pour les pages n'est pas valide. Aucun nœud racine avec le nom "{0}".</value>
+    <comment>Configuration error.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidTimeZoneOffset">
+    <value>Décalage du fuseau horaire UTC non valide.</value>
+    <comment>phrase: Invalid time zone base UTC offset.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultUserNameRequiredErrorMessage">
+    <value>Le Nom d'utilisateur est requis</value>
+    <comment>CreateUserWizard - Username is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordQuestionAndAnswerFailureText">
+    <value>Erreur dans la question secrète et la réponse pour changer de mot de passe.</value>
+    <comment>Error changing password question and answer</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectSystemSMTPSettings">
+    <value>Sur cet écran, sélectionnez &lt;em&gt;Système&lt;/em&gt; &amp;gt; &lt;em&gt;Paramètres SMTP&lt;/em&gt;</value>
+    <comment>In that screen, select &lt;em&gt;System&lt;/em&gt; &amp;gt; &lt;em&gt;SMTP Settings&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpirationDateShouldBeAfterPublicationDate">
+    <value>La date d'expiration doit être postérieure à la date de publication.</value>
+    <comment>Message: The expiration date must be after the publication date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultSuccessText">
+    <value>Votre mot de passe vous a été envoyé.</value>
+    <comment>PasswordRecovery controls - Your password has been sent to you.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GoToSettingsConfiguration">
+    <value>Une fois connecté, allez dans &lt;em&gt;Administration&lt;/em&gt; &amp;gt; &lt;em&gt;Paramètres&lt;/em&gt; &amp;gt; &lt;em&gt;Avançés&lt;/em&gt;</value>
+    <comment>Once logged, go to &lt;em&gt;Administration&lt;/em&gt; &amp;gt; &lt;em&gt;Settings&lt;/em&gt; &amp;gt; &lt;em&gt;Advanced&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageContentPlaceholderNotFound">
+    <value>Le contrôle requis avec l'id 'Contenu de page' n'a pas été trouvé dans le modèle de page de l'interface de gestion.</value>
+    <comment>This error is thrown when required control with the id 'pageContent' does not exists on the backend page template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ParameterCanNotBeEmpty">
+    <value>Le paramètre '{0}' ne doit pas être vide.</value>
+    <comment>The parameter '{0}' must not be empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NotJoinedToTransaction">
+    <value>L'élément doit être joint à une transaction afin d'être enregistré.</value>
+    <comment>This error is thrown when IDataItem.Save() method is called to a new item.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryAnswerQuestionLabel">
+    <value>Répondez à la question ci-dessous pour recevoir votre mot de passe.</value>
+    <comment>PasswordRecovery controls - Answer the following question to receive your password.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidResourceName">
+    <value>Aucune ressource avec le nom '{0}' n'existe !</value>
+    <comment>This error is thrown when an embedded resource that does not exist is being used.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MaxLengthViolationMessage">
+    <value>Trop long</value>
+    <comment>Message: Too long</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TypeDoesNotHaveAnAttribute">
+    <value>{0} n'a pas l'attribut {1}.</value>
+    <comment>Message shown when a type is not decorated with a given attribute</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidMinDate">
+    <value>Vous avez spécifié une date minimum non valide.</value>
+    <comment>Message: You have specified an invalid minimum date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="KeyNotPresentInLocalResources">
+    <value>La clé "{0}" n'était pas présente dans les ressources locales.</value>
+    <comment>This error is thrown if requested local resource is missing.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TemplateParser_UnknownCharacterSequence">
+    <value>L'analyseur de modèle a rencontré une séquence de caractères inconnus "&lt;%{0}".</value>
+    <comment>This error is thrown when template parser encounters unknown character sequence.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemIsLocked">
+    <value>Cet élément est verrouillé.</value>
+    <comment>This error is thrown when a user attempts to publish an item locked by someone else.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RoleNameRequiredErrorMessage">
+    <value>Le Nom du rôle doit être renseigné.</value>
+    <comment>Message shown when role name is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="YouAreNotAuthorizedTo">
+    <value>Vous n'êtes pas autorisé à {0}. Veuillez contacter votre administrateur système si vous pensez qu'il devrait vous accorder les autorisations nécessaires pour effectuer cette opération.</value>
+    <comment>The exception that is thrown when an operation fails because of insufficient user privileges.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultQuestionRequiredErrorMessage">
+    <value>La question de sécurité doit être indiquée</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the question is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UserAlreadyInRole">
+    <value>L'utilisateur "{0}" est déjà dans le rôle "{1}".</value>
+    <comment>This error is thrown by Role data providers.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardNoAnswerTextBox">
+    <value>{0} : Le modèle de contenu pour les étapes de l'assistant à la création d'utilisateur ne contient pas de contrôle de texte éditable avec l'ID {1} pour la réponse de sécurité, cela est requis si votre fournisseur d'inscriptions requiert une question et réponse.</value>
+    <comment>CreateUserWizard - {0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the security answer, this is required if your membership provider requires a question and answer.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LocalResourcesNotSupported">
+    <value>Les ressources locales ne sont pas prises en charge pour les modèles intégrés. Veuillez utiliser les ressources globales à la place.</value>
+    <comment>This error is thrown when local resource is specified in embedded template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TypeDoesNotImplementAnotherType">
+    <value>{0} n'implémente pas {1}.</value>
+    <comment>Message shown when Type(x).IsAssignableFrom(y) returns false and this is considered an error in that context.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WCFErrorOnDelete">
+    <value>ERREUR: L'élément n'a pas pu être effacé.</value>
+    <comment>Error thrown during deleting resource of WCF service.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidRegularExpression">
+    <value>L'expression régulière spécifiée : "{0}" n'est pas valide.</value>
+    <comment>Message: The specified regular expression: "{0}" is invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRetrievalNotEnabled">
+    <value>Récupération du mot de passe non activée.</value>
+    <comment>EnablePasswordRetrieval is set to false in membership provider method GetPassword.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RoleAlreadyExists">
+    <value>Le rôle spécifié "{0}" existe déjà.</value>
+    <comment>This error is thrown by Role data providers.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CurrencyViolationMessage">
+    <value>Vous avez entré une monnaie incorrecte.</value>
+    <comment>Message: You have entered an invalid currency.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultFirstNameRequiredErrorMessage">
+    <value>Le prénom est requis</value>
+    <comment>CreateUserWizard - First name is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MissingProvider">
+    <value>Aucun fournisseur n'est défini.</value>
+    <comment>Error message shown when the provider cannot be retrieved.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EndDateShouldNotBeEarlierThanStartDate">
+    <value>La date de fin de l'événement ne peut pas être définie plus tôt que la date de début.</value>
+    <comment>Message: Event's end date cannot be set earlier than its start date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultBody">
+    <value>Votre mot de passe a été modifié avec succès.&lt;br /&gt;&lt;br /&gt;Nom d'utilisateur : &lt;%\s*UserName\s*%&gt;&lt;br /&gt;Mot de passe : &lt;%\s*Password\s*%&gt;</value>
+    <comment>PasswordRecovery controls - the mail message body.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WrongPasswordAnswer">
+    <value>Réponse mot de passe incorrecte.</value>
+    <comment>Wrong password answer.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FirstNameCannotBeEmpty">
+    <value>Entrez votre prénom.</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MaxDateBeforeMinDate">
+    <value>Vous avez spécifié une date maximale antérieure à la date minimum.</value>
+    <comment>Message: You have specified maximum date which is smaller than the minimum date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultAnswerRequiredErrorMessage">
+    <value>Réponse doit être renseigné</value>
+    <comment>Answer can't be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultEmailRegularExpressionErrorMessage">
+    <value>Veuillez entrer une adresse email valide</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the email does not match the regular expression.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="HowToSetSMTP">
+    <value>Comment mettre en place le SMTP ?</value>
+    <comment>How to set SMTP?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ConfirmRegistrationMailBody">
+    <value>Pour compléter votre inscription, suivez ce lien : &lt;%\s*ConfirmationUrl\s*%&gt;.</value>
+    <comment>Default body of the email sent to the client for registration confirmation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultLastNameRequiredErrorMessage">
+    <value>Le nom est requis</value>
+    <comment>CreateUserWizard - Last name is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultSuccessTitleText">
+    <value>Modification du mot de passe effectuée</value>
+    <comment>ChangePassword control - Change Password Complete</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TemplateCannotBeBasedOnItself">
+    <value>Le modèle ne peut être basé sur lui-même ou sur un modèle lié à ce modèle.</value>
+    <comment>phrase: The template cannot be based on itself or on a template related to this template.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NotRegisteredXmlPersistent">
+    <value>Le type "{0}" n'a pas été enregistré comme étant persistant XML.</value>
+    <comment>This error is thrown when a type that is not registered as XML persistent is attempted to be persisted by an XML data provider.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultEmailRequiredErrorMessage">
+    <value>Email doit être renseigné</value>
+    <comment>CreateUserWizard - The text to be shown in the validation summary when the email is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OrAskAnAdministratorToConfigureThSystem">
+    <value>Ou demandez à un administrateur de configurer le système.</value>
+    <comment>Or, ask an administrator to configure the system.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="StartupDatabaseConfigurationErrorMessage">
+    <value>Erreur de configuration lors de la connexion initiale à la base de données, consultez le ficher error,log pour plus de détails.</value>
+    <comment>The exception that is thrown when connecting to the database on startup fails due to configuration error.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ConnectionNotFound">
+    <value>La chaîne de connexion "{0}" n'a pas pu être trouvée dans les fichiers de configuration.</value>
+    <comment>This error is thrown if the specified connection is not found in connection strings collection in web.config.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryIdentityConfirmation">
+    <value>Confirmation de l'identité</value>
+    <comment>PasswordRecovery controls - Identity Confirmation</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoSmtpConnectPermissionGranted">
+    <value>Vous devez accorder les Permissions SMTP pour envoyer des emails.</value>
+    <comment>No SmtpPermissions granted.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidResourceKeyOrClassId">
+    <value>Impossible de trouver la clé spécifiée "{0}" ou l'ID de classe "{1}".</value>
+    <comment>This error is thrown when global resource is specified with wrong key or class ID.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>phrase: Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ErrorMessagesTitle">
+    <value>Messages d'erreur</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoPermissionSet">
+    <value>Aucun jeu d'autorisations n'est défini avec le nom "{0}".</value>
+    <comment>This error is thrown when permission is requested for none existent permission set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultSuccessText">
+    <value>Votre mot de passe a été modifiée !</value>
+    <comment>ChangePassword control - Your password has been changed!</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PercentageViolationMessage">
+    <value>Vous avez entré un pourcentage non valide.</value>
+    <comment>Message: You have entered an invalid percentage.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FormManagerNotFound">
+    <value>Aucun Gestionnaire de formulaire trouvé sur la page. Utiliser FormManager.Ensure() pour en ajouter un.</value>
+    <comment>Message: No FormManager found on the page. Use FormManager.Ensure() to add one.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SuccessfulActivationMessage">
+    <value>L'activation de l'utilisateur a réussie.</value>
+    <comment>User activation succeeded.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastNameCannotBeEmpty">
+    <value>Entrez votre nom.</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ConfirmRegistrationMailSubject">
+    <value>Veuillez confirmer votre inscription</value>
+    <comment>Default subject of the email sent to the client for registration confirmation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NicknameMaxLength">
+    <value>Le pseudonyme doit comprendre au plus 64 symboles.</value>
+    <comment>phrase: The nickname should be at most 64 symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultPasswordRequiredErrorMessage">
+    <value>Le mot de passe est requis</value>
+    <comment>ChangePassword control - Password is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ErrorParsingTheTemplate">
+    <value>Erreur en analysant le modèle</value>
+    <comment>phrase: Error parsing the template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GlobalTransactionUsed">
+    <value>Impossible d'utiliser Enregistrer les modifications ou Annuler les modifications sur le gestionnaire de cas qui a été spécifié pour utiliser une transaction globale ou répartie. À la place, utiliser les méthodes statiques du Gestionnaire de Transaction Valider la Transaction(chaîne de Nom de transaction) ou Annuler la Transaction(chaîne de Nom de transaction).</value>
+    <comment>The exception that is thrown when SaveChanges or CancelChanges is called on a manager that was specified to use global transaction.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultUserNameLabelText">
+    <value>Nom d'utilisateur</value>
+    <comment>PasswordRecovery controls - Label for the username.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PersistentAttributeRequired">
+    <value>Attribut persistant est nécessaire pour créer la dépendance de cache.</value>
+    <comment>This error is thrown if someone tries to create cache dependency for an object that doesn't have PersistentAttribute.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WebControlCannotFindProvider">
+    <value>Impossible de trouver le fournisseur d'inscriptions spécifié.</value>
+    <comment>CreateUserWizard - Could not find the specified membership provider.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultInvalidQuestionErrorMessage">
+    <value>Veuillez indiquer une question de sécurité différente.</value>
+    <comment>CreateUserWizard - Text to be shown when the security question is invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewHostUndefined">
+    <value>L'hôte de la vue n'est pas défini.</value>
+    <comment>Message shown when a view host is undefined.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LinkedNodeIdNotSet">
+    <value>La propriété LinkedNodeId n'est pas définie.</value>
+    <comment>Error thrown when the LinkedNodeId property of a page node is not set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlsDefaultPasswordLabelText">
+    <value>Mot de passe</value>
+    <comment>CreateUserWizard - The text that identifies the password textbox.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDuplicateCreateUserWizardStep">
+    <value>Il ne peut y avoir qu'une seule étape Créer assistant utilisateur dans vos étapes d'assistant.</value>
+    <comment>CreateUserWizard - There can only be one CreateUserWizardStep in your WizardSteps.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ProviderRoleAlreadyExists">
+    <value>Le rôle '{0}' existe déjà.</value>
+    <comment>The role '{0}' already exists.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MinLengthViolationMessage">
+    <value>Trop court.</value>
+    <comment>Message: Too short.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContactAnAdministratorToResetYourPasswordManually">
+    <value>Contactez un administrateur pour réinitialiser votre mot de passe manuellement.</value>
+    <comment>Contact an administrator to reset your password manually.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="USSocialSecurityNumberViolationMessage">
+    <value>Vous avez entré un numéro de sécurité sociale américain incorrect.</value>
+    <comment>Message: You have entered an invalid US social security number.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SuccessfulRegistrationEmailBody">
+    <value>Votre inscription s'est bien effectuée.</value>
+    <comment>Default body of the email sent to the client after a successful registration.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotRetrieveHashedPasswords">
+    <value>Impossible de récupérer les mots de passe hachés.</value>
+    <comment>Cannot retrieve Hashed passwords.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RoleNotFound">
+    <value>Le rôle "{0}" spécifié n'a pas été trouvé. Fournisseurs de rôles : "{1}".</value>
+    <comment>This error is thrown by Role data providers.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultQuestionFailureText">
+    <value>Votre réponse n'a pu être vérifiée. Veuillez essayer à nouveau.</value>
+    <comment>PasswordRecovery controls - Your answer could not be verified. Please try again.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CurrentUserIsBlockedById">
+    <value>L'utilisateur actuellement connecté est bloqué par ID.</value>
+    <comment>Typically used when a user that is blocked by ID tries to perform some action.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SmtpSettingsAreNotSet">
+    <value>Le système n'a pas été configuré pour envoyer des emails. Allez aux &lt;a href='{0}' target='_blank'&gt;paramètres SMTP&lt;/a&gt; ou demandez à votre administrateur de les définir</value>
+    <comment>The error message to be shown when SMTP settings are not set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RegularExpressionViolationMessage">
+    <value>Format non valide</value>
+    <comment>Message: Invalid format</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidResourceNameOrEmtyTemplate">
+    <value>Nom de ressource "{0}" invalide pour l'ensemble "{1}" ou un modèle vide.</value>
+    <comment>This error is thrown by ControlUtilities class when trying to load embedded template but the resource is not found or empty content is returned.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ResourceLink_ResourceNameNotDefined">
+    <value>La propriété Nom de ressource pour les Liens ressources n'a pas été définie</value>
+    <comment>This error is thrown if the ResourceName for the ResourceLinks control has not been defined.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultInvalidPasswordErrorMessage">
+    <value>Longueur minimum du mot de passe : {0}. Caractères non alphanumériques requis : {1}.</value>
+    <comment>CreateUserWizard - The text to be shown when the password is invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemNotFoundFormated">
+    <value>Vous essayez d'accéder à {0} qui n'existe plus. La raison la plus probable est que cela a été supprimé par un autre utilisateur.</value>
+    <comment>Error message show by Sitefinity's common web service when an item is searched by ID and is not found.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoWebPermissionToConnectToHost">
+    <value>Vous devez accorder la Permission de connexion Web à l'hôte {0}.</value>
+    <comment>The error message to be shown when no WebPermission is granted to specific external address.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultUserNameRequiredErrorMessage">
+    <value>Le Nom d'utilisateur est requis</value>
+    <comment>ChangePassword control - Username is required</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultCancelButtonText">
+    <value>annuler</value>
+    <comment>The label shown on cancel button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AddingDirectlyNotSupported">
+    <value>L'ajout direct à la collection n'est pas pris en charge. Vous devriez assigner cette collection à l'objet.</value>
+    <comment>This error is thrown by a collection that does not support adding items.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultUserNameFailureText">
+    <value>Nous n'avons pas pu accéder à vos informations. Veuillez essayer à nouveau.</value>
+    <comment>PasswordRecovery controls - cannot retrieve information for the supplied Username.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MaxValueViolationMessage">
+    <value>Trop gros</value>
+    <comment>Message: Too big</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PropertyNotFoundInControl">
+    <value>Le contrôle avec l'id "{0}" de type "{1}" n'a pas de propriété avec le nom "{2}".</value>
+    <comment>This error is thrown if the specified property is not found in a control.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Details">
+    <value>Détails !</value>
+    <comment>Details</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidClassId">
+    <value>Un fichier de ressources avec l'ID de classe spécifiée "{0}" n'a pas été trouvé.</value>
+    <comment>This error is thrown when global resource is requested by wrong class ID.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ResourceNotFound">
+    <value>La ressource que vous cherchez est introuvable.</value>
+    <comment>This error is thrown when there is no resource for the requested URL (HTTP 404).</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultUserNameInstructionText">
+    <value>Entrez votre nom d'utilisateur pour recevoir votre mot de passe.</value>
+    <comment>PasswordRecovery controls - Enter your User Name to receive your password.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OnlyOneBackendSiteMapProviderAllowed">
+    <value>Un seul fournisseur de plan de l'interface de gestion est permis. Dans la configuration Plan du site sont définis de multiples fournisseurs de plan de l'interface de gestion.</value>
+    <comment>This error is thrown when more than one BackendSiteMapProvider providers are defined.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OpenAccesInternalIdentityIsNotSupported">
+    <value>L'accès ouvert à l'identité interne OpenAccess n'est pas pris en charge. Type : {0}</value>
+    <comment>Message shown when Sitefinity detects OpenAccess with internal identity in a context that does not allow it</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ControlRenderingErrorMessage">
+    <value>Une erreur s'est produite lors du rendu d'un contrôle sur la page. Pour plus de détails, consultez le fichier Error.log.</value>
+    <comment>phrase: An error occurred while rendering a control to the page. For details check the Error.log file.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotResolveType">
+    <value>Impossible de résoudre le type {0}. Veuillez vérifier l'orthographe et que vous avez enregistré l'ensemble de type avec le TypeResolutionService.</value>
+    <comment>Message shown when Sitefinity cannot resolve a type.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DatabaseNameCannotBeEmpty">
+    <value>Le nom de la base ne peut pas être vide.</value>
+    <comment>The exception that is thrown when the name of the database is not supplied.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotChangeParentBecauseOfRecursiveRelation">
+    <value>Le parent ne peut être modifié. Modifier le parent de "{0}" à "{1}" causera une relation récursive puisque "{0}" est prédécesseur de "{1}".</value>
+    <comment>Message: Parent cannot be changed. Changing the parent of {0} to {1} will cause a recursive relation since {0} is a predecessor of {1}.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultPreviousButtonText">
+    <value>Précédente</value>
+    <comment>The label shown on previous button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WCFPropertyDuplicate">
+    <value>ERREUR : Le sac de propriétés contient des doublons de propriété '{0}', ce qui n'est pas autorisé.</value>
+    <comment>Error thrown when duplicate property is supplied in Save method of WCF service.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemNotFound">
+    <value>Vous tentez d'accéder à un élément qui n'existe plus. La raison la plus probable est que cela a été supprimé par un autre utilisateur.</value>
+    <comment>Error message show by Sitefinity's common web service when an item is searched by ID and is not found.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoCommentedItem">
+    <value>Vous devez spécifier un élément de contenu à commenter.</value>
+    <comment>Typically used in CommentsService when trying to comment without specifying the item that has to be commented.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultChangePasswordFailureText">
+    <value>Nom d'utilisateur et/ou mot de passe incorrect ou nouveau mot de passe invalide. Longueur mini du nouveau mot de passe : {0}. Caractères non alphanumériques requis : {1}.</value>
+    <comment>ChangePassword control - Password incorrect or New Password invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RequiredPropertyNotDefined">
+    <value>La propriété requise '{0}' n'a pas été définie pour l'objet '{1}'.</value>
+    <comment>This error is thrown when a required property has not been defined on an object.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MinValueViolationMessage">
+    <value>Trop petit.</value>
+    <comment>Message: Too small.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NickNameGuidError">
+    <value>Le pseudonyme ne peut pas être un guide. Veuillez changer le pseudonyme.</value>
+    <comment>phrase: Nickname cannot be a Guid. Please change the nickname.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardStepStepTypeCannotBeSet">
+    <value>Type d'Étape ne peut être modifié.</value>
+    <comment>StepType cannot be changed.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WizardActiveStepIndexOutOfRange">
+    <value>L'index d'étape active doit être inférieur au nombre d'étapes de l'Assistant et au moins -1.  Pour les étapes ajoutées dynamiquement, assurez-vous qu'elles sont ajoutées avant ou dans l'évènement de pré-initialisation de la page.</value>
+    <comment>CreateUserWizard - The ActiveStepIndex must be less than WizardSteps.Count and at least -1.  For dynamically added steps, make sure they are added before or in Page_PreInit event.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultSubmitButtonText">
+    <value>Envoyer</value>
+    <comment>PasswordRecovery controls - label of the Submit buttons.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultInvalidEmailErrorMessage">
+    <value>Veuillez entrer une adresse email valide.</value>
+    <comment>CreateUserWizard - The text to be shown when the email is invalid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultSubject">
+    <value>Nouvel utilisateur créé</value>
+    <comment>Default subject of the mail for creating new user.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardNoEmailTextBox">
+    <value>{0}: Le modèle de contenu pour les étapes de l'assistant à la création d'utilisateur ne contient pas de contrôle de texte éditable avec l'ID {1} pour l'adresse email, cela est requis si Email Requis = Oui.</value>
+    <comment>CreateUserWizard - {0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the email, this is required if RequireEmail = true.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionDenied">
+    <value>Autorisation refusée.</value>
+    <comment>This is security error thrown when certain permission is not granted or it is explicitly denied.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultConfirmPasswordLabelText">
+    <value>Confirmer le mot de passe</value>
+    <comment>CreateUserWizard - The text that identifies the confirm password textbox.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryDefaultUserNameTitleText">
+    <value>Mot de passe oublié ?</value>
+    <comment>PasswordRecovery controls - Forgot Your Password?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MembershipUserNotFound">
+    <value>Utilisateur non trouvé.</value>
+    <comment>This error is thrown by the Membership provider.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DatabaseServerNotFound">
+    <value>Impossible de se connecter au serveur.</value>
+    <comment>The exception that is thrown when connection to the database server cannot be found.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDuplicateCompleteWizardStep">
+    <value>Il ne peut y avoir qu'une seule étape assistant complétée dans vos étapes d'assistant.</value>
+    <comment>CreateUserWizard - There can only be one CompleteWizardStep in your WizardSteps.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotFindIdentityForType">
+    <value>Impossible de trouver le champ d'identité/propriété pour {0}</value>
+    <comment>Message shown when Sitefinity can not determine the identity field or property used by a persistent type. Parameter is a Type.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MembershipMoreThanOneUserWithEmail">
+    <value>Plus d'un utilisateur ont l'adresse email indiquée.</value>
+    <comment>More than one user has the specified email address.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoConfirmationPageIsSet">
+    <value>La page de confirmation n'est pas valide ou non définie.</value>
+    <comment>Error message: The confirmation page is invalid or not set.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailCannotBeEmpty">
+    <value>Entrez votre email.</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidMaxDate">
+    <value>Vous avez spécifié une date maximum non valide.</value>
+    <comment>Message: You have specified an invalid maximum date.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InternetUrlViolationMessage">
+    <value>Vous avez entré une URL non valide.</value>
+    <comment>Message: You have entered an invalid URL.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidTimeZoneName">
+    <value>Nom standard du fuseau horaire non valide.</value>
+    <comment>phrase: Invalid time zone standard name.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GenericStartupDatabaseConnectingErrorMessage">
+    <value>Une erreur s'est produite lors de la connexion à la base de données au démarrage. Consultez le fichier Error.log pour plus de détails.</value>
+    <comment>The exception that is thrown when connecting to the database on startup fails due to unspecified reason.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FormManagerOnlyOneInstance">
+    <value>Une seule instance de gestionnaire de formulaires est autorisée par page. Veuillez utiliser FormManager.GetCurrent() pour obtenir l'instance de gestionnaire de formulaires ou FormManager.Ensure() pour en ajouter un automatiquement.</value>
+    <comment>Message: Only one instance of FormManager is allowed per page. Please, use FormManager.GetCurrent() to get the FormManager instance or FormManager.Ensure() to automatically add one.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotInferManagerTypeFromItemType">
+    <value>Ne peut déduire le type de gestionnaire, car le type de contenu `{0}` n'est pas associé à un type de gestionnaire. Vous pouvez le faire dans la configuration, via l'attribut de type de gestionnaire, ou dans le code d'inscription à la Base de gestionnaire-Requiert le type de gestionnaire.</value>
+    <comment>Message that is shown when the manager type cannot be infered from the item type.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ActivationErrorMessage">
+    <value>L'activation de l'utilisateur a échouée</value>
+    <comment>User activation failed.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BasicTemplatesCanNotBeBasedOnOtherTemplates">
+    <value>Les modèles de base ne peuvent être basés sur d'autres modèles.</value>
+    <comment>phrase: Basic templates can not be based on other templates.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PolicyNameRequiredErrorMessage">
+    <value>Le Nom de la stratégie doit être renseigné.</value>
+    <comment>Message shown when policy name is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordAnswerRequired">
+    <value>La réponse du mot de passe est requise pour réinitialiser le mot de passe.</value>
+    <comment>Password answer required for password reset.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PropertyNotFound">
+    <value>Le type "{0}" n'a pas de propriété avec le nom "{1}".</value>
+    <comment>This error is thrown if the specified property is not found for a type.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateUserWizardDefaultCompleteTitleText">
+    <value>Complet</value>
+    <comment>Title text of Complete step in CreateUserWizard.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CannotPerformOperationBecauseTypeDoesNotContainPropertyWithThatName">
+    <value>Impossible de "{0}", car {1} ne contient pas de propriété publique nommée "{2}".</value>
+    <comment>Message shown when policy name is empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordDefaultContinueButtonText">
+    <value>Continuer</value>
+    <comment>ChangePassword control - Continue</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasswordRecoveryRecoveryNotSupported">
+    <value>Le fournisseur d'inscriptions ne prend pas en charge la récupération ou la réinitialisation du mot de passe.</value>
+    <comment>PasswordRecovery controls - Membership provider does not support password retrieval or reset.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidConfigElementParent">
+    <value>L'élément parent de l'élément de config '{0}' n'est pas le bon.</value>
+    <comment>Message: The parent item of the '{0}' ConfigElement is not the correct one.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidEmailUsernameErrorMessage">
+    <value>Le nom d'utilisateur {0} n'est pas une adresse email valide.</value>
+    <comment>Username {0} is not a valid email</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CurrentUserIsBlockedByIp">
+    <value>L'utilisateur actuellement connecté est bloqué par IP.</value>
+    <comment>Typically used when a user that is blocked by IP tries to perform some action.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

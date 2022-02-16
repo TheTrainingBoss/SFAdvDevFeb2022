@@ -1,0 +1,1085 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ListItemsDescription">
+    <value>Page fournissant une collection d'éléments pour une liste donnée dans le module de liste.</value>
+    <comment>Description of the list items page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListPermissionsDescription">
+    <value>Autorise ou empêche le changement des permissions d'une liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsTitle">
+    <value>Listes</value>
+    <comment>Title of the lists page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Language">
+    <value>Langue</value>
+    <comment>word: Language</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewList">
+    <value>Voir une liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItems">
+    <value>Éléments de liste</value>
+    <comment>word: ListItems</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PagesWhereListsArePublished">
+    <value>Pages où les listes sont publiées</value>
+    <comment>Pages where Lists are published</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishedListItems">
+    <value>Éléments de la liste publiée</value>
+    <comment>The text of published list items sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhichListItemsToDisplay">
+    <value>Quels éléments de la liste afficher ?</value>
+    <comment>phrase: Which list items to display?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Filter">
+    <value>Filtrer</value>
+    <comment>word: Filter</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListPermissions">
+    <value>Modifier les autorisations d'une liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectList">
+    <value>Sélectionnez une liste</value>
+    <comment>phrase: Select a list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Supprimer</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleAndProperties">
+    <value>Titre et Propriétés</value>
+    <comment>word: Title &amp; Properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>L'URL ne peut être vide</value>
+    <comment>URL cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditTemplate">
+    <value>Modifier le modèle sélectionné...</value>
+    <comment>phrase: Edit Selected Template...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AnchorList">
+    <value>Liste à ancrage</value>
+    <comment>phrase: Anchor list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListPermissionsDescription">
+    <value>Description des autorisations de liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FromSelectedListsOnly">
+    <value>Depuis les listes sélectionnées seulement...</value>
+    <comment>phrase: From selected lists only...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomFieldsForListItems">
+    <value>Champs personnalisés pour les éléments de la liste</value>
+    <comment>phrase: Custom fields for list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AlphabeticallyZA">
+    <value>Ordre alphabétique (Z-A)</value>
+    <comment>word: Alphabetically (Z-A)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SettingsForLists">
+    <value>Paramètres des listes</value>
+    <comment>phrase: Settings for lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>Annuler la publication</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageList">
+    <value>Gérer des listes</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AlphabeticallyAsc">
+    <value>Ordre alphabétique (A-Z)</value>
+    <comment>phrase: Alphabetically (A-Z)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsWithoutListItems">
+    <value>Listes sans éléments</value>
+    <comment>Label: Lists without items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gérer aussi</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToFrontend">
+    <value>Revenir à l'interface publique</value>
+    <comment>phrase: Back to frontend</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DetailsDisplayName">
+    <value>Détails !</value>
+    <comment>phrase: Details</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChooseLists">
+    <value>Choisir les listes</value>
+    <comment>phrase: Choose Lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToAllListItems">
+    <value>Retour à la liste de tous les éléments de la liste</value>
+    <comment>phrase: Back to all list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NonexistentList">
+    <value>La liste n'existe pas</value>
+    <comment>phrase: nonexistent list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsUrlTitle">
+    <value>Éléments de liste</value>
+    <comment>Message: ListItems</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllListItems">
+    <value>Tous les éléments de la liste</value>
+    <comment>Phrase: All list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>par Date de modification ...</value>
+    <comment>The text of the date filter sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListItemOwnerDescription">
+    <value>Autorise ou empêche le changement de propriétaire d'un élément de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisList">
+    <value>Créer cette liste</value>
+    <comment>phrase: Create this list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChooseListItem">
+    <value>Choisir un élément de liste</value>
+    <comment>phrase: Choose a List Item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemPermissionsDescription">
+    <value>Description pour les permissions d'élément de liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsMasterExpandedViewFriendlyName">
+    <value>Éléments de liste - Liste développée</value>
+    <comment>Phrase: List items - Expanded list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemPluralItemName">
+    <value>Éléments de liste</value>
+    <comment>Word: list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewAllLists">
+    <value>Toutes les listes</value>
+    <comment>Text of the link that will show the view that lists all list.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectLists">
+    <value>Sélectionnez les listes</value>
+    <comment>phrase: Select lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="More">
+    <value>Plus</value>
+    <comment>word: More</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OnlyRegisteredUsers">
+    <value>Seulement les utilisateurs enregistrés</value>
+    <comment>Phrase: Only registered user</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewListItemDescription">
+    <value>Autorise ou empêche de consulter les éléments de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres</value>
+    <comment>word: Settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListNotSelected">
+    <value>La liste n'est pas sélectionnée</value>
+    <comment>phrase: List is not selected</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetWhichListToDisplay">
+    <value>Définir quelle liste afficher</value>
+    <comment>phrase: Set which list to display</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteListDescription">
+    <value>Autorise ou refuse la suppression d'une liste particulière.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Manually">
+    <value>Manuellement</value>
+    <comment>word: Manually</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoSelectedListItem">
+    <value>Aucun élément de la liste sélectionnée</value>
+    <comment>phrase: No selected list item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListItemPermissions">
+    <value>Modifier les permissions d'un élément de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsNodeDescription">
+    <value>Page du groupe qui contient toutes les pages utilisées par le module de listes.</value>
+    <comment>Description of the lists node</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsViewTitle">
+    <value>Liste</value>
+    <comment>Messsage: List items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NarrowSelectionComplementoryText">
+    <value>Restreindre la sélection &lt;span class='sfNote'&gt;(par catégorie, mot-clé, date)&lt;/span&gt;</value>
+    <comment>Narrow selection complementory text</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisplayListItemsPublishedIn">
+    <value>Afficher les éléments de liste publiés dans...</value>
+    <comment>phrase: Display list items published in...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemViewPropertyEditorTitle">
+    <value>Listes</value>
+    <comment>word: Lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsApproved">
+    <value>Les commentaires doivent être approuvés avant d'apparaître sur le site</value>
+    <comment>Phrase: Comments have to be approved before appearing on the site</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastListItemLiteral">
+    <value>Dernier élément de liste :</value>
+    <comment>A literal for 'Last list item'</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Order">
+    <value>Classer</value>
+    <comment>word: Order</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewListDescription">
+    <value>Permet ou empêche de voir une liste particulière.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GroupDeleteListItems">
+    <value>Supprimer</value>
+    <comment>Text of the button that performs a group delete for list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Modules de listes pour Sitefinity</value>
+    <comment>Description of the lists module</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsPluralTypeName">
+    <value>Listes</value>
+    <comment>Lists type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemLiteral">
+    <value>éléments</value>
+    <comment>A literal for 'list item'</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditListItemsSettings">
+    <value>Modifier les paramètres des éléments de la liste</value>
+    <comment>Phrase: Edit List items settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FilterListItems">
+    <value>Filtrer les éléments de la liste...</value>
+    <comment>phrase: Filter list items...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemPermissions">
+    <value>Permissions d'élément de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastModifiedTop">
+    <value>Dernières modifications en haut</value>
+    <comment>phrase: Last modified on top</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsMasterPageViewFriendlyName">
+    <value>Éléments de liste - Liste de la page</value>
+    <comment>Phrase: List items - Page list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsMasterAnchorViewFriendlyName">
+    <value>Éléments de liste - Liste d'ancrage</value>
+    <comment>Phrase: List items - Anchor list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Category">
+    <value>Catégorie</value>
+    <comment>word: Category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsPluralTypeName">
+    <value>Éléments de liste</value>
+    <comment>ListItem type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SettingsForListItems">
+    <value>Paramètres des éléments de liste.</value>
+    <comment>Phrase: Settings for list items.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ReadMore">
+    <value>Lire la suite...</value>
+    <comment>phrase: Read more...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewListItem">
+    <value>Voir les éléments de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ForAllListsLabel">
+    <value>Filtrer les listes</value>
+    <comment>Title: For all lists ...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageListItem">
+    <value>Gérer les éléments de la liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsDetailViewFriendlyName">
+    <value>Éléments de liste - unique</value>
+    <comment>Phrase: List items - single</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsForListItems">
+    <value>commentaires</value>
+    <comment>phrase: Comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageListItems">
+    <value>Gérer les éléments de la liste</value>
+    <comment>phrase: Manage list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Edit">
+    <value>Éditer</value>
+    <comment>word: Edit</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DraftListItems">
+    <value>Éléments de liste brouillons</value>
+    <comment>The text of draft list items sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propriétés</value>
+    <comment>word: Properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListItemPermissionsDescription">
+    <value>Autorise ou empêche la modification  des permissions d'un élément de liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageLists">
+    <value>Gérer des listes</value>
+    <comment>word: Manage Lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageListItemDescription">
+    <value>Autorise ou empêche la gestion des éléments de liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemDataFields">
+    <value>Champs de données d'élément de la liste</value>
+    <comment>phrase: List item data fields</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListOwner">
+    <value>Changer le propriétaire d'une liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FromAllLists">
+    <value>De toutes les listes</value>
+    <comment>phrase: From all lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyLists">
+    <value>Mes listes</value>
+    <comment>phrase: The text of my lists sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoListItems">
+    <value>Aucuns éléments de liste n'ont encore été créés</value>
+    <comment>phrase: No list items have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Plus d'actions</value>
+    <comment>phrase: More actions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemsLiteral">
+    <value>éléments</value>
+    <comment>Word: items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllLists">
+    <value>Toutes les listes</value>
+    <comment>Phrase: All lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListProperties">
+    <value>Titre et Propriétés</value>
+    <comment>Phrase: Title &amp; properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListOwnerDescription">
+    <value>Autorise ou empêche le changement du propriétaire d'une liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectionOfListItems">
+    <value>Sélection des éléments de liste :</value>
+    <comment>phrase: Selection of list items:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageList">
+    <value>Liste de page (ouvrir chaque élément en page séparée)</value>
+    <comment>phrase: Page list (open each item in separate page)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SimpleList">
+    <value>Liste simple</value>
+    <comment>phrase: Simple list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+    <comment>word: Delete</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditListItems">
+    <value>Modifier la liste</value>
+    <comment>Text that displays next to each List in the grid view of all Lists.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Autorisations</value>
+    <comment>word: Permissions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsDescription">
+    <value>Page qui fournit la page d'accueil pour le module de listes.</value>
+    <comment>Description of the lists landing page.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateAList">
+    <value>Créer une liste</value>
+    <comment>phrase: Create a list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsByTag">
+    <value>Éléments de liste par tag</value>
+    <comment>Phrase: List items by tag</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowTrackBacks">
+    <value>Autoriser les rétroliens</value>
+    <comment>Phrase: Allow trackbacks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsSingleTypeName">
+    <value>Liste</value>
+    <comment>Lists type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Dernières créations en haut</value>
+    <comment>phrase: Last created on top</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsByCategory">
+    <value>Éléments de liste par catégorie</value>
+    <comment>Phrase: List items by category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AlphabeticallyDesc">
+    <value>Ordre alphabétique (Z-A)</value>
+    <comment>phrase: Alphabetically (Z-A)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionsForListItems">
+    <value>Autorisations pour les éléments de liste</value>
+    <comment>phrase: Permissions for list items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemUrlName">
+    <value>URL de l'élément</value>
+    <comment>phrase: Item URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteListPermissions">
+    <value>Supprimer la liste et ses éléments</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateAListItem">
+    <value>Créer un élément de liste</value>
+    <comment>phrase: Create a list item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>Phrase: Save changes</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>Par Titre (Z - A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ClickToAddSummary">
+    <value>Cliquez ici pour ajouter le résumé</value>
+    <comment>Click to add summary</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastModifiedBottom">
+    <value>Dernières modifications en bas</value>
+    <comment>phrase: Last modified on bottom</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Champs personnalisés pour les listes</value>
+    <comment>phrase: Custom Fields for lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsDataFields">
+    <value>Liste les champs de données</value>
+    <comment>phrase: Lists data fields</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionsForLists">
+    <value>Autorisations</value>
+    <comment>phrase: Permissions for lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AddNewListItem">
+    <value>Ajouter nouvel élément de liste</value>
+    <comment>Phrase: Add new list item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Catégories et tags</value>
+    <comment>phrase: Categories and tags</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsForLists">
+    <value>Commentaires pour les listes</value>
+    <comment>phrase: Comments for lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeListItemOwner">
+    <value>Changer le propriétaire d'élément de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditListItem">
+    <value>Modifier un élément de la liste</value>
+    <comment>Text that displays at the top of the screen for editing a list item.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>Par Titre (A - Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FilterLists">
+    <value>Filtrer les listes</value>
+    <comment>phrase: Filter lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectedListWasDeletedSelectAnotherList">
+    <value>La liste sélectionnée a été supprimée. Veuillez choisir une autre liste.</value>
+    <comment>phrase: The selected list was deleted. Please select another list.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeOwner">
+    <value>Changer de propriétaire</value>
+    <comment>Phrase: Change owner</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListUrlName">
+    <value>URL de la liste</value>
+    <comment>phrase: List URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoListsSelectedYet">
+    <value>Aucune liste n'est sélectionnée</value>
+    <comment>Phrase: No lists selected yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteList">
+    <value>Supprimer</value>
+    <comment>Label for the 'delete list' command</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllPublishedListItemsFromSelectedLists">
+    <value>Tous les éléments de liste publiés des listes sélectionnées</value>
+    <comment>phrase: All published list items from selected lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Lists">
+    <value>Listes</value>
+    <comment>word: Lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AlphabeticallyAZ">
+    <value>Ordre alphabétique (A-Z)</value>
+    <comment>word: Alphabetically (A-Z)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListPermissions">
+    <value>Autorisations de liste</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedListItems">
+    <value>Afficher les éléments de liste dernièrement mis à jour dans...</value>
+    <comment>The text of last updated list items sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewTemplate">
+    <value>Créer un nouveau modèle</value>
+    <comment>phrase: Create New Template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateList">
+    <value>Créer une liste</value>
+    <comment>Text of the button that creates a new list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhichListsToDisplay">
+    <value>Quelles listes afficher ?</value>
+    <comment>phrase: Which lists to display?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleColumn">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SortListItems">
+    <value>Trier les éléments</value>
+    <comment>phrase: Sort items </comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>L'URL contient des symboles non valides.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToLists">
+    <value>Retour aux listes</value>
+    <comment>phrase: Back to lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Tri personnalisé ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateListItem">
+    <value>Créer un élément de liste</value>
+    <comment>Text of the button that creates a new list item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Autoriser les commentaires</value>
+    <comment>phrase: Allow comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Collapse">
+    <value>Replier</value>
+    <comment>word: Collapse</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleExample">
+    <value>&lt;strong&gt;Exemple :&lt;/strong&gt; &lt;em&gt;Foire aux questions&lt;/em&gt;</value>
+    <comment>Example for the Title field of the lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Définir les Autorisations</value>
+    <comment>phrase: Set permissions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditSeparator">
+    <value>Éditer ...</value>
+    <comment>word: Edit...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsHtmlTitle">
+    <value>Éléments de liste</value>
+    <comment>Message: List Items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectListItem">
+    <value>Sélectionner un élément de liste</value>
+    <comment>phrase: Select a list item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitlesAndContentsDisplayName">
+    <value>Titres et contenu complet</value>
+    <comment>phrase: Titles and full content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Dernières modifications en haut</value>
+    <comment>phrase: Last modified on top</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ModuleName">
+    <value>Listes</value>
+    <comment>Name of the lists module</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsTitle">
+    <value>éléments</value>
+    <comment>Message: Items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsSingleTypeName">
+    <value>Élément de liste</value>
+    <comment>Lists type name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsNodeTitle">
+    <value>Listes</value>
+    <comment>Title of the lists node</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitlesDisplayName">
+    <value>Titres</value>
+    <comment>phrase: Titles</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailAuthor">
+    <value>Envoyer un courriel à l'auteur du message lorsqu'un nouveau commentaire est publié</value>
+    <comment>Phrase: Email the post author whenever a new comment is submitted</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Plus d'options &lt;em class='sfNote'&gt;(URL, Commentaires)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PagesWhereListItemsArePublished">
+    <value>Pages où des éléments de liste sont publiés</value>
+    <comment>Pages where list items are published.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>word: View</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoLists">
+    <value>Aucune liste n'a encore été créée</value>
+    <comment>phrase: No lists have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NarrowListItemTitle">
+    <value>Limiter en tapant le titre d'un élément de la liste</value>
+    <comment>phrase: Narrow by typing list item title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NarrowListTitle">
+    <value>Limiter en tapant le titre de la liste</value>
+    <comment>phrase: Narrow by typing list title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsMasterSimpleViewFriendlyName">
+    <value>Éléments de liste - Liste simple</value>
+    <comment>Phrase: List items - Simple list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Trier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpandableList">
+    <value>Liste extensible</value>
+    <comment>phrase: Expandable list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditList">
+    <value>Modifier la liste</value>
+    <comment>Text that displays next to each List in the grid view of all Lists.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OneParticularListItemOnly">
+    <value>Un seul élément de liste uniquement...</value>
+    <comment>phrase: One particular list item only...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Anyone">
+    <value>Tout le monde</value>
+    <comment>Phrase: Anyone</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpandedList">
+    <value>Liste complète</value>
+    <comment>phrase: Expanded list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListItemsViewDescription">
+    <value>Affichage des éléments de liste déjà créée</value>
+    <comment>Describes the ListItemsView title in the toolbox</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhoCanPostComments">
+    <value>Qui peut poster des commentaires</value>
+    <comment>WhoCanPostComments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisListItem">
+    <value>Créer ce nouvel élément de liste</value>
+    <comment>phrase: Create this list item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Dupliquer</value>
+    <comment>Label for the 'duplicate list' command</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyListItems">
+    <value>Mes éléments de liste</value>
+    <comment>The text of my list items sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListPluralItemName">
+    <value>Listes</value>
+    <comment>Word: lists</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByHierarchy">
+    <value>par hiérarchie</value>
+    <comment>phrase: By hierarchy</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectedListWasDeleted">
+    <value>La liste sélectionnée a été supprimée</value>
+    <comment>phrase: The selected list was deleted</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateListDescription">
+    <value>Permet ou empêche la création d'une nouvelle liste.</value>
+    <comment>Used in the permissions dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ListsMasterExpandableViewFriendlyName">
+    <value>Éléments de liste - Liste extensible</value>
+    <comment>Phrase: List items - Expandable list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MostUsedOnTop">
+    <value>Plus utilisés en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

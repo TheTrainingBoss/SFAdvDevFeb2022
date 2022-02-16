@@ -1117,6 +1117,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Localization\MyWidgetResources.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MVC\Controllers\NickController.cs" />
     <Compile Include="MVC\Models\NickModel.cs" />

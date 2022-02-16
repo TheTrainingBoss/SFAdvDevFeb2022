@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InsertTableItems">
+    <value>Insérer</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TableBorder">
+    <value>Bordure du tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatStripper">
+    <value>Stripper de format</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertParagraph">
+    <value>Nouveau paragraphe</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormReset">
+    <value>Insérer Réinitialiser</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Underline">
+    <value>Souligner</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertAnchor">
+    <value>Insérez une ancre</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImageMapDialog">
+    <value>Éditeur de zone cliquables</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Home">
+    <value>Accueil</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertTableLight">
+    <value>Insérer un tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertTime">
+    <value>Insérer l'heure</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Print">
+    <value>Imprimer</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MediaManager">
+    <value>Gestionnaire de médias</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertColumnRight">
+    <value>Insérer une colonne à droite</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertLink">
+    <value>Insérer un lien</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditContent">
+    <value>Modifier le contenu</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RadEditorToolsTitle">
+    <value>Outils de l'éditeur Rad</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AjaxSpellCheck">
+    <value>Vérificateur orthographique AJAX</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatPainterApply">
+    <value>Appliquer le format</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormElement">
+    <value>Insérer un élément de formulaire</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="JustifyCenter">
+    <value>Aligner au centre</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FlashManager">
+    <value>Gestionnaire de Flash</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertDate">
+    <value>Insérer la date</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertOrderedList">
+    <value>Liste numérotée</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="JustifyNone">
+    <value>Supprimer l'alignement</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggleScreenMode">
+    <value>Basculer en mode plein écran</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MergeColumns">
+    <value>Fusionner les cellules horizontalement</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SpellCheck">
+    <value>Correcteur orthographique</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SplitCell">
+    <value>Scinder la cellule horizontalement</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImageEditor">
+    <value>Éditeur d'image</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertTable">
+    <value>Insérer un tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RealFontSize">
+    <value>Taille réelle de la police</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggleTableBorder">
+    <value>Afficher/Masquer la bordure</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StripFont">
+    <value>Supprimer les éléments de Police</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertRowBelow">
+    <value>Insérer une ligne en-dessous</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FontName">
+    <value>Nom de la police</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LinkManager">
+    <value>Gestionnaire d'hyperliens</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatCodeBlock">
+    <value>Formater le bloc de code</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MergeRows">
+    <value>Fusionner les cellules verticalement</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Subscript">
+    <value>Sous-script</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetImageProperties">
+    <value>Propriétés...</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasteMarkdown">
+    <value>Coller le contenu Markdown</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggleAdvancedToolbars">
+    <value>Basculer les barres d'outils avancés</value>
+    <comment>RadEditor resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Help">
+    <value>Aide</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetCellProperties">
+    <value>Propriétés de la cellule</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormRadio">
+    <value>Insérez Radio</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertColumnLeft">
+    <value>Insérer une colonne à gauche</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MobileTableProperties">
+    <value>Propriétés du tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Superscript">
+    <value>Super-script</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CellBorder">
+    <value>Bordure ce la cellule</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasteAsHtml">
+    <value>Coller au format HTML</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Editing">
+    <value>Édition</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggleEditMode">
+    <value>Activer/Désactiver le mode Édition</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteRow">
+    <value>Supprimer la ligne</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormTextarea">
+    <value>Insérer Zone de texte</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasteHtml">
+    <value>Coller du HTML</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatPainter">
+    <value>Reproduire la mise en forme</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SplitCellHorizontal">
+    <value>Scinder la cellule horizontalement</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Font">
+    <value>Police</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageProperties">
+    <value>Propriétés de la page</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConvertToLower">
+    <value>Convertir en minuscules</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DecreaseSize">
+    <value>Diminuer la taille</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StyleBuilder">
+    <value>Constructeur de style</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AboutDialog">
+    <value>A propos de l'éditeur Rad</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FontSize">
+    <value>Taille</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Clipboard">
+    <value>Presse-papiers</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="IncreaseSize">
+    <value>Augmenter la taille</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PastePlainText">
+    <value>Coller du texte brut</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Proofing">
+    <value>Vérification</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteCell">
+    <value>Supprimer la cellule</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteTableItems">
+    <value>Supprimer</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImageBorder">
+    <value>Bordure de l'image</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasteFromWord">
+    <value>Coller à partir de Word</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectAll">
+    <value>Sélectionner tout</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Unlink">
+    <value>Supprimer le lien</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Enter">
+    <value>Entrée actionnée</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Redo">
+    <value>Refaire</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StrikeThrough">
+    <value>Barré</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StripWord">
+    <value>Supprimer la mise en forme Word</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RepeatLastCommand">
+    <value>Répète la dernière commande</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertHorizontalRule">
+    <value>Règle horizontale</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ForeColor">
+    <value>Couleur de premier plan</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RadEditorToolsTitlePlural">
+    <value>Outils de l'éditeur Rad</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertTableDialog">
+    <value>Insérer un tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackColor">
+    <value>Couleur de fond</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggleFloatingToolbar">
+    <value>Basculer la barre d'outils flottante</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertSnippet">
+    <value>Insérer extrait de code</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasteFromWordNoFontsNoSizes">
+    <value>Coller à partir de Word, sans conserver la police</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormSubmit">
+    <value>Insérez Soumettre</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TemplateManager">
+    <value>Gestionnaire de modèle</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Cut">
+    <value>Couper</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertGroupbox">
+    <value>Insérer Boîte de groupe</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToggleDocking">
+    <value>Accrocher tous les modules/barres d'outils flottants</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Indent">
+    <value>Mettre en retrait</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertUnorderedList">
+    <value>Liste à puces</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatPainterCopy">
+    <value>Copier le format</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertImage">
+    <value>Insérer une Image</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertExternalVideo">
+    <value>Insérer une vidéo externe</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MergeSplitCells">
+    <value>Fusionner et Diviser des cellules</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Outdent">
+    <value>Diminuer le retrait</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReservedResource">
+    <value>Veuillez ne pas supprimer cette chaîne. L'éditeur Rad doit déterminer si un fichier ressource externe est présent dans les ressources globales.</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DocumentManager">
+    <value>Gestionnaire de document</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatSets">
+    <value>Jeux de formats</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertSymbol">
+    <value>Insérer un symbole</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatPainterClear">
+    <value>Effacer le format</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormText">
+    <value>Insérer Boîte de texte</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormPassword">
+    <value>Insérez Mot de passe</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RadEditorToolsDescription">
+    <value>Chaînes de ressources pour les outils de l'éditeur Rad</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FormatBlock">
+    <value>Style de paragraphe</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Paragraph">
+    <value>Paragraphe</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Bold">
+    <value>Gras</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MobileEdit">
+    <value>Éditer</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SilverlightManager">
+    <value>Gestionnaire Silverlight</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertEmailLink">
+    <value>Insérer un lien Email</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteColumn">
+    <value>Supprimer la colonne</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertRowAbove">
+    <value>Insérer une ligne au-dessus</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AlignmentSelector">
+    <value>Sélecteur d'alignement</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TrackChangesDialog">
+    <value>[Obsolète] Suivi des modifications</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PasteStrip">
+    <value>Options de collage</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormCheckbox">
+    <value>Insérer une case à cocher</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ModuleManager">
+    <value>Gestionnaire de modules</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="XhtmlValidator">
+    <value>Validateur XHTML</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StripAll">
+    <value>Supprimer toute la mise en forme</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Links">
+    <value>Liens</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Tables">
+    <value>Tableaux</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StripSpan">
+    <value>Supprimer les éléments Span</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ApplyClass">
+    <value>Appliquer la classe CSS</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Paste">
+    <value>Coller</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SizeMargins">
+    <value>Taille et marges</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Review">
+    <value>Comparaison</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FindAndReplace">
+    <value>Rechercher et remplacer</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImageSizeMargins">
+    <value>Taille et marges</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Copy">
+    <value>Copier</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetTableProperties">
+    <value>Propriétés du tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="JustifyFull">
+    <value>Justifier</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="JustifyLeft">
+    <value>Aligner à gauche</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormButton">
+    <value>Insérer un bouton</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Insert">
+    <value>Insérer</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ImageManager">
+    <value>Gestionnaire d'images</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteTable">
+    <value>Supprimer le tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConvertToUpper">
+    <value>Convertir en majuscule</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="JustifyRight">
+    <value>Aligner à droite</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CSDialog">
+    <value>Vérification de la conformité</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StripCss">
+    <value>Supprimer la mise en forme CSS</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertCustomLink">
+    <value>Personnaliser les liens</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormForm">
+    <value>Insérer un formulaire</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Italic">
+    <value>Italique</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormHidden">
+    <value>Insérer caché</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TableWizard">
+    <value>Assistant Tableau</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AbsolutePosition">
+    <value>Définir la position absolue</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Preferences">
+    <value>Préférences</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InsertFormSelect">
+    <value>Insérer Sélectionner</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Undo">
+    <value>Annuler</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SetLinkProperties">
+    <value>Propriétés...</value>
+    <comment>RadEditorTools resource strings.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

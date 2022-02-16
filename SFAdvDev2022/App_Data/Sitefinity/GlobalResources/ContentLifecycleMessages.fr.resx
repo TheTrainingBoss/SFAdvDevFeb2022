@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LiveExpectedForUnpublish">
+    <value>Impossible d'annuler la publication d'un élément qui n'est pas publié.</value>
+    <comment>Error message shown when an non-live item is unpublished.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MasterNotFound">
+    <value>La version maître n'a pas été trouvé. Tous les éléments devraient toujours n'avoir qu'un seul maître.</value>
+    <comment>Error message shown when a master (draft) cannot be found.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CannotCheckIn">
+    <value>Vous ne pouvez pas vérifier car l'élément est verrouillé par un autre utilisateur et vous n'êtes pas admin.</value>
+    <comment>Error message shown when user can not check in.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Draft">
+    <value>Brouillon</value>
+    <comment>Status of an item that is in draft state.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TempExpectedForCheckIn">
+    <value>Impossible de vérifier un élément qui n'est pas en état temporaire.</value>
+    <comment>Error message shown when an item that is not temp is checked in.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Scheduled">
+    <value>Planifié</value>
+    <comment>Label for the published (live) status of a content item.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ScheduleExpiresBeforePublish">
+    <value>Vous essayez de planifier un élément dont la date d'expiration est avant la date de publication.</value>
+    <comment>Error message shown when an item is scheduled so that it will expire before it gets to the public side.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentLifecycleMessagesTitle">
+    <value>Cycle de vie du contenu</value>
+    <comment>Title of the content lifecycle localization class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Published">
+    <value>Publié</value>
+    <comment>Label for the published (live) status of a content item.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AlreadyLockedBy">
+    <value>Cet élément a déjà été verrouillé par {0} et vous ne pouvez pas continuer à le modifier</value>
+    <comment>Error message when user wants to edit an item that has already been locked</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MasterExpectedForPublish">
+    <value>Impossible de publier un élément qui n'est pas maître.</value>
+    <comment>Error message shown when an item that is not master is published.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LiveVersionGreaterThanMasterVersion">
+    <value>Version publiée &gt; version brouillon =&gt; corruption de données.</value>
+    <comment>Error message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LiveExpectedForEdit">
+    <value>Impossible de modifier un élément qui n'est pas en état actif.</value>
+    <comment>Error message shown when an item that is not live is edited.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MasterExpected">
+    <value>L'élément est dans un état non valide. Il devrait être maître (brouillon).</value>
+    <comment>Error message shown when an item is expected to be master (draft), but it is not.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentLifecycleMessagesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur du cycle de vie du contenu.</value>
+    <comment>Description of the content lifecycle localization class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemUpdateWhileEditing">
+    <value>Un élément sur cette page a également été mis à jour ailleurs et ne peut être publié. Pour procéder à l'opération, réactualisez la page (toutes les modifications non enregistrées seront perdues).</value>
+    <comment>Error message shown when an item is opened in backend and frontend at the same time. And it is updated in the backend.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemUnlockedWhileEditing">
+    <value>L'élément a été déverrouillé par un autre utilisateur alors que vous étiez en train de l'éditer, et vous ne pouvez pas l'enregistrer ni le publier.</value>
+    <comment>Error message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AlreadyCheckedOut">
+    <value>L'élément de contenu a déjà été contrôlé par un autre utilisateur et vous ne pouvez pas le déverrouiller.</value>
+    <comment>Error message shown when user can not check out.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DraftNewerThanPublished">
+    <value>Le brouillon est plus récent que la publication</value>
+    <comment>Label for the published (live) status of a content item.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LockedByUserName">
+    <value>Copie privée verrouillée par {0}</value>
+    <comment>Label notifying that a user owns a private copy of an item (that is locked). {0} is placeholder for the user name.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MasterExpectedForCheckOut">
+    <value>Impossible de vérifier élément qui n'est pas en état de maître.</value>
+    <comment>Error message shown when an item that is not master is checked in.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemDeletedWhileEditing">
+    <value>L'élément a été supprimé par un autre utilisateur alors que vous étiez en train de l'éditer, et vous ne pouvez pas l'enregistrer ni le publier.</value>
+    <comment>Error message</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ItemUnlockedWhileEditingBy">
+    <value>L'élément a été déverrouillé par {0} alors que vous étiez en train de l'éditer, et vous ne pouvez pas l'enregistrer ni le publier.</value>
+    <comment>Error message. {0} is placeholder for user name.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MasterExpectedForSchedule">
+    <value>Impossible de prévoir un élément qui n'est pas maître.</value>
+    <comment>Error message shown when an item that is not master is scheduled.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ContentLifecycleMessagesTitlePlural">
+    <value>Messages du cycle de vie du contenu</value>
+    <comment>Plural form of this localization class' title.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

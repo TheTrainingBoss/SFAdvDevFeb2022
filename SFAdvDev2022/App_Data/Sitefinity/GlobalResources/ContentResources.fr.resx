@@ -1,0 +1,1220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommentsUrlName">
+    <value>commentaires</value>
+    <comment>Comments URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FilterContentItems">
+    <value>Filtrer les blocs de contenu</value>
+    <comment>phrase: Filter content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FieldsDescription">
+    <value>Gérer les champs personnalisés</value>
+    <comment>Provides description for the fields view of generic content-based modules.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Catégories</value>
+    <comment>word: Categories</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailCannotBeEmpty">
+    <value>Email doit être renseigné</value>
+    <comment>Email cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DuplicateUrlException">
+    <value>Un élément avec l'URL '{0}' existe déjà.</value>
+    <comment>Error message.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>Annuler la publication</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentPagesDialogDescription">
+    <value>Toute modification de ce contenu sera appliquée sur toutes les pages et les modèles où il est utilisé</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Language">
+    <value>Langue</value>
+    <comment>word: Language</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteMultipleConfirmationMessage">
+    <value>La suppression de ces blocs de contenu &lt;b&gt;les supprimera de toutes les pages et modèles&lt;/b&gt; où ils sont utilisés. &lt;/br&gt; Êtes-vous sûr de vouloir supprimer ces blocs de contenu ?</value>
+    <comment>If you delete these content blocks they &lt;b&gt;will be removed from all pages and templates&lt;/b&gt; where they are used. Are you sure you want to delete these content blocks?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentedItemLinkClientTemplateText">
+    <value>Lien vers l'élément commenté</value>
+    <comment>Link to commented item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewestFirst">
+    <value>Plus récent en premier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UnshareThisContent">
+    <value>Oui, arrêter le partage de ce contenu</value>
+    <comment>phrase: Yes, Unshare this content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteSingleConfirmationMessage">
+    <value>La suppression de ce bloc de contenu &lt;b&gt;le supprimera de toutes les pages et modèles&lt;/b&gt; où il est utilisé. &lt;/br&gt; Êtes-vous sûr de vouloir supprimer ce bloc de contenu ?</value>
+    <comment>Confirmation message: If you delete this content block it will be removed from all pages and templates where it is used. Are you sure you want to delete this content block??</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentCannotBeEmpty">
+    <value>Commentaire ne peut pas être vide</value>
+    <comment>Comment cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GenericContentViewDescription">
+    <value>Nom du contrôle d'affichage du contenu générique dans la boîte à outils</value>
+    <comment>Describes the generic content view title in the toolbox.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Groupe de pages de contenu générique</value>
+    <comment>Description of the content blocks module's page group.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>word: Title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UseThisGroupSingle">
+    <value>utilise ce groupe</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Comment">
+    <value>commentaire</value>
+    <comment>The 'Comment' label in the create comment form.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditThisContent">
+    <value>Modifier ce contenu</value>
+    <comment>phrase:Edit this content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BatchDeleteErrorHeading">
+    <value>{0} élément(s) effacé(s). {1} élément(s) ne peut/peuvent pas être effacé(s) (voir ci-dessous).</value>
+    <comment>Batch exception message for deleting</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditTemplate">
+    <value>Éditer</value>
+    <comment>Word: Edit</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentBlocksUsedColumnHeaderText">
+    <value>Utilisé</value>
+    <comment>Title of the column showing whether a content block is used on any page or template (shown in content blocks grid)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expire le :</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Champs personnalisés pour le contenu générique</value>
+    <comment>phrase: Custom Fields for generic content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>L'URL contient des symboles non valides.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditSelectedTemplateDots">
+    <value>Modifier le modèle sélectionné...</value>
+    <comment>Word: Edit selected template...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SharedContent">
+    <value>Contenu partagé</value>
+    <comment>phrase:Shared content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UseThisGroupMultiple">
+    <value>utiliser ce groupe</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsTitle">
+    <value>commentaires</value>
+    <comment>Title of the comments view of generic content-based modules.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Catégories et tags</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TemplateCount">
+    <value>1 modèle</value>
+    <comment>The template count displayed in the content blocks grid</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>La date de publication doit être renseignée.</value>
+    <comment>PublicationDate cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MarkAsSpam">
+    <value>Marquer comme spam</value>
+    <comment>Phrase: Mark as spam</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageNotValid">
+    <value>Le code que vous avez entré n'est pas valide</value>
+    <comment>Phrase: Page not valid. The code you entered is not valid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Retour au contenu générique</value>
+    <comment>The text of the back to Content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GenericContentViewTitle">
+    <value>Liste de contenu générique</value>
+    <comment>Name of the GenericContentView control in the toolbox</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Optional">
+    <value>en option</value>
+    <comment>Word: optional</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllItems">
+    <value>Tous les Éléments</value>
+    <comment>Phrase: All content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AdditionalFileUrls">
+    <value>URLs Supplémentaires</value>
+    <comment>Phrase: Additional URLs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditSelectedTemplate">
+    <value>Modifier le modèle sélectionné</value>
+    <comment>phrase: Edit selected template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PostingCommentsRequiresLogin">
+    <value>Pour poster des commentaires, vous devez vous identifier.</value>
+    <comment>Phrase: To post comments, you need to login.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>En savoir plus avec des tutoriels vidéo</value>
+    <comment>Label for the external links used in content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditGenericContentListSettings">
+    <value>Modifier les paramètres de liste de contenu générique</value>
+    <comment>Phrase: Edit Generic content list settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemsGridPagerTextFormat">
+    <value>{0} à {1} sur {2} éléments</value>
+    <comment>ItemsGrid pager text format</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlockIp">
+    <value>Bloquer l'IP...</value>
+    <comment>Phrase: BlockIp</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Plus d'options &lt;em class='sfNote'&gt;(URL, Commentaires)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectContentTypes">
+    <value>Choisir les types de contenu</value>
+    <comment>phrase: Select content types</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemPermissions">
+    <value>Autorisations pour cet élément</value>
+    <comment>Phrase: Permissions for this item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MarkAsFavorite">
+    <value>Marquer comme favori</value>
+    <comment>Phrase: Mark as favorite</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemsInTotalLowercase">
+    <value>éléments au total</value>
+    <comment>Phrase: items in total</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Hide">
+    <value>Masquer</value>
+    <comment>word: Hide</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WebsiteOptional">
+    <value>Site Web &lt;em class='sfNote'&gt;(facultatif)&lt;/em&gt;</value>
+    <comment>The 'Website' label in the create comment form.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Tri personnalisé ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Status">
+    <value>Statut</value>
+    <comment>Word: Status</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UseContent">
+    <value>utiliser ce contenu</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Définir les Autorisations</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BatchPublishErrorHeading">
+    <value>{0} élément(s) sont publiés. {1} élément(s) ne peut/peuvent pas être publié(s) (voir ci-dessous).</value>
+    <comment>Batch exception message for publishing</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommenstContentColumnHeaderText">
+    <value>Statut / Date / Commentaire</value>
+    <comment>Status / Date / Comment</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Date d'expiration</value>
+    <comment>phrase: Expiration Date</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemProperties">
+    <value>Propriétés pour cet élément</value>
+    <comment>Phrase: Properties for this item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DuplicateNameException">
+    <value>Un élément avec le nom '{0}' existe déjà. Veuillez d'abord changer le nom ou supprimer l'élément.</value>
+    <comment>Error message.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentBlocksPerPages">
+    <value>Blocs de contenu par pages</value>
+    <comment>Title for the filtering section of content blocks per pages</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsForContentItems">
+    <value>Commentaires des éléments de contenu</value>
+    <comment>phrase: Comments for content items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByLastNameAZ">
+    <value>Par le nom (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WithTheNewerVersion">
+    <value>avec la nouvelle version</value>
+    <comment>phrase: with the newer version</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedItems">
+    <value>Afficher les éléments mis à jour dans...</value>
+    <comment>The text of last updated items sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur de Contenu générique.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PermissionsForContentBlocks">
+    <value>Autorisations</value>
+    <comment>phrase: Permissions for content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewAffectedPages">
+    <value>Voir les pages et les modèles touchés</value>
+    <comment>phrase:View affected pages and templates</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PostingCommentsIsNotAllowed">
+    <value>Vous n'êtes pas autorisé à poster des commentaires.</value>
+    <comment>Phrase: You are not allowed to post comments.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByStartDateOldestOnTop">
+    <value>Par date de début (le plus ancien en haut)</value>
+    <comment>ByStartDateOldestOnTop</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ItemsPerPageLowercase">
+    <value>Éléments par page</value>
+    <comment>Phrase: items per page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowMultipleURLsForThisItem">
+    <value>Autoriser plusieurs URL pour cet élément...</value>
+    <comment>Phrase: Allow multiple URLs for this item...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historique des révisions</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Submit">
+    <value>Envoyer</value>
+    <comment>The text of the submit button in the create comment form.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlockThisEmail">
+    <value>Bloquer cet email</value>
+    <comment>The link for block the email.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Blocked">
+    <value>Bloqué</value>
+    <comment>The label for marking the ip as blocked.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DivideListPagesUpTo">
+    <value>Diviser la liste des pages jusqu'à</value>
+    <comment>Phrase: Divide the list on pages up to</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Search">
+    <value>Rechercher des éléments de contenu...</value>
+    <comment>phrase: Search content items...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Dupliquer</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Trier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WorkflowRulesDoNotAllowToUnpublish">
+    <value>Les règles de flux de publication ne permettent pas d'annuler la publication : {0}</value>
+    <comment>Workflow exception message</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoLimitAndPaging">
+    <value>Pas de limite et de pagination</value>
+    <comment>Phrase: No limit and paging</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToItem">
+    <value>Retour au bloc de contenu</value>
+    <comment>The text of the back to the content block</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Fermer dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GenericContentDataFields">
+    <value>Champs de données du contenu générique</value>
+    <comment>phrase: Generic Content data fields</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propriétaire</value>
+    <comment>word: Owner</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+    <comment>word: Delete</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Contenu Générique</value>
+    <comment>Content blocks page title.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PagingInProcessOfImplementation">
+    <value>Utiliser le paging &lt;span class='sfNote'&gt;(en cours d'implémentation)&lt;/span&gt;</value>
+    <comment>Phrase: Use paging</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WebSiteCannotBeEmpty">
+    <value>Site Web doit être renseigné</value>
+    <comment>Phares: Website cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailOptional">
+    <value>Email &lt;em class='sfNote'&gt;(facultatif)&lt;/em&gt;</value>
+    <comment>The 'Email' label in the create comment form.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlockEmail">
+    <value>Bloquer l'email...</value>
+    <comment>Phrase: Block email...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NotUsedItems">
+    <value>Les blocs de contenu ne sont &lt;strong&gt;pas utilisés&lt;/strong&gt; sur aucune page ou modèle</value>
+    <comment>The text of 'Content blocks not used on any page or template' sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Contenu Générique</value>
+    <comment>The title of the Content Blocks module.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Hidden">
+    <value>Invisible</value>
+    <comment>Word: Hidden</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Less">
+    <value>Moins</value>
+    <comment>word: Less</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Category">
+    <value>Catégorie</value>
+    <comment>word</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Unblock">
+    <value>Débloquer</value>
+    <comment>The link for unblocking the ip or email.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Unshare">
+    <value>Arrêter le partage</value>
+    <comment>word:Unshare</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>annuler</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GenericContentToolboxSectionDescription">
+    <value>Titre de la section boîte à outils de contenu générique</value>
+    <comment>Describes the title of the generic content toolbox section.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditAlso">
+    <value>Éditer aussi...</value>
+    <comment>Phrase: Edit also...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SettingsForContentBlocks">
+    <value>Paramètres des blocs de contenu</value>
+    <comment>phrase: Settings for content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UsedOn">
+    <value>Utilisé sur</value>
+    <comment>Phrase: Used on</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FieldsTitle">
+    <value>Champs personnalisés</value>
+    <comment>Title of the fields view of generic content-based modules.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Autoriser les commentaires</value>
+    <comment>Phrase: Allow comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BatchUnpublishErrorHeading">
+    <value>{0} élément(s) ne sont plus publiés. {1} élément(s) ne peut/peuvent pas être 'non publié' (voir ci-dessous).</value>
+    <comment>Batch exception message for unpublishing</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TodayComments">
+    <value>Aujourd'hui</value>
+    <comment>Word: Today</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateContent">
+    <value>Entrez le contenu</value>
+    <comment>Label: Create content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentResourcesTitle">
+    <value>Contenu Générique</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ThereIsNewerVersionOfThisContent">
+    <value>Il y a une nouvelle version de ce contenu</value>
+    <comment>phrase: There is a newer version of this content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentItemsByCategory">
+    <value>Les éléments de contenu par catégorie</value>
+    <comment>Phrase: Content items by category</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllowMultipleFileURLsForThisItem">
+    <value>Autoriser les URLs multiples pour ce fichier…</value>
+    <comment>Phrase: Enable multiple URLs for this file...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToUnshareThisContent">
+    <value>&lt;p&gt;Ce contenu ne sera plus partagé. Les modifications apportées n'affecteront pas d'autres pages.&lt;/p&gt;&lt;p&gt;Êtes-vous sûr de vouloir annuler le partage de ce contenu?&lt;/p&gt;</value>
+    <comment>phrase: This content will not be shared anymore. The changes you make will not affect other pages. Are you sure you want to Unshare this content?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewRegisteredOnBottom">
+    <value>Nouveaux inscrits en bas</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentResourcesTitlePlural">
+    <value>Contenu Générique</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Dernières modifications en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="History">
+    <value>Historique</value>
+    <comment>word: History</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OldestFirst">
+    <value>Plus ancien en premier</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Published">
+    <value>Publié</value>
+    <comment>Word: Published</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DateOwner">
+    <value>Date / Propriétaire</value>
+    <comment>Phrase: Date / Owner</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BlockThisIp">
+    <value>Bloquer cet IP</value>
+    <comment>The link for block the ip.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>Que voulez-vous faire maintenant ?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DepartmentDescription">
+    <value>Rayon</value>
+    <comment>word: Description</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToAllItems">
+    <value>Retour à tous les éléments de contenu</value>
+    <comment>phrase: Back to all content items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>Par Titre (A - Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AdditionalUrlsOnePerLine">
+    <value>URL supplémentaires (une par ligne)</value>
+    <comment>Phrase: Additional URLs (one per line)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="GeneriContentToolboxSectionTitle">
+    <value>Contenu Générique</value>
+    <comment>Title of the generic content toolbox section</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByStartDateNewestOnTop">
+    <value>Par date de début (le plus récent en haut)</value>
+    <comment>ByStartDateNewestOnTop</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Créer un élément de contenu</value>
+    <comment>Phrase: Create a content block</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenu</value>
+    <comment>word: Content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>par Date de modification ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UseLimit">
+    <value>Utiliser la limite</value>
+    <comment>Phrase: Use limit</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentPluralItemName">
+    <value>Éléments de contenu</value>
+    <comment>Phrase: content items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditTemplateDots">
+    <value>Modifier le modèle...</value>
+    <comment>Word: Edit</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsAuthorInfoColumnHeaderText">
+    <value>Nom / Email / Site Web / IP</value>
+    <comment>Phrase: Name / Email / Website / IP</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LockedByFormat">
+    <value>Verrouillé par {0}</value>
+    <comment>phrase: Locked by {0}</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentMessageModeration">
+    <value>Merci pour le commentaire ! Votre commentaire doit d'abord être approuvé</value>
+    <comment>Phrase: Thank you for the comment! Your comment must be approved first</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="More">
+    <value>Plus</value>
+    <comment>word: More</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="YourName">
+    <value>Votre nom</value>
+    <comment>The 'Your Name' label in the create comment form.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NameCannotBeEmpty">
+    <value>Nom doit être renseigné</value>
+    <comment>Name cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectSharedContentYouWantToUse">
+    <value>Sélectionner du contenu partagé</value>
+    <comment>phrase: Select shared content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Authors">
+    <value>Auteurs</value>
+    <comment>The authors name label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Supprimer</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentItemsSingleTypeName">
+    <value>Contenu</value>
+    <comment>Content items' type name (singular)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllAditionalFileUrlsRedirectoToTheDefaultOne">
+    <value>URLs supplémentaires redirigeants vers l'URL par défaut</value>
+    <comment>Phrase: Additional URLs redirect to the default URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ThisContentIsShared">
+    <value>&lt;strong&gt;Ce contenu est partagé.&lt;/strong&gt;&lt;br /&gt;Toute modification sera appliquée partout où il est partagé</value>
+    <comment>phrase:This content is shared. Any changes will be reflected everywhere it is shared</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewRegisteredOnTop">
+    <value>Nouveaux inscrits en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>L'URL ne peut être vide</value>
+    <comment>URL cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres</value>
+    <comment>word: Settings</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WorkflowRulesDoNotAllowToDelete">
+    <value>Les règles de flux de publication ne permettent pas d'effacer {0}</value>
+    <comment>Workflow exception message</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publié le :</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidObjectType">
+    <value>Type d'objet spécifié non valide.</value>
+    <comment>Error message.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentItemsByTag">
+    <value>Les éléments de contenu par tag</value>
+    <comment>Phrase: Content items by tag</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentCannotBeEmpty">
+    <value>Le contenu ne peut être vide</value>
+    <comment>Content cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Dernières créations en haut</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FilterAndEdit">
+    <value>Filtrer et Éditer...</value>
+    <comment>phrase: Filter and edit...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Fields">
+    <value>Champs</value>
+    <comment>Name of the fields view of generic content-based modules.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En attente d'approbation</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentItemsPluralTypeName">
+    <value>Blocs de contenu</value>
+    <comment>Content items' type name (plural)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Autorisations</value>
+    <comment>word: Permissions</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Reply">
+    <value>Répondre</value>
+    <comment>Word: Reply</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Templates">
+    <value>Modèles</value>
+    <comment>Templates</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InvalidGenericType">
+    <value>Type générique spécifié non valide.</value>
+    <comment>Error message.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageContentBlocks">
+    <value>Gérer les blocs de contenu</value>
+    <comment>Phrase: Manage Content Blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TemplatesCount">
+    <value>{0} modèles</value>
+    <comment>The templates count displayed in the content blocks grid.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Plus d'actions avec les éléments de contenu</value>
+    <comment>phrase: More actions with content items</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShowOnlyLimitedNumberOfItems">
+    <value>Ne montrer qu'un nombre limité d'éléments :</value>
+    <comment>Phrase: Show only limited number of items:</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastPublishedOnTop">
+    <value>Dernièrement publié en haut</value>
+    <comment>LastPublishedOnTop</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByFirstNameAZ">
+    <value>Par le prénom (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateNewTemplate">
+    <value>Créer un nouveau modèle</value>
+    <comment>Phrase: Create new template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllAditionalUrlsRedirectoToTheDefaultOne">
+    <value>URLs supplémentaires redirigeants vers l'URL par défaut</value>
+    <comment>Phrase: Additional URLs redirect to the default URL</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Date de Publication</value>
+    <comment>phrase: Publication Date</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="View">
+    <value>Voir</value>
+    <comment>word: View</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="HideAndMarkAsSpam">
+    <value>Masquer et marquer comme spam</value>
+    <comment>Phrase: HideAndMarkAsSpam</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Author">
+    <value>Auteur</value>
+    <comment>word: Author</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ThisContentIsSharedAccross">
+    <value>Ce contenu est &lt;strong&gt;partagé&lt;/strong&gt; entre</value>
+    <comment>phrase: This content is shared across</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WorkflowRulesDoNotAllowToPublish">
+    <value>Les règles de flux de publication ne permettent pas de publier : {0}</value>
+    <comment>Workflow exception message</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LastModifiedOnTop">
+    <value>Dernières modifications en haut</value>
+    <comment>LastModifiedOnTop</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+    <comment>Phrase: Name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectFromExistingSharedContent">
+    <value>Sélectionner à partir du contenu partagé existant</value>
+    <comment>phrase: Select from existing shared content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Modifier un élément de contenu</value>
+    <comment>The title of the edit item dialog</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsDescription">
+    <value>Gérer les commentaires</value>
+    <comment>Provides description for the comments view of generic content-based modules.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AuthorName">
+    <value>Nom</value>
+    <comment>The author name label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoContentItems">
+    <value>Aucuns éléments de contenu n'ont encore été créés</value>
+    <comment>phrase: No content blocks have been created yet</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentSingularItemName">
+    <value>Élément de contenu</value>
+    <comment>Phrase: content item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Comments">
+    <value>commentaires</value>
+    <comment>Name of the comments view of generic content-based modules.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Shared">
+    <value>&lt;span class='sfShared'&gt;Partagés&lt;/span&gt;</value>
+    <comment>word: Shared</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShareThisContent">
+    <value>Partager ce contenu</value>
+    <comment>phrase: Share this content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShareThisContentAcrossPages">
+    <value>Partager ce contenu sur plusieurs pages</value>
+    <comment>phrase: Share this content across pages</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Website">
+    <value>Site Web</value>
+    <comment>The 'Website' label in the create comment form.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CreateThisItem">
+    <value>Créer cet élément de contenu</value>
+    <comment>phrase: Create this content block</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PostedOn">
+    <value>Posté le</value>
+    <comment>Phrase: Posted on</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangeSharedContent">
+    <value>Modifier le contenu partagé</value>
+    <comment>phrase: Change shared content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoViewPermissionsMessage">
+    <value>Vous n'êtes pas autorisé à voir ce contenu. Contactez l'administrateur pour plus d'infos</value>
+    <comment>phrase: You are not allowed to see this content. Contact administrator for more information</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectTemplate">
+    <value>- Sélectionner un modèle -</value>
+    <comment>phrase: - Select a template -</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Department">
+    <value>Rayon</value>
+    <comment>word: Department</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SuccessfullyUpdatedContent">
+    <value>Contenu bien mis à jour dans {0}.</value>
+    <comment>label: Content successfully updated in {0}.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gérer aussi</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AuthorWebsite">
+    <value>Site Web</value>
+    <comment>The author website label.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BackToContentBlocks">
+    <value>Retour au contenu générique</value>
+    <comment>phrase: Back to content blocks</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Éditer...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentBlocksSharedTitle">
+    <value>Blocs de contenu (partagé)</value>
+    <comment>phrase: Content Blocks (shared)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DefaultPage">
+    <value>Page par défaut</value>
+    <comment>Phrase: Default page</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propriétés</value>
+    <comment>word: Properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MyItems">
+    <value>Mes éléments</value>
+    <comment>The text of 'My content blocks' sidebar button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AdditionalUrls">
+    <value>URLs Supplémentaires</value>
+    <comment>Phrase: Additional URLs</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentBlocksShared">
+    <value>Blocs de contenu partagé sur les pages et les modèles</value>
+    <comment>Phrase: Content blocks shared across pages and templates</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>Par Titre (Z - A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShowAllPublisedItemsAtOnce">
+    <value>Afficher tous les éléments publiés à la fois</value>
+    <comment>Phrase: Show all published items at once</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AllComments">
+    <value>Tous les commentaires</value>
+    <comment>Phrase: All comments</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UsesContent">
+    <value>utilise ce contenu</value>
+    <comment>label</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditComment">
+    <value>Éditer un commentaire</value>
+    <comment>The title of the edit comment dialog.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

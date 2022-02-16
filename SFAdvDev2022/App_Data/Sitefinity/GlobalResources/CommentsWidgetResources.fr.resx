@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="From">
+    <value>depuis</value>
+    <comment>phrase: From</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TypeCodeAbove">
+    <value>Veuillez taper le code ci-dessus</value>
+    <comment>phrase : Please type the code above</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="YourName">
+    <value>Votre nom</value>
+    <comment>phrase: Your name</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="YouAreSubscribedToNewComments">
+    <value>Vous êtes abonné aux nouveaux commentaires</value>
+    <comment>phrase: You are subscribed to new comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnsubscribeLink">
+    <value>Se désabonner</value>
+    <comment>phrase: Unsubscribe</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToBeAbleToReview">
+    <value>pour pouvoir écrire un commentaire</value>
+    <comment>phrase : to be able to write a review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LoadMoreReviews">
+    <value>Charger plus d'avis</value>
+    <comment>phrase : Load more reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ToBeAbleToComment">
+    <value>Pour pouvoir commenter</value>
+    <comment>phrase : to be able to comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Rating">
+    <value>Évaluation</value>
+    <comment>phrase : Rating</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EmailOptional">
+    <value>Email (facultatif)</value>
+    <comment>phrase: Email (optional)</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AverageRating">
+    <value>Évaluation moyenne :</value>
+    <comment>phrase : Average rating:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserAlreadySubmitedReview">
+    <value>Vous avez déjà envoyé un avis pour cet article</value>
+    <comment>phrase : You've already submitted a review for this item</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ThankYouReviewSubmited">
+    <value>Merci ! Votre avis a bien été envoyé</value>
+    <comment>phrase : Thank you! Your review has been submitted successfully</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReadFullReview">
+    <value>Lire l'avis au complet</value>
+    <comment>phrase : Read full review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Login">
+    <value>Connexion</value>
+    <comment>phrase : Login</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullySubscribedToNewReviews">
+    <value>Vous êtes abonné aux nouveaux avis</value>
+    <comment>phrase: You are successfully subscribed to new reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsPlural">
+    <value>commentaires</value>
+    <comment>word : comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LoadMoreComments">
+    <value>Charger plus de commentaires</value>
+    <comment>phrase : Load more comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReadFullComment">
+    <value>Lire le commentaire dans sa totalité</value>
+    <comment>phrase : Read full comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NameIsRequired">
+    <value>Le nom de l'auteur est exigé!</value>
+    <comment>phrase : Author name is required!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Template">
+    <value>Modèle</value>
+    <comment>phrase : Template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LeaveComment">
+    <value>Laisser un commentaire</value>
+    <comment>phrase : Leave a comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Classes CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewsPlural">
+    <value>Avis</value>
+    <comment>word : reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsThreadIsClosedMessage">
+    <value>Les commentaires ne sont plus autorisés</value>
+    <comment>phrase: Comments are not allowed anymore</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="YouAreSubscribedToNewReviews">
+    <value>Vous êtes abonné aux nouveaux avis</value>
+    <comment>phrase: You are subscribed to new reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewestOnTop">
+    <value>les plus récents en premier</value>
+    <comment>phrase : Newest on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="InvalidEmailFormat">
+    <value>Format d'adresse email invalide!</value>
+    <comment>phrase : Invalid email format!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewCode">
+    <value>Nouveau code</value>
+    <comment>phrase : New code</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OldestOnTop">
+    <value>Les plus anciens en premier</value>
+    <comment>phrase : Oldest on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MessageIsRequired">
+    <value>Le message est nécessaire!</value>
+    <comment>phrase : Message is required!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Comment">
+    <value>commentaire</value>
+    <comment>word : comment</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewsThreadIsClosedMessage">
+    <value>Les avis ne sont plus autorisés</value>
+    <comment>phrase: Reviews are not allowed anymore</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsResourcesDescription">
+    <value>Codes localisables pour le widget des Commentaires.</value>
+    <comment>Description for the comments widget resources class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubscribeToNewReviews">
+    <value>S'abonner aux nouveaux avis</value>
+    <comment>phrase: Subscribe to new reviews</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Review">
+    <value>examiner</value>
+    <comment>word : review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentsResourcesTitle">
+    <value>Ressources du widget Commentaires</value>
+    <comment>Title for the comments widget resources class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CommentPendingApproval">
+    <value>Merci pour le commentaire ! Votre commentaire doit d'abord être approuvé</value>
+    <comment>phrase : Thank you for the comment! Your comment must be approved first</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullyUnsubscribedFromNewComments">
+    <value>Vous vous êtes désinscrit avec succès.</value>
+    <comment>phrase: You are successfully unsubscribed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubscribeToNewComments">
+    <value>S'abonner aux nouveaux commentaires</value>
+    <comment>phrase: Subscribe to new comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReviewPendingApproval">
+    <value>Merci pour l'avis ! Votre avis doit d'abord être approuvé</value>
+    <comment>phrase : Thank you for the review! Your review must be approved first</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Submit">
+    <value>Envoyer</value>
+    <comment>word : Submit</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WriteReview">
+    <value>Écrivez un avis</value>
+    <comment>phrase : Write a review</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SubscribeLink">
+    <value>S'abonner</value>
+    <comment>phrase: Subscribe</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RatingIsRequired">
+    <value>l'évaluation est requise!</value>
+    <comment>phrase : Rating is required!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessfullySubscribedToNewComments">
+    <value>Vous êtes abonné aux nouveaux commentaires</value>
+    <comment>phrase: You are successfully subscribed to new comments</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>

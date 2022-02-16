@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditDateLabel">
+    <value>Modifier la date</value>
+    <comment>phrase: The datetime field edit value label text</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LinkInTheBrowserAddressBarOnly">
+    <value>Lien seulement dans la barre d'adresse du navigateur</value>
+    <comment>Radio button: Link in the browser address-bar only</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BrowseAndEditPageMenuTools">
+    <value>Outils</value>
+    <comment>phrase: Tools</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhereTheWidgetIsDropped">
+    <value>Là où le widget est déposé</value>
+    <comment>phrase: Where the widget is dropped</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NavigatingAwayFromEditingWithoutSavingAlertMessage">
+    <value>En naviguant hors de l'éditeur, vos modifications ne seront pas annulées et les éléments resteront verrouillés. Vous pouvez utiliser "Quitter l'édition" pour quitter et déverrouiller.</value>
+    <comment>phrase: By navigating away from the editor your changes will not be canceled and the items will remain locked. You can use "Exit editing" link to leave and unlock.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WebAddressLinkExample">
+    <value>Exemple : http://weather.com</value>
+    <comment>phrase: Example: http://weather.com</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UnmarkNotPublishedContent">
+    <value>Ne plus marquer le contenu non publié</value>
+    <comment>phrase: Unmark not published content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publier</value>
+    <comment>word: Publish</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExitEditing">
+    <value>Quitter l'édition</value>
+    <comment>phrase: Exit editing</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SharedContentBlockWarning">
+    <value>Ce contenu est partagé entre les pages. Tout changement apparaîtra là où il est partagé</value>
+    <comment>phrase: This content is shared across pages. Any changes will be reflected where it is shared</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InTheHeadTag">
+    <value>Dans la balise "head"</value>
+    <comment>phrase: In the head tag</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InsertALink">
+    <value>Insérer un lien</value>
+    <comment>word: Insert a link</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditContentOnLabel">
+    <value>Modifier le contenu sur</value>
+    <comment>phrase: Edit content on</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginStatusControlTitle">
+    <value>Bouton connexion/déconnexion</value>
+    <comment>phrase: Login status</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WriteCssExample">
+    <value>&lt;h2&gt;Conseils&lt;/h2&gt;&lt;p&gt;Les CSS écrites ici seront incluses dans la balise HTML &amp;lt;head&amp;gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ne pas ajouter la balise style&amp;gt;&lt;/strong&gt;, elle sera ajoutée automatiquement. Commencez à écrire les règles CSS directement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Exemple :&lt;/strong&gt;&lt;br /&gt;&lt;code&gt;body {&lt;br/&gt;background: #fff;&lt;br/&gt;font-size: 12px;&lt;br/&gt;}&lt;/code&gt;&lt;/p&gt;</value>
+    <comment>example: Write CSS</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LinkToCSSFile">
+    <value>Lien vers un fichier CSS</value>
+    <comment>phrase: Link to a CSS file</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordWidgetTitle">
+    <value>Modifier le mot de passe</value>
+    <comment>phrase: Change password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BeforeBodyEndTag">
+    <value>Avant la balise de fermeture body</value>
+    <comment>phrase: Before the closing body tag</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WriteJSExample">
+    <value>&lt;h2&gt;Conseils&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Ne pas ajouter de balise &amp;lt;script&amp;gt;&lt;/strong&gt;, elle sera ajoutée automatiquement. Commencez à écrire votre JavaScript directement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Exemple :&lt;/strong&gt;&lt;br /&gt;&lt;code&gt; var str = "Hello World!";</value>
+    <comment>JavaScript tips and example. Phrase: Tips Do not add &lt;script&gt; tag, it will be added automatically. Start writing your JavaScript directly. Example: var str = "Hello World!"; </comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetGoogleAnalytics">
+    <value>Définir Google Analytics</value>
+    <comment>phrase: Set Google Analytics</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SomeContentNotPublished">
+    <value>Une partie du contenu de cette page n'est pas publié.</value>
+    <comment>phrase: Some content on this page is not published.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SingleWorkflowResultWindowTitle">
+    <value>partie de contenu n'a pas été publiée</value>
+    <comment>phrase: piece of content has not been published</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DoneButtonText">
+    <value>Fait</value>
+    <comment>phrase: The field done button text</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="TooltipExample">
+    <value>Info-bulle (Apparaît lorsque le curseur est pointé sur le lien)</value>
+    <comment>phrase: Tooltip (appears when the cursor is pointed to the link)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MaxLengthViolationMessage">
+    <value>La saisie est trop longue</value>
+    <comment>phrase: The input is too long</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UnpublishItemWithBrowseAndEditConfirmPhrase">
+    <value>Oui. Annuler la publication de cet élément</value>
+    <comment>phrase: Yes. Unpublish this item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditingLabel">
+    <value>Édition</value>
+    <comment>word: Editing</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SmallIcon">
+    <value>Petit icône</value>
+    <comment>Radio button: Small icon</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetOpenAccessData">
+    <value>Définir les données OpenAccess</value>
+    <comment>phrase: Set OpenAccess data</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoIcon">
+    <value>Pas d'icône</value>
+    <comment>Radio button: Big icon</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EmailAddressLinkExample">
+    <value>Exemple : johnsmith@gmail.com</value>
+    <comment>phrase: Example: johnsmith@gmail.com</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LogOutText">
+    <value>Déconnexion</value>
+    <comment>LoginStatus: text of the login button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UserChangePasswordWidgetDescription">
+    <value>Permet aux utilisateurs de modifier leur mot de passe lors du processus de récupération du mot de passe</value>
+    <comment>phrase: Allows users to change their password in the password recovery process</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ShowDraftContent">
+    <value>Afficher le contenu non publié</value>
+    <comment>phrase: Show not published content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UseSelected">
+    <value>Utiliser la sélection</value>
+    <comment>phrase: Use selected</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisplayName_LoggedOutLayoutTemplatePath">
+    <value>Chemin du modèle de mise en page déconnecté</value>
+    <comment>Control cagegory: Logged out layout template path</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectMediaTypes">
+    <value>Sélectionnez le type de média...</value>
+    <comment>phrase: Select media types...</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlAvailabilityCastException">
+    <value>Veuillez vous assurer d'utiliser l'Authentification des formulaires. Ce widget Connexion est compatible avec le mode Authentification des formulaires</value>
+    <comment>LoginControl compatibily exception when authenticate.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Tooltip">
+    <value>Titre</value>
+    <comment>Label: Tooltip</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ControLCategory_Templates">
+    <value>Modèles</value>
+    <comment>Control cagegory: Templates</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SaveAsDraft">
+    <value>Enregistrer comme brouillon</value>
+    <comment>phrase: Save as Draft</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ExitEditingWithoutSavingAlertMessage">
+    <value>Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir quitter l'édition ?</value>
+    <comment>phrase: You have unsaved changes. Are you sure you want to exit editing?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MarkNotPublishedContent">
+    <value>Marquer le contenu non publié</value>
+    <comment>phrase: Mark not published content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteItemWithBrowseAndEditConfirmPhrase">
+    <value>Oui. Supprimer cet élément</value>
+    <comment>phrase: Yes. Delete this item</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditPageInBackend">
+    <value>Modifier les widgets et la présentation</value>
+    <comment>phrase: Edit widgets and layout</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectFeed">
+    <value>Sélectionnez un flux</value>
+    <comment>phrase: Select a feed</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LogInText">
+    <value>Connexion</value>
+    <comment>LoginStatus: text of the login button</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicControlsResourcesDescription">
+    <value>Contient des ressources localisables pour les contrôles publiques</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CancelButtonText">
+    <value>annuler</value>
+    <comment>phrase: The field cancel button text</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublishAll">
+    <value>Publier tout</value>
+    <comment>phrase: Publish all</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetArchive">
+    <value>Définir l'archive</value>
+    <comment>phrase: Set Archive</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ControlCannotBeRenderedInDesignMode">
+    <value>{0} ne peut pas être correctement affiché en mode Conception</value>
+    <comment>phrase: {0} cannot be properly displayed in Design Mode</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ChangePasswordWidgetDescription">
+    <value>Formulaire permettant aux utilisateurs de modifier leurs mots de passe</value>
+    <comment>phrase: Allows users to change their passwords</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WhereToIncludeInHtml">
+    <value>Où inclure dans le HTML ?</value>
+    <comment>phrase: Where to include in HTML?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlDescription">
+    <value>Formulaire laissant les utilisateurs se connecter</value>
+    <comment>phrase: Allows users to login to Sitefinity</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasteTwitterWidgetCode">
+    <value>Coller le code du widget Twitter</value>
+    <comment>phrase: Paste Twitter Widget code</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InsertTheLink">
+    <value>Insérer le lien</value>
+    <comment>Button: Insert the link</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WorkflowResultsWindowSubTitle">
+    <value>Raisons possibles : statuts spécifiques des flux de publication ou pas de permissions d'édition allouées</value>
+    <comment>phrase: Possible reasons: Specific workflow statuses or not permissions for editing granted</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WebAddress">
+    <value>Adresse Web</value>
+    <comment>phrase: Web address</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginWidgetTitle">
+    <value>Connexion</value>
+    <comment>phrase: Login</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectImage">
+    <value>Sélectionnez une image</value>
+    <comment>phrase: Select image</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FeedDesignerTitle">
+    <value>Flux RSS</value>
+    <comment>Label: Feed designer title</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginNameControlDescription">
+    <value>Le nom de l'utilisateur actuellement connecté.</value>
+    <comment>phrase: Displays the currently logged in user's name in a custom format or nothing to an anonymous user</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetJavaScript">
+    <value>Définir Java Script</value>
+    <comment>phrase: Set Java Script</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LinkToJavaScriptFile">
+    <value>Lien vers un fichier JavaScript (.js)</value>
+    <comment>phrase: Link to a JavaScript file (.js)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OpenItemInBackendLabel">
+    <value>Ouvrir cet élément dans l'interface d'administration</value>
+    <comment>phrase: Open this item in the backend</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WriteCss">
+    <value>Écrire le CSS &lt;span class='sfSelExtra'&gt;(pour être inclus dans la tête de la page)&lt;/span&gt;</value>
+    <comment>phrase: Write CSS (to be included in the page head)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MultipleWorkflowResultsWindowTitle">
+    <value>parties de contenu n'ont pas été publiées</value>
+    <comment>phrase: pieces of content have not been published</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditSelectionLabel">
+    <value>Modifier la sélection</value>
+    <comment>phrase: Edit selection label text</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="AppearsWhenCursorIsPointedToTheLink">
+    <value>(Apparaît lorsque le curseur est pointé sur le lien)</value>
+    <comment>Label: (appears when the cursor is pointed to the link)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditContent">
+    <value>Modifier le contenu</value>
+    <comment>phrase: Edit content</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BrowseAndEditPageMenuEditInBackend">
+    <value>Modifier cette page dans l'interface de gestion</value>
+    <comment>phrase: Edit this page in the Backend</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicControlsResourcesTitlePlural">
+    <value>Ressources des contrôles publiques</value>
+    <comment>The title of this class in plural.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginWidgetAvailability">
+    <value>La connexion n'est pas compatible avec le mode d'authentification des formulaires, utiliser Connexion (compatibilité descendante) à la place. En savoir plus avec &lt;a href='http://www.sitefinity.com/documentation/documentationarticles/authentication-models-overview'&gt;notre documentation &lt;/a&gt;</value>
+    <comment>Login is not compatible with Forms Authentication mode, use Login (backward compatibility) instead. Learn more in our documentation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CommentsSubmitForm">
+    <value>Formulaire d'envoi de commentaires</value>
+    <comment>phrase: Comments submit form</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DeleteItemWithBrowseAndEditMessageFormat">
+    <value>Êtes-vous sûr de vouloir supprimer &lt;em&gt;{0}&lt;/em&gt; ?</value>
+    <comment>phrase: Are you sure you want to delete {0}?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UnpublishItemWithBrowseAndEditMessageFormat">
+    <value>Êtes-vous sûr de vouloir annuler la publication de &lt;em&gt;{0}&lt;/em&gt; ?</value>
+    <comment>phrase: Are you sure you want to unpublish {0}?</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="RequiredViolationMessage">
+    <value>Ce champ est requis !</value>
+    <comment>phrase: This field is required! </comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlsDescription">
+    <value>Widgets qui manipulent l'état de connexion de l'utilisateur actuel</value>
+    <comment>phrase: Widgets that manipulate the login status of the current user</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Plus d'options</value>
+    <comment>Label: More options</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditValueLabel">
+    <value>Modifier la valeur</value>
+    <comment>phrase: The field edit value label text</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InsertAfeed">
+    <value>Insérer</value>
+    <comment>Label: Insert (feed)</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetSiteMapDataSource">
+    <value>Définir la source de données du plan du site</value>
+    <comment>phrase: Set Site map data source</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DownloadList">
+    <value>Télécharger la liste</value>
+    <comment>phrase: Download list</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PasteGoogleAnalyticsCode">
+    <value>Collez le code Google Analytics</value>
+    <comment>phrase: Paste Google Analytics code</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="MinLengthViolationMessage">
+    <value>La saisie est trop courte</value>
+    <comment>phrase: The input is too short</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginStatusControlDescription">
+    <value>Permet à l'utilisateur de se connecter ou se déconnecter, selon son statut</value>
+    <comment>phrase: Allows the user to log-in or log-out, depending on their status</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ThePasswordRecoveryFunctionalityWillNotWork">
+    <value>La fonctionnalité de récupération de mot de passe ne fonctionnera pas si la propriété 'ChangePasswordPageUrl' n'est pas définie</value>
+    <comment>phrase: The password recovery functionality will not work if the 'ChangePasswordPageUrl' property is not set</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Icon">
+    <value>Icône</value>
+    <comment>Label: Icon</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginNameControlTitle">
+    <value>Nom de connexion</value>
+    <comment>phrase: Login name</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="FeedTextToDisplay">
+    <value>Texte à afficher</value>
+    <comment>Label: Feed text to display</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="Close">
+    <value>Fermer</value>
+    <comment>word: Close</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditPageInBackendDescription">
+    <value>Pour ajouter des widgets ou changer le modèle</value>
+    <comment>phrase: To add widgets or to change the template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="InlineEditing">
+    <value>Édition en ligne</value>
+    <comment>phrase: Inline Editing</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetTwitterWidget">
+    <value>Installer le widget Twitter</value>
+    <comment>phrase: Set Twitter Widget</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SelectAFeed">
+    <value>&lt;strong class=\"sfLinkBtnIn\"&gt;Sélectionnez un flux&lt;/strong&gt;</value>
+    <comment>Button: Select a feed</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PageFromThisSite">
+    <value>Page de ce site</value>
+    <comment>phrase: Page from this site</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetCss">
+    <value>Définir les CSS</value>
+    <comment>phrase: Set CSS</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LinkInThePageOnly">
+    <value>Lien seulement dans la page</value>
+    <comment>Radio button: Link in the page only</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="PublicControlsResourcesTitle">
+    <value>Ressources des contrôles publiques</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ClearFilter">
+    <value>Effacer le filtre</value>
+    <comment>phrase: Clear filter</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="WriteJavaScript">
+    <value>Écrire le JavaScript</value>
+    <comment>phrase: Write JavaScript</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditAllProperties">
+    <value>Modifier toutes les propriétés</value>
+    <comment>phrase: Edit all properties</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="DisplayName_LoggedInLayoutTemplatePath">
+    <value>Chemin du modèle de mise en page connecté</value>
+    <comment>Control cagegory: Logged in layout template path</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="HideEditingTools">
+    <value>Cacher les outils d'édition</value>
+    <comment>phrase: Hide editing tools</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditThisPage">
+    <value>Modifier cette page</value>
+    <comment>phrase: Show editing tools</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BrowseAndEditPageMenuShowToolsSubTitle">
+    <value>Pour modifier le contenu en naviguant sur le site</value>
+    <comment>phrase: To edit content while browsing the site</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BigIcon">
+    <value>Gros icône</value>
+    <comment>Radio button: Big icon</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UploadImage">
+    <value>Importer une image</value>
+    <comment>phrase: Upload image</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="UserChangePasswordWidgetTitle">
+    <value>Modifier le mot de passe</value>
+    <comment>phrase: Change password</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="OpenInNewWindow">
+    <value>Ouvrir ce lien dans une nouvelle fenêtre</value>
+    <comment>Label: Open this link in a new window</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="BrowseAndEditPageMenuEditInBackendSubTitle">
+    <value>Pour ajouter des widgets ou changer le modèle</value>
+    <comment>phrase: To add widgets or to change the template</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlsTitle">
+    <value>Connexion</value>
+    <comment>phrase: Login</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="NoFeedSelected">
+    <value>Aucun flux n'est sélectionné</value>
+    <comment>Label: No feed is selected</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="SetXMLDataSource">
+    <value>Définir la source de données XML</value>
+    <comment>phrase: Set XML data source</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlTitle">
+    <value>Connexion &lt;span class="sfNote"&gt;(compatibilité descendante)&lt;/span&gt;</value>
+    <comment>phrase: Login</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="EditImage">
+    <value>Modifier image</value>
+    <comment>phrase: Edit image</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="ContentNotEditable">
+    <value>Le contenu sélectionné ne peut être modifié</value>
+    <comment>phrase: Selected content can't be edited</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="CssClass">
+    <value>Classe CSS</value>
+    <comment>Label: CSS Class</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="YouAreLoggedAs">
+    <value>Vous êtes connecté en tant que</value>
+    <comment>phrase: You are logged as</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LinksBothInThePageAndInTheBrowserAddressBar">
+    <value>Liens à la fois dans la page et la barre d'adresse du navigateur</value>
+    <comment>Radio button: Links both in the page and in the browser address-bar</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+  <data name="LoginControlAvailability">
+    <value>Le widget de connexion (compatibilité descendante) n'est pas compatible avec le mode d'authentification Claims, utilisez Login (connexion) à la place. En savoir plus avec &lt;a href='http://www.sitefinity.com/documentation/documentationarticles/authentication-models-overview'&gt;notre documentation &lt;/a&gt;</value>
+    <comment>Login (backward compatibility) widget is not compatible with Claims Authentication mode, use Login instead. Learn more in our documentation.</comment>
+    <lastModified>2022-02-16T20:40:40</lastModified>
+  </data>
+</root>

@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorDeleteBuiltInProfileType">
+    <value>Vous ne pouvez pas supprimer le type de "Profil de base" intégré !</value>
+    <comment>Message displayed when user tries to delete the built-in profile type.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfile">
+    <value>Modifier le profil</value>
+    <comment>Phrase: EditProfile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UseAllUserProviders">
+    <value>Tous les fournisseurs d'utilisateur</value>
+    <comment>Label: All user providers</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProviderUsersWillBeRegisteredIn">
+    <value>Fournisseur, où l'utilisateur sera inscrit...</value>
+    <comment>phrase: Provider users will be registered in...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserSectionTitle">
+    <value>Utilisateurs</value>
+    <comment>Control description: Title of the users toolbox section</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhenTheFormIsSuccessfully">
+    <value>Lorsque le formulaire est soumis correctement...</value>
+    <comment>phrase: When the form is successfully submitted...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsersListViewDescription">
+    <value>Liste des utilisateurs et de leurs profils</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RolesRegisteredUsersWillBeAssignedTo">
+    <value>Rôles, qui seront attribués à l'utilisateur...</value>
+    <comment>phrase: Roles registered users will be assigned to...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RegistrationWidgetDescription">
+    <value>Formulaire utilisé pour enregistrer les utilisateurs</value>
+    <comment>Control description: A form used to register users.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UnhandledProfileError">
+    <value>Une erreur non gérée est survenue lors de l'enregistrement du profil. Veuillez vérifier les informations de votre profil.</value>
+    <comment>phrase: An unhandled error occured when saving the profile. Please check your profile details.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Modifier un type de profil</value>
+    <comment>The title of the edit item dialog</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SendAnEmailForSuccessfulRegistration">
+    <value>Envoyer un e-mail pour une inscription réussie</value>
+    <comment>phrase: Send an email for successful registration</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OpenSpeciallyPreparedPage">
+    <value>Ouvrir une page spécialement préparée...</value>
+    <comment>phrase: Show a message:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditItemViewTitle">
+    <value>Modifier un profil</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserAuthenticationAndSingleSignOnTitle">
+    <value>authentification utilisateur &amp; inscription unique</value>
+    <comment>phrase: User authentication &amp; Single sign on</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AppliedTo">
+    <value>Appliqué à</value>
+    <comment>Label: Applied to</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserViewPropertyEditorTitle">
+    <value>Profil</value>
+    <comment>word: Profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfilesViewDescription">
+    <value>Affichage ou modification du profil de l'utilisateur actuellement connecté</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewPasswordQuestion">
+    <value>Question secrète</value>
+    <comment>phrase: Secret question</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmNewPassword">
+    <value>Saisissez de nouveau le mot de passe</value>
+    <comment>phrase: Repeat new password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PluralItemName">
+    <value>profils d'utilisateurs</value>
+    <comment>Phrase: news</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateNewItemViewTitle">
+    <value>Inscrire un utilisateur</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OpenASpeciallyPreparedPage">
+    <value>Ouvrir une page spécialement préparée...</value>
+    <comment>phrase: Open a specially prepared page...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Nickname">
+    <value>Pseudonyme</value>
+    <comment>Word: Nickname</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OpenSingleUserProfileInDotDotDot">
+    <value>Ouvrir le profil d'un seul utilisateur dans...</value>
+    <comment>phrase: Open single user profile in...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfilesViewTitle">
+    <value>Liste des utilisateurs</value>
+    <comment>Control title: Users list</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessEmailTemplate">
+    <value>Modèle d'email de "Bien effectuée"</value>
+    <comment>phrase: 'Success' email template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Users">
+    <value>Utilisateurs</value>
+    <comment>word: Users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AscendingDateTimeSuffix">
+    <value>en haut</value>
+    <comment>phrase: on top</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhichUsersToDisplay">
+    <value>Quels utilisateurs afficher ?</value>
+    <comment>phrase:Which users to display?</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ErrorProfileTypeTitleAlreadyExists">
+    <value>Un type de profil avec le titre spécifié existe déjà. Veuillez sélectionner un titre différent.</value>
+    <comment>Message displayed when user tries to update a profile type with a title that already exists.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditOwnItemBackendViewTitle">
+    <value>Modifier son propre profil</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShowMessageAboveTheForm">
+    <value>Afficher le message au-dessus du formulaire</value>
+    <comment>phrase: Show message above the form</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProvidersFieldTitle">
+    <value>Fournisseurs d'utilisateurs qui utilisent cet ensemble de profils :</value>
+    <comment>Title of user providers field in detail form.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserSectionDescription">
+    <value>Section de la boîte à outils avec les widgets liés aux utilisateurs et aux profils.</value>
+    <comment>Control description: Toolbox section with the widgets related to users and profiles.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileEditMode">
+    <value>Profil - mode d'édition</value>
+    <comment>phrase: Profile – edit mode</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserLoggedToHisHerAccount">
+    <value>Utilisateur connecté à son compte</value>
+    <comment>phrase: User logged to his/her account</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DisplayTheProfileOf">
+    <value>Afficher le profil de...</value>
+    <comment>phrase: Display the profile of...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NicknameDescription">
+    <value>Si laissé vide, le nom d'utilisateur sera utilisé comme pseudonyme</value>
+    <comment>Phrase: If left blank, the username will be used as a nickname</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessEmailDefaultSubject">
+    <value>Bienvenue</value>
+    <comment>The default subject of the success email</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterWidgetDescription">
+    <value>Un widget qui affiche les dernières activités Twitter.</value>
+    <comment>Control description: A widget that shows later twitter activities.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="LoginWithLiteral">
+    <value>Permettre aux utilisateurs de se connecter avec</value>
+    <comment>phrase: Allow users to login with</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DescendingDateTimeSuffix">
+    <value>en bas</value>
+    <comment>phrase: on bottom</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterFeedTitle">
+    <value>Flux Twitter &lt;span class="sfNote"&gt;(compatibilité descendante)&lt;/span&gt;</value>
+    <comment>Control title: Twitter feed</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileTypesDescription">
+    <value>types de profil</value>
+    <comment>News</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShowMyEmailToOthers">
+    <value>Afficher mon adresse email aux autres</value>
+    <comment>Phrase: Show my email to others</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateNewItemBackendViewTitle">
+    <value>Créer un utilisateur</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OpenViewsInExternalPages">
+    <value>Ouvrir &lt;em&gt;Éditer&lt;/em&gt; et &lt;em&gt;Modifier le mot de passe&lt;/em&gt; dans certaines pages existantes...</value>
+    <comment>phrase: Open &lt;em&gt;Edit&lt;/em&gt; and &lt;em&gt;Change password &lt;/em&gt; in selected existing pages...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageForEditingProfile">
+    <value>Page d'édition du profil</value>
+    <comment>phrase: Page for editing profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfilePasswordEditor">
+    <value>Profil - éditeur de mot de passe</value>
+    <comment>phrase: Profile – password editor</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewItemBackendViewTitle">
+    <value>Voir son propre profil</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateNewTemplate">
+    <value>Créer un nouveau modèle</value>
+    <comment>phrase:Create New Template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Paramètres des profils utilisateurs</value>
+    <comment>phrase: Settings for user profiles</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="WhenTheChangesAreSaved">
+    <value>Lorsque les modifications sont enregistrées...</value>
+    <comment>phrase: When the changes are saved...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CurrentPassword">
+    <value>Mot de passe actuel</value>
+    <comment>phrase: Current password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Enregistrer les modifications</value>
+    <comment>Phrase</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SwitchToReadMode">
+    <value>Passer en "Mode lecture"</value>
+    <comment>phrase: Switch to 'Read mode'</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmationEmailTemplate">
+    <value>Modèle d'email de confirmation</value>
+    <comment>phrase: Confirmation email template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserList">
+    <value>Liste des utilisateurs</value>
+    <comment>phrase: User list</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileTypesHtmlTitle">
+    <value>types de profil</value>
+    <comment>Html Title for the user profiles types page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Register">
+    <value>S'inscrire</value>
+    <comment>Label: All user providers</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateItem">
+    <value>Créer le type de profil</value>
+    <comment>Label of the dialog that creates a profile type.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangePasswordQuestionAndAnswerTemplate">
+    <value>Modèle 'Question secrète et réponse pour changer de mot de passe'</value>
+    <comment>phrase: 'Change password question and answer' template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Anonymous">
+    <value>Anonyme</value>
+    <comment>word: Anonymous</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditItemBackendViewTitle">
+    <value>Modifier un profil</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterWidgetTitle">
+    <value>Widget Twitter</value>
+    <comment>Control title: Twitter widget</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditModeOnly">
+    <value>Mode Éditer seulement</value>
+    <comment>phrase:Edit mode only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllRegisteredUsers">
+    <value>Tous les utilisateurs enregistrés</value>
+    <comment>phrase: All registered users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmationPage">
+    <value>Page de confirmation</value>
+    <comment>phrase: Confirmation page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileViewTitle">
+    <value>Profil</value>
+    <comment>Control title: User profile</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileNameNotValid">
+    <value>Désolé, le nom doit commencer par une lettre et continuer avec des lettres (a - z), des chiffres (0 - 9), ou caractères de soulignement (_).</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Password">
+    <value>Mot de passe</value>
+    <comment>phrase: Password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileProvider">
+    <value>Fournisseur de profils</value>
+    <comment>Label: Profile provider</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Title">
+    <value>Titre</value>
+    <comment>Label</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Retour aux Types de profils</value>
+    <comment>The text of the back to profile types link</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfilesResourcesDescription">
+    <value>Contient des ressources localisables pour l'interface utilisateur des profils d'utilisateurs.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="OneUserOnly">
+    <value>Un seul utilisateur :</value>
+    <comment>phrase: One user only:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoUserSelected">
+    <value>Aucun utilisateur n'est sélectionné</value>
+    <comment>phrase:No user selected</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileReadMode">
+    <value>Profil - mode lecture</value>
+    <comment>phrase: Profile – read mode</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangePasswordTemplate">
+    <value>Modèle "Changer de mot de passe"</value>
+    <comment>phrase: 'Change password' template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccountActivationWidgetTitle">
+    <value>Activation d'un compte</value>
+    <comment>Control title: Account Activation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileViewDescription">
+    <value>Un contrôle pour afficher les profils utilisateur.</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UseSpecificUserProviders">
+    <value>Fournisseurs d'utilisateurs spécifiques</value>
+    <comment>Label: Specific user providers</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateThisItem">
+    <value>Créer ce type de profil et aller à Ajouter des champs</value>
+    <comment>phrase: Create this news</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectAUser">
+    <value>Sélectionner un utilisateur</value>
+    <comment>phrase:Select a user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfiles">
+    <value>Profils des utilisateurs :</value>
+    <comment>phrase: User Profiles:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UsersByRoles">
+    <value>Utilisateurs par rôles...</value>
+    <comment>phrase: Users by roles...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="StayInTheSameScreenDisplayMessage">
+    <value>Reste sur le même écran, mais affiche un message au-dessus du formulaire...</value>
+    <comment>phrase: Stay in the same screen but display a message above the form...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PageForChangingPassword">
+    <value>Page pour changer de mot de passe</value>
+    <comment>phrase: Page for changing password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="MissingUser">
+    <value>Utilisateur manquant</value>
+    <comment>phrase: Missing user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangePage">
+    <value>Changer la page</value>
+    <comment>phrase: Change page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Supprimer</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmationPageDescription">
+    <value>Ouvrir une page sélectionnée lorsque le lien de confirmation dans l'e-mail est cliqué</value>
+    <comment>phrase: When the confirmation link in the email is clicked open a selected page</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CssClass">
+    <value>Classe CSS</value>
+    <comment>phrase: Css class</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessResetPasswordEmailSend">
+    <value>Vous avez envoyé une demande de réinitialisation de votre mot de passe à {0}, veuillez utiliser le lien fourni dans l'e-mail que vous avez reçu afin de réinitialiser le mot de passe pour votre compte.</value>
+    <comment>Reset password email was send.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ActivateAccounts">
+    <value>Activer les comptes...</value>
+    <comment>phrase: Activate accounts...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ExampleTitle">
+    <value>&lt;strong&gt;Exemple :&lt;/strong&gt; Profil du forum</value>
+    <comment>Label: Example for title field</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TypeOfAuthenticationLiteral">
+    <value>Quel type d'authentification souhaitez-vous utiliser pour votre site web</value>
+    <comment>phrase: What is the type of authentication you want to use for your website</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReadModeOnly">
+    <value>Mode lecture seulement</value>
+    <comment>phrase: Read mode only</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ShowAMessage">
+    <value>Afficher un message :</value>
+    <comment>phrase: Show a message:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>annuler</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditProfilesWidgetSettings">
+    <value>Modifier les paramètres du widget de profils</value>
+    <comment>Phrase: Edit Profiles widget settings</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RegistrationFormGeneralViewTitle">
+    <value>Général</value>
+    <comment>phrase: General</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AccountActivationWidgetDescription">
+    <value>Mettre ce widget sur la page dont le lien est dans l'email pour l'activation du compte utilisateur</value>
+    <comment>Control description: A widget that should be placed on the page that will be used to activate user accounts.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NoUserProfileTypes">
+    <value>Aucun type de profil.</value>
+    <comment>phrase: No profile types.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="BothModes">
+    <value>Les deux : Mode lecture éditable</value>
+    <comment>phrase:Both: Read mode that can be edited</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Immediately">
+    <value>Immédiatement</value>
+    <comment>phrase: Immediately</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Login">
+    <value>Connexion</value>
+    <comment>word: Login</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileTypesUrlName">
+    <value>types de profil</value>
+    <comment>The UrlName of the Sitefinity/Admin/ProfileTypes page.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ViewItemViewTitle">
+    <value>Voir le profil</value>
+    <comment>The title of a view definition.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessThanksForFillingOutOurForm">
+    <value>Effectué ! Merci de remplir notre formulaire !</value>
+    <comment>phrase: Success! Thanks for filling out our form!</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ManageUserProfiles">
+    <value>Gérer les profils utilisateur</value>
+    <comment>word: Manage User Profiles</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SortUsersBy">
+    <value>Trier les utilisateurs par</value>
+    <comment>phrase: Sort users by</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReTypePassword">
+    <value>Retaper le mot de passe</value>
+    <comment>Label: Re-type password</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="About">
+    <value>A propos</value>
+    <comment>word: About</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ReadModeTemplate">
+    <value>Modèle de "Mode lecture"</value>
+    <comment>phrase:'Read mode' template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectRoles">
+    <value>Sélectionner les rôles...</value>
+    <comment>phrase: Select roles...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="FineTuneTheSelectedType">
+    <value>Affinez le type sélectionné</value>
+    <comment>phrase:Fine tune the selected type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectedUser">
+    <value>Utilisateur sélectionné :</value>
+    <comment>phrase:Selected user:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AllUserProviders">
+    <value>Tous les fournisseurs d'utilisateur</value>
+    <comment>Label: All user providers</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TwitterFeedDescription">
+    <value>Un widget qui montre les dernières activités Twitter sur une page après indication d'un compte twitter.</value>
+    <comment>Control description: A widget that shows lates twitter activities on a page after entering a twitter account.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="YouAreNotLoggedIn">
+    <value>Vous n'êtes pas connecté.</value>
+    <comment>Phrase: You are not logged in.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="PreferredLanguage">
+    <value>Langue préférée :</value>
+    <comment>phrase: Preferred language:</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RegistrationFormAccountActivationViewTitle">
+    <value>Activation d'un compte</value>
+    <comment>phrase: Account activation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ChangesAreSuccessfullySaved">
+    <value>Les modifications sont enregistrées avec succès.</value>
+    <comment>phrase: Changes are successfully saved.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ManageUserProfileTypes">
+    <value>Gérer les types de profils</value>
+    <comment>word: Manage Profile Types</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfileTypes">
+    <value>types de profil</value>
+    <comment>The name of the Sitefinity/Admin/ProfileTypes section.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>Le titre ne peut être vide</value>
+    <comment>phrase: Title cannot be empty</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="Template">
+    <value>Modèle</value>
+    <comment>Word:Template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AfterTheConfirmation">
+    <value>après la confirmation</value>
+    <comment>phrase: after the confirmation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Créer un type de profil</value>
+    <comment>phrase: Create a profile type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AnEmailProvidingLinkWillBeSent">
+    <value>Un email contenant un lien de confirmation sera envoyé</value>
+    <comment>phrase: An email providing a link for confirmation will be sent</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmationEmailDefaultSubject">
+    <value>Inscription réussie</value>
+    <comment>The default subject of the confirmation email</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RegistrationWidgetTitle">
+    <value>Inscription</value>
+    <comment>Control title: Registration</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="UserProfilesResourcesTitle">
+    <value>Labels des profils d'utilisateurs.</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="RegisterFormTemplate">
+    <value>Modèle de formulaire d'inscription</value>
+    <comment>phrase: Register form template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileType">
+    <value>Type de profil</value>
+    <comment>phrase:Profile type</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NameCannotBeEmpty">
+    <value>Nom doit être renseigné.</value>
+    <comment>phrase: Name cannot be empty.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TheSelectedTemplateCannotBeUsed">
+    <value>Le modèle sélectionné ne peut pas être utilisé avec ce type de profil. Sélectionnez un autre modèle ou modifiez ce modèle.</value>
+    <comment>phrase: The selected template cannot be used with this profile type. Select another template or edit this template.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ThisProfileIsIn">
+    <value>Ce profil est dans...</value>
+    <comment>phrase: This profile is in...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SuccessEmailSubject">
+    <value>Sujet de l'e-mail 'Effectué'</value>
+    <comment>phrase: 'Success' email subject</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectARole">
+    <value>Sélectionner un rôle</value>
+    <comment>phrase:Select a role</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditModeTemplate">
+    <value>Modèle de "Mode éditer"</value>
+    <comment>phrase:'Edit mode' template</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="EditFields">
+    <value>Champs Ajouter / Modifier</value>
+    <comment>Label: Edit fields</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="NewPasswordAnswer">
+    <value>Réponse secrète</value>
+    <comment>phrase: Secret answer</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="TemplateForNotLoggedUsers">
+    <value>Modèle pour les utilisateurs non connectés</value>
+    <comment>phrase:Template for not logged users</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ProfileNotLoggedUser">
+    <value>Profil - utilisateur non connecté</value>
+    <comment>phrase: Profile – not logged user</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="SelectAyUser">
+    <value>Sélectionner un utilisateur...</value>
+    <comment>phrase: Select a user...</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="AfterConfirmation">
+    <value>Après une confirmation</value>
+    <comment>phrase: After a confirmation</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ConfirmationEmailSubject">
+    <value>Sujet de l'e-mail de confirmation</value>
+    <comment>phrase: Confirmation email subject</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+  <data name="ErrorProfileTypeAlreadyExists">
+    <value>Un type de profil avec le nom spécifié existe déjà. Veuillez sélectionner un nom différent.</value>
+    <comment>Message displayed when user tries to create a profile type that already exists.</comment>
+    <lastModified>2022-02-16T20:40:41</lastModified>
+  </data>
+</root>
