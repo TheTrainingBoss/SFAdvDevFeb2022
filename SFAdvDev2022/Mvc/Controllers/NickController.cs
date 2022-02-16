@@ -14,6 +14,7 @@ using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes;
 using Telerik.Sitefinity.Modules.Libraries;
 using Telerik.Sitefinity.Mvc;
 using Telerik.Sitefinity.Personalization;
+using Telerik.Sitefinity.Services;
 
 namespace SFAdvDev2022.Mvc.Controllers
 {
@@ -34,6 +35,9 @@ namespace SFAdvDev2022.Mvc.Controllers
 			LibrariesManager lbmanager = LibrariesManager.GetManager();
 			var image = lbmanager.GetImage(Guid.Parse(this.Images.ItemIdsOrdered[0]));
 			model.Images = image.MediaUrl;
+
+			EventHub.Raise(new StevenEvent { MyCustomMessage = "Steven is sending you a message"});
+
 			return View("Index", model);
 		}
 		
