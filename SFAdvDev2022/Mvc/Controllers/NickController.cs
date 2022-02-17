@@ -9,6 +9,7 @@ using Progress.Sitefinity.Renderer.Entities.Content;
 using SFAdvDev2022.Localization;
 using SFAdvDev2022.Mvc.Models;
 using System;
+using System.ComponentModel;
 using System.Web.Mvc;
 using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes;
 using Telerik.Sitefinity.Modules.Libraries;
@@ -46,6 +47,7 @@ namespace SFAdvDev2022.Mvc.Controllers
             this.ActionInvoker.InvokeAction(this.ControllerContext, "Index");
         }
 
+		[Browsable(false)]
 		public string Message { get; set; }
 		public bool Flag { get; set; }
 		public Enumeration Enum { get; set; }
