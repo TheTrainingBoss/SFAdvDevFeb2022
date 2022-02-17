@@ -963,6 +963,7 @@
     <Content Include="AdminApp\polyfills.909de2f1f01022aa0e46.js" />
     <Content Include="AdminApp\polyfills.909de2f1f01022aa0e46.js.LICENSE.txt" />
     <Content Include="AdminApp\runtime.4f2f5130b1d4a0ae8db0.js" />
+    <Content Include="AdminApp\sample.extensions.bundle.js" />
     <Content Include="AdminApp\styles.7e88fcf1b0a6f82a5431.css" />
     <Content Include="AdminApp\vendor.6177252f8cfa8a637ed3.js" />
     <Content Include="AdminApp\vendor.6177252f8cfa8a637ed3.js.LICENSE.txt" />
