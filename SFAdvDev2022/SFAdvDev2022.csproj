@@ -1013,7 +1013,13 @@
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\bootstrap.min.js" />
+    <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\bundle.js" />
+    <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\bundle.min.js">
+      <DependentUpon>bundle.js</DependentUpon>
+    </Content>
+    <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\Olga.js" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\popper.min.js" />
+    <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\Steven.js" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\sprites\brands.svg" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\sprites\regular.svg" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\sprites\solid.svg" />
@@ -1118,6 +1124,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Configurations\SFAdvConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1154,6 +1161,7 @@
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
     <Content Include="Mvc\Views\NewsCrud\CreatePressRelease.cshtml" />
+    <None Include="bundleconfig.json" />
     <None Include="Mvc\Views\Nick\DesignerView.Simple.cshtml.old" />
     <None Include="Mvc\Views\Nick\DesignerView.Friendly.cshtml.old" />
     <None Include="Mvc\Views\Nick\DesignerView.Simple.json.old" />

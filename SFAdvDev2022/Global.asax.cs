@@ -1,4 +1,5 @@
-﻿using SFAdvDev2022.Mvc.Models;
+﻿using SFAdvDev2022.Configurations;
+using SFAdvDev2022.Mvc.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,6 +8,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 using Telerik.Sitefinity.Abstractions;
+using Telerik.Sitefinity.Configuration;
 using Telerik.Sitefinity.HealthMonitoring;
 using Telerik.Sitefinity.Modules.Libraries.Web.Events;
 using Telerik.Sitefinity.Services;
@@ -29,6 +31,7 @@ namespace SFAdvDev2022
                 {
                     EventHub.Subscribe<IMediaContentDownloadedEvent>(evt => MyMediaDownloaded(evt));
                     EventHub.Subscribe<IStevenEvent>(evt => StevenRaizedEvent(evt));
+                    Config.RegisterSection<SFAdvConfig>();                    
                 }
             }
         }
@@ -74,7 +77,7 @@ namespace SFAdvDev2022
 
         protected void Application_End(object sender, EventArgs e)
         {
-
+            EventHub.Unsubscribe<IMediaContentDownloadedEvent>(MyMediaDownloaded);
         }
     }
 }

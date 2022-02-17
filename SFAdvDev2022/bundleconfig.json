@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "ResourcePackages/Bootstrap4/assets/dist/js/bundle.js",
+    "inputFiles": [
+      "ResourcePackages/Bootstrap4/assets/dist/js/Steven.js",
+      "ResourcePackages/Bootstrap4/assets/dist/js/Olga.js"
+    ]
+  }
+]
