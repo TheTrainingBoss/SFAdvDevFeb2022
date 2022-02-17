@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 using Telerik.Sitefinity.Abstractions;
+using Telerik.Sitefinity.HealthMonitoring;
 using Telerik.Sitefinity.Modules.Libraries.Web.Events;
 using Telerik.Sitefinity.Services;
 
@@ -22,10 +23,13 @@ namespace SFAdvDev2022
 
         private void Bootstrapper_Initialized(object sender, Telerik.Sitefinity.Data.ExecutedEventArgs e)
         {
-            if (e.CommandName == "Bootstrapped")
+            using (new MethodPerformanceRegion("My Bootstrap initialized Code"))
             {
-                EventHub.Subscribe<IMediaContentDownloadedEvent>(evt => MyMediaDownloaded(evt));
-                EventHub.Subscribe<IStevenEvent>(evt => StevenRaizedEvent(evt));
+                if (e.CommandName == "Bootstrapped")
+                {
+                    EventHub.Subscribe<IMediaContentDownloadedEvent>(evt => MyMediaDownloaded(evt));
+                    EventHub.Subscribe<IStevenEvent>(evt => StevenRaizedEvent(evt));
+                }
             }
         }
 
